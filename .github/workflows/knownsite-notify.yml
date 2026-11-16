@@ -1,0 +1,31 @@
+# After Vercel finishes a production deploy, tell search engines what changed.
+# Needs: repository secret KNOWNSITE_PRIVATE_KEY, repository variable KNOWNSITE_SITE (e.g. https://your-site.com).
+name: Knownsite notify
+
+on: deployment_status
+
+jobs:
+  notify:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The CLI has no dependencies, so no install step is needed.
+      - name: Notify engines
+        working-directory: examples/demo-site
+        run: node ../../packages/knownsite/src/cli.js notify --wait 60
+        env:
+          KNOWNSITE_PRIVATE_KEY: ${{ secrets.KNOWNSITE_PRIVATE_KEY }}
+          KNOWNSITE_SITE: ${{ vars.KNOWNSITE_SITE }}
+      - name: Verify
+        working-directory: examples/demo-site
+        run: node ../../packages/knownsite/src/cli.js verify
+        env:
+          KNOWNSITE_SITE: ${{ vars.KNOWNSITE_SITE }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: knownsite-report
+          path: examples/demo-site/.knownsite/report.json

@@ -1,0 +1,21 @@
+{
+  "name": "Knownsite",
+  "description": "An open standard that makes every website discoverable by search engines and AI assistants the moment it is deployed.",
+  "outDir": "out",
+  "keys": [
+    {
+      "kid": "k1",
+      "alg": "Ed25519",
+      "pub": "0wFZxAGnLoR3KRc3GlFexQWIqDHeVQNPpTpRymBfl78"
+    }
+  ],
+  "indexnow": {
+    "key": "366a62fe674c87845ee445487984d118"
+  },
+  "terms": {
+    "search": "allow",
+    "ai-answer": "allow-with-citation",
+    "training": "deny"
+  },
+  "receivers": []
+}

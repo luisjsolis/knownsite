@@ -1,0 +1,43 @@
+{
+  "name": "knownsite",
+  "version": "0.1.0",
+  "description": "Make every site discoverable by search engines and AI assistants on deploy. Reference implementation of the Knownsite Protocol.",
+  "type": "module",
+  "bin": {
+    "knownsite": "./src/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "seo",
+    "indexnow",
+    "sitemap",
+    "llms.txt",
+    "json-ld",
+    "ai",
+    "discovery"
+  ],
+  "author": "Jose Solis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisjsolis/knownsite.git",
+    "directory": "packages/knownsite"
+  },
+  "homepage": "https://github.com/luisjsolis/knownsite#readme",
+  "bugs": {
+    "url": "https://github.com/luisjsolis/knownsite/issues"
+  }
+}

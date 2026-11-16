@@ -1,0 +1,12 @@
+{
+  "name": "knownsite-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "test": "npm test -w knownsite",
+    "demo:build": "npm run build -w demo-site"
+  }
+}
