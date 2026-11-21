@@ -87,13 +87,14 @@ async function pingReceiver({ receiver, payload, fetchImpl }) {
  */
 export async function notify({ config, privateKey, expectDeploy, waitSeconds = 0, dryRun = false, fetchImpl = fetch }) {
   const info = await fetchLastDeploy(config.site, { expectDeploy, waitSeconds, fetchImpl });
+  const at = new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
   const { changes, deploy } = info;
   const urls = [...changes.added, ...changes.updated, ...changes.removed];
   const engines = [];
   const add = (engine, via, result) => engines.push({ engine, via, ...result });
 
   if (urls.length === 0) {
-    return { site: config.site, deploy, changes, engines, note: 'No content changes in this deploy; nothing sent.' };
+    return { site: config.site, at, deploy, changes, engines, note: 'No content changes in this deploy; nothing sent.' };
   }
 
   if (!config.indexnow?.key) {
@@ -119,5 +120,5 @@ export async function notify({ config, privateKey, expectDeploy, waitSeconds = 0
       dryRun ? { ok: true, status: 0, detail: 'dry run' } : await pingReceiver({ receiver, payload: signed, fetchImpl }));
   }
 
-  return { site: config.site, deploy, changes, engines };
+  return { site: config.site, at, deploy, changes, engines };
 }

@@ -70,3 +70,16 @@ test('diffRecords counts a title or summary change as an update', () => {
   const next = [{ url: 'a', hash: '1', title: 'New' }, { url: 'b', hash: '1', summary: 'y' }, { url: 'c', hash: '1', title: '' }];
   assert.deepEqual(diffRecords(prev, next), { added: [], updated: ['a', 'b'], removed: [] });
 });
+
+test('hostingWarnings flags a Firebase ignore rule that would drop /.well-known/', async () => {
+  const { mkdtemp, writeFile } = await import('node:fs/promises');
+  const { tmpdir } = await import('node:os');
+  const path = await import('node:path');
+  const { hostingWarnings } = await import('../src/build.js');
+  const dir = await mkdtemp(path.join(tmpdir(), 'ks-'));
+  assert.deepEqual(await hostingWarnings(dir), []);
+  await writeFile(path.join(dir, 'firebase.json'), JSON.stringify({ hosting: { public: 'out', ignore: ['firebase.json', '**/.*'] } }));
+  assert.match((await hostingWarnings(dir))[0], /\.well-known/);
+  await writeFile(path.join(dir, 'firebase.json'), JSON.stringify({ hosting: [{ site: 'a', ignore: ['**/node_modules/**'] }] }));
+  assert.deepEqual(await hostingWarnings(dir), []);
+});

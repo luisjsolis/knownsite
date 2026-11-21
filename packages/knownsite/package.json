@@ -1,13 +1,15 @@
 {
   "name": "knownsite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make every site discoverable by search engines and AI assistants on deploy. Reference implementation of the Knownsite Protocol.",
   "type": "module",
   "bin": {
-    "knownsite": "./src/cli.js"
+    "knownsite": "src/cli.js"
   },
   "exports": {
-    ".": "./src/index.js"
+    ".": "./src/index.js",
+    "./next": "./src/next.js",
+    "./visits": "./src/visits.js"
   },
   "files": [
     "src",

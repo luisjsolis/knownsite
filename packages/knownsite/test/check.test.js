@@ -145,3 +145,27 @@ test('crawlerText counts nav/header/noscript text, skips scripts and styles', ()
   const t = crawlerText(html);
   assert.equal(t, 'Parlai An AI platform Partners page Enable JavaScript please');
 });
+
+test('checkSite: IndexNow scores when the Knownsite manifest points at a live key file', async () => {
+  const routes = {
+    'https://acme.test/': { body: goodHtml },
+    'https://acme.test/robots.txt': { body: 'User-agent: *\nAllow: /\nSitemap: https://acme.test/sitemap.xml' },
+    'https://acme.test/sitemap.xml': { body: '<urlset><url><loc>https://acme.test/</loc><lastmod>2026-11-01</lastmod></url></urlset>' },
+    'https://acme.test/llms.txt': { body: '# Acme' },
+    'https://acme.test/k123.txt': { body: 'k123' },
+    'http://acme.test/': { status: 301, headers: { location: 'https://acme.test/' } },
+  };
+  const manifest = (indexnow) => async () => ({ level: 2, manifest: { indexnow } });
+  const live = await checkSite('acme.test', { fetchImpl: fakeFetch(routes), verify: manifest('https://acme.test/k123.txt') });
+  const c = live.checks.find((x) => x.id === 'indexnow');
+  assert.equal(c.status, 'pass');
+  assert.equal(c.points, 5);
+  assert.equal(live.score, 100);
+
+  const dead = await checkSite('acme.test', { fetchImpl: fakeFetch(routes), verify: manifest('https://acme.test/nope.txt') });
+  assert.equal(dead.checks.find((x) => x.id === 'indexnow').status, 'unknown');
+  assert.match(dead.checks.find((x) => x.id === 'indexnow').message, /is not live/);
+
+  const offsite = await checkSite('acme.test', { fetchImpl: fakeFetch(routes), verify: manifest('https://evil.test/k123.txt') });
+  assert.equal(offsite.checks.find((x) => x.id === 'indexnow').points, 0, 'a key on another host proves nothing');
+});

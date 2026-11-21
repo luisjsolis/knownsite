@@ -67,5 +67,5 @@ export async function verifySite(site, { fetchImpl = fetch, resolve = resolveTxt
   check('record signatures', records.length > 0 && valid.length === records.length, `${valid.length}/${records.length} valid`);
 
   const level2 = level1 && checks.every((c) => c.ok);
-  return { site, level: level2 ? 2 : level1 ? 1 : 0, checks };
+  return { site, level: level2 ? 2 : level1 ? 1 : 0, checks, manifest };
 }

@@ -313,10 +313,29 @@ export async function checkSite(input, { fetchImpl = fetch, verify = verifySite 
     message: llmsOk ? '/llms.txt present' : llmsIsText ? '/llms.txt exists but does not start with a "# " heading' : 'No /llms.txt (emerging convention; cheap to add)',
     fix: llmsOk ? null : 'Publish /llms.txt: a Markdown summary of the site starting with "# Site name"' });
 
-  // 7. IndexNow (5) — not observable from outside unless the site is on Knownsite.
-  add({ id: 'indexnow', group: 'notifications', max: 5, points: 0, status: 'unknown',
-    message: "Can't tell from outside whether this site pings IndexNow on changes",
-    fix: 'Ping IndexNow on every deploy (Bing, Yandex, Naver, Seznam, Yep): `knownsite notify` does this' });
+  // 7. IndexNow (5) — not observable from outside, unless the Knownsite manifest says where the key
+  // file is (SPEC §3 `indexnow`) and that file is live: then the site can notify IndexNow engines.
+  const keyUrl = knownsite.level >= 1 && typeof knownsite.manifest?.indexnow === 'string' ? knownsite.manifest.indexnow : null;
+  let keyLive = false;
+  if (keyUrl) {
+    try {
+      const key = new URL(keyUrl).pathname.split('/').pop().replace(/\.txt$/, '');
+      const res = new URL(keyUrl).origin === origin ? await get(keyUrl) : { ok: false };
+      keyLive = res.ok && res.text.trim() === key;
+    } catch {
+      keyLive = false;
+    }
+  }
+  add(keyLive
+    ? { id: 'indexnow', group: 'notifications', max: 5, points: 5, status: 'pass',
+      message: 'IndexNow key is live (from the Knownsite manifest): changes can be sent to Bing, Yandex, Naver, Seznam, Yep', fix: null }
+    : knownsite.level >= 1
+      ? { id: 'indexnow', group: 'notifications', max: 5, points: 0, status: 'unknown',
+        message: keyUrl ? `Knownsite manifest lists an IndexNow key, but ${keyUrl} is not live` : 'Knownsite manifest lists no IndexNow key',
+        fix: 'Add "indexnow": { "key": … } to knownsite.config.json (`knownsite init` creates one) and run `knownsite notify` after each deploy' }
+      : { id: 'indexnow', group: 'notifications', max: 5, points: 0, status: 'unknown',
+        message: "Can't tell from outside whether this site pings IndexNow on changes",
+        fix: 'Ping IndexNow on every deploy (Bing, Yandex, Naver, Seznam, Yep): `knownsite notify` does this' });
 
   // 8. Knownsite Protocol (10)
   add({ id: 'knownsite', group: 'knownsite', max: 10,

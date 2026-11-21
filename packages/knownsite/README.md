@@ -79,6 +79,69 @@ Set the build command to `next build && knownsite build` (Next.js with `output: 
 `knownsite notify --deploy $VERCEL_DEPLOYMENT_ID` after deploy, e.g. from a GitHub Action on the
 `deployment_status` event. The site URL defaults to `VERCEL_PROJECT_PRODUCTION_URL`.
 
+## Firebase Hosting
+
+`firebase init` adds `"**/.*"` to `hosting.ignore`, which skips every dotfile, including
+`.well-known/`. Remove that entry (or your records won't be uploaded and `knownsite verify` shows
+Level 0).
+
+## Discovery report (preview): who read your pages, and what happened after a change
+
+```sh
+knownsite report --visits visits.jsonl
+```
+
+```
+  What changed, and what happened next
+    /pricing  changed Tue, Nov 17
+      → told Bing, Yandex, Naver, Seznam, Yep  the same day
+      → bingbot re-read it  Tue, Nov 17 (+5h)
+      → OAI-SearchBot re-read it  Wed, Nov 18 (+18h)
+      → 40 visitors from AI answers since (ChatGPT 40)
+```
+
+It joins three things: when each page changed (the signed records on your live site), when engines
+were told (`knownsite notify` appends to `knownsite.history.jsonl`; commit it), and visit events:
+AI and search crawler visits, checked against each operator's published IP ranges, and people
+arriving from ChatGPT, Claude, Perplexity, Gemini or Copilot answers. Without visit events the
+report still shows changes and notifications.
+
+Crawlers don't run JavaScript, so analytics scripts never see them. Visits are recorded at request
+time. Next.js (`proxy.ts`, or `middleware.ts` before Next.js 16):
+
+```js
+import { knownsiteVisits } from 'knownsite/next';
+const logVisit = knownsiteVisits(); // one JSON line per visit in your logs
+
+export function proxy(request, event) {
+  logVisit(request, event); // runs in the background via event.waitUntil
+}
+```
+
+Send events somewhere you can read back, e.g. a database table:
+
+```js
+import { knownsiteVisits, httpSink } from 'knownsite/next';
+const logVisit = knownsiteVisits({
+  sink: httpSink(`${process.env.SUPABASE_URL}/rest/v1/knownsite_visits`, {
+    headers: { apikey: process.env.SUPABASE_SERVICE_ROLE_KEY, authorization: `Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY}` },
+  }),
+});
+```
+
+Events have the fields `at, kind, agent, company, purpose, path, verified, ip, user_agent`.
+`knownsite report --visits` reads a file or URL with a JSON array, JSON lines, or log lines
+containing `{"knownsite_visit": …}` (so exported Vercel logs work as is). Pass auth headers with
+`--visits-header "apikey: …"`. Other servers: `recordVisit(request, { sink })` from
+`knownsite/visits` takes any standard `Request`.
+
+If `notify` runs in CI (e.g. a GitHub Action), the history file is written on the CI machine and
+lost with it; commit it from the job or keep running `notify` locally for now.
+
+Privacy: visits from people (AI referrals) store no IP address and no User-Agent, only the
+assistant they came from and the page. Crawler visits keep the IP, which is the bot's and is what
+verification rests on. Only production traffic is recorded by default.
+
 ## Library
 
 ```js

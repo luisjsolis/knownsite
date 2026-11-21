@@ -27,9 +27,13 @@ Every Knownsite site serves `https://{host}/.well-known/discovery.json`:
   "sitemap": "https://example.com/sitemap.xml",
   "summary": "https://example.com/llms.txt",
   "records": "https://example.com/.well-known/discovery/records.jsonl",
-  "terms": { "search": "allow", "ai-answer": "allow-with-citation", "training": "deny" }
+  "terms": { "search": "allow", "ai-answer": "allow-with-citation", "training": "deny" },
+  "indexnow": "https://example.com/<key>.txt"
 }
 ```
+
+`indexnow` is optional: where the site's IndexNow key file lives (IndexNow keys are public by
+design). It lets anyone confirm the site can send change notifications to IndexNow engines.
 
 ## 4. Ownership verification
 

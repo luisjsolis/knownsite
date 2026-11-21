@@ -103,6 +103,23 @@ async function writeOwned(file, content) {
   return true;
 }
 
+/** Host settings that would silently drop /.well-known/ on upload. */
+export async function hostingWarnings(cwd) {
+  const warnings = [];
+  const firebase = await readIfExists(path.join(cwd, 'firebase.json'));
+  if (firebase) {
+    try {
+      const hosting = [JSON.parse(firebase).hosting].flat().filter(Boolean);
+      if (hosting.some((h) => (h.ignore ?? []).some((g) => g === '**/.*' || g === '.*' || g === '**/.**'))) {
+        warnings.push('firebase.json "hosting.ignore" skips dotfiles ("**/.*"), so /.well-known/ will not be uploaded. Remove that entry.');
+      }
+    } catch {
+      // not our file to validate
+    }
+  }
+  return warnings;
+}
+
 /**
  * @param {object} opts
  * @param {string} opts.cwd
@@ -197,6 +214,7 @@ export async function build({ cwd, config, privateKey, previousRecords, now = ne
     summary: `${config.site}/llms.txt`,
     records: `${config.site}/${PATHS.records}`,
     terms: config.terms,
+    indexnow: config.indexnow?.key ? `${config.site}/${config.indexnow.key}.txt` : undefined,
   };
   await mkdir(path.dirname(at(PATHS.records)), { recursive: true });
   await writeFile(at(PATHS.manifest), `${JSON.stringify(manifest, null, 2)}\n`);
@@ -209,5 +227,6 @@ export async function build({ cwd, config, privateKey, previousRecords, now = ne
     written.push(`${config.indexnow.key}.txt`);
   }
 
-  return { outDir, records, changes, deploy, skipped, written, jsonLdInjected, signed: Boolean(privateKey) };
+  return { outDir, records, changes, deploy, skipped, written, jsonLdInjected, signed: Boolean(privateKey),
+    warnings: await hostingWarnings(cwd) };
 }

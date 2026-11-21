@@ -9,6 +9,8 @@ import { notify } from './notify.js';
 import { verifySite } from './verify.js';
 import { checkSite, rankFixes } from './check.js';
 import { generateKeys, loadPrivateKey } from './sign.js';
+import { fetchPreviousRecords } from './build.js';
+import { buildReport, renderReport, loadVisits, loadNotifications, HISTORY_FILE } from './report.js';
 
 const HELP = `knownsite — Knownsite Protocol CLI
 
@@ -17,13 +19,17 @@ Usage:
   knownsite build  [--site URL] [--out-dir DIR] [--offline] Run after your framework build
   knownsite notify [--site URL] [--deploy ID] [--wait SEC] [--dry-run] [--json] [--strict]
                                                        Run after the deploy is live
-  knownsite verify [--site URL] [--json]                     Check a live site like a receiver would
+  knownsite verify [url] [--json]                            Check a live site like a receiver would
   knownsite check  <url> [--json]                            Score how findable any live site is by
                                                        search engines and AI assistants
+  knownsite report [--site URL] [--visits FILE|URL] [--visits-header "Name: value"] [--days N] [--json]
+                                                       What changed, when engines were told, which
+                                                       crawlers came back, visitors from AI answers
 
 Environment:
   KNOWNSITE_PRIVATE_KEY   signing key (else .knownsite/private.key); without it output is unsigned (Level 1)
   KNOWNSITE_SITE          site URL (else knownsite.config.json "site", else VERCEL_PROJECT_PRODUCTION_URL)
+  KNOWNSITE_VISITS        default for --visits
 `;
 
 const exists = (p) => access(p).then(() => true, () => false);
@@ -73,6 +79,7 @@ async function cmdBuild(cwd, v) {
   console.log(`  changes: ${added.length} added, ${updated.length} updated, ${removed.length} removed`);
   if (r.jsonLdInjected) console.log(`  JSON-LD added to ${r.jsonLdInjected} pages`);
   for (const s of r.skipped) console.log(`  skipped ${s.url} (${s.reason})`);
+  for (const w of r.warnings ?? []) console.warn(`  ⚠ ${w}`);
   console.log(`  wrote: ${r.written.join(', ')}`);
 }
 
@@ -85,6 +92,12 @@ async function cmdNotify(cwd, v) {
   });
   await mkdir(path.join(cwd, '.knownsite'), { recursive: true });
   await writeFile(path.join(cwd, '.knownsite', 'report.json'), `${JSON.stringify(report, null, 2)}\n`);
+  // History for `knownsite report`: when each change was announced, and to whom. Kept next to
+  // knownsite.config.json (not in the git-ignored .knownsite/) so it is committed with the site.
+  if (!v['dry-run'] && report.engines.length) {
+    const { at, deploy, changes, engines } = report;
+    await appendFile(path.join(cwd, HISTORY_FILE), `${JSON.stringify({ at, deploy, changes, engines })}\n`);
+  }
   if (v.json) {
     console.log(JSON.stringify(report, null, 2));
   } else {
@@ -93,13 +106,14 @@ async function cmdNotify(cwd, v) {
     console.log(`  changes: ${added.length} added, ${updated.length} updated, ${removed.length} removed`);
     if (report.note) console.log(`  ${report.note}`);
     for (const e of report.engines) console.log(`  ${mark(e.ok)} ${e.engine}  via ${e.via}: ${e.detail}`);
-    console.log('  report saved to .knownsite/report.json');
+    console.log(`  report saved to .knownsite/report.json; history in ${HISTORY_FILE} (commit it)`);
   }
   if (v.strict && report.engines.some((e) => e.ok === false)) process.exitCode = 1;
 }
 
-async function cmdVerify(cwd, v) {
-  const site = v.site ? normalizeSite(v.site) : (await loadConfig(cwd)).site;
+async function cmdVerify(cwd, v, args) {
+  const given = v.site ?? args[0];
+  const site = given ? normalizeSite(/^https?:\/\//.test(given) ? given : `https://${given}`) : (await loadConfig(cwd)).site;
   const result = await verifySite(site);
   if (v.json) return console.log(JSON.stringify(result, null, 2));
   console.log(`knownsite verify: ${site}  →  Level ${result.level}`);
@@ -134,6 +148,23 @@ async function cmdCheck(cwd, v, args) {
   console.log('\n  Fix all of this on every deploy: npx knownsite init');
 }
 
+async function cmdReport(cwd, v, args) {
+  const given = v.site ?? args[0];
+  const site = given ? normalizeSite(/^https?:\/\//.test(given) ? given : `https://${given}`) : (await loadConfig(cwd)).site;
+  const records = await fetchPreviousRecords(site);
+  if (!records.length) console.error(`knownsite report: no signed records found at ${site} (is \`knownsite build\` output deployed?)`);
+  const notifications = await loadNotifications(cwd);
+  const source = v.visits ?? process.env.KNOWNSITE_VISITS;
+  const headers = Object.fromEntries((v['visits-header'] ?? []).map((h) => {
+    const i = h.indexOf(':');
+    if (i < 1) throw new Error(`--visits-header must look like "Name: value", got: ${h}`);
+    return [h.slice(0, i).trim(), h.slice(i + 1).trim()];
+  }));
+  const visits = source ? await loadVisits(source, { headers }) : [];
+  const report = buildReport({ site, records, notifications, visits, days: v.days ? Number(v.days) : 30 });
+  console.log(v.json ? JSON.stringify(report, null, 2) : renderReport(report));
+}
+
 async function main() {
   const { positionals, values } = parseArgs({
     allowPositionals: true,
@@ -141,9 +172,10 @@ async function main() {
       site: { type: 'string' }, 'out-dir': { type: 'string' }, deploy: { type: 'string' }, wait: { type: 'string' },
       force: { type: 'boolean' }, offline: { type: 'boolean' }, 'dry-run': { type: 'boolean' },
       json: { type: 'boolean' }, strict: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
+      visits: { type: 'string' }, 'visits-header': { type: 'string', multiple: true }, days: { type: 'string' },
     },
   });
-  const commands = { init: cmdInit, build: cmdBuild, notify: cmdNotify, verify: cmdVerify, check: cmdCheck };
+  const commands = { init: cmdInit, build: cmdBuild, notify: cmdNotify, verify: cmdVerify, check: cmdCheck, report: cmdReport };
   const cmd = commands[positionals[0]];
   if (!cmd || values.help) {
     console.log(HELP);
