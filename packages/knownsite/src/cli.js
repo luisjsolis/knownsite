@@ -229,7 +229,8 @@ async function cmdReport(cwd, v, args) {
     console.error(`knownsite report: ${file}: ${lines} lines, ${parsed} understood, ${events.length} crawler or AI-referral visits`);
     visits.push(...events);
   }
-  const report = buildReport({ site, records, notifications, visits, days: v.days ? Number(v.days) : 30 });
+  const report = buildReport({ site, records, notifications, visits, days: v.days ? Number(v.days) : 30,
+    hasVisitSource: Boolean(source || v.logs?.length) });
   console.log(v.json ? JSON.stringify(report, null, 2) : renderReport(report));
 }
 

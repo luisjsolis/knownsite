@@ -44,6 +44,11 @@ export default function Pricing() {
           </div>
         ))}
       </div>
+      <div className="card founding">
+        <strong>Founding customers:</strong> the first 10 Business customers pay <strong>$400/month</strong>, locked in for
+        their first 12 months, in exchange for letting us share their results as a case study.{' '}
+        {api ? <a href="?plan=business#talk">Ask for a founding code</a> : 'Ask us for a founding code.'}
+      </div>
       <p className="muted">Early access: weekly reports arrive by email while the dashboard is being built. Cancel anytime.</p>
 
       <h2>Why not just ask ChatGPT yourself?</h2>

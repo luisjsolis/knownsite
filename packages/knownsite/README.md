@@ -209,7 +209,8 @@ Integrations), Vercel log drains, Cloudflare Logpush and nginx/Apache combined l
 line through the same crawler and referral checks:
 
 ```sh
-gcloud logging read 'logName:"firebasehosting"' --project YOUR_PROJECT --freshness 30d --format json \
+gcloud logging read 'logName="projects/YOUR_PROJECT/logs/firebasehosting.googleapis.com%2Fwebrequests"' \
+  --project YOUR_PROJECT --freshness 30d --format json \
   | jq -c '.[]' > hosting.jsonl
 knownsite report --logs hosting.jsonl
 ```

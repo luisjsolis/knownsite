@@ -42,7 +42,7 @@ const t = (iso) => new Date(iso).getTime();
  * @param {Date} [input.now]
  * @param {number} [input.days=30]
  */
-export function buildReport({ site, records, notifications = [], visits = [], now = new Date(), days = 30 }) {
+export function buildReport({ site, records, notifications = [], visits = [], now = new Date(), days = 30, hasVisitSource = false }) {
   const until = now.getTime();
   const since = until - days * DAY;
   const inWindow = (iso) => t(iso) >= since && t(iso) <= until;
@@ -87,7 +87,7 @@ export function buildReport({ site, records, notifications = [], visits = [], no
       const after = referrals.filter((v) => normPath(v.path) === p && t(v.at) >= changedAt);
       const sources = {};
       for (const v of after) sources[v.agent] = (sources[v.agent] ?? 0) + 1;
-      const added = told ? (told.changes?.added ?? []).some((u) => pathOf(u) === p) : false;
+      const added = run ? (run.changes?.added ?? []).some((u) => pathOf(u) === p) : false;
       return {
         url: r.url, path: p, title: r.title, changedAt: r.modified, change: added ? 'published' : 'changed',
         experiment: run?.heldOut ? (heldBack ? 'held-out' : 'announced') : null,
@@ -114,7 +114,7 @@ export function buildReport({ site, records, notifications = [], visits = [], no
     referrals: { total: referrals.length, bySource: Object.fromEntries([...bySource].sort((a, b) => b[1] - a[1])) },
     topReferredPages: [...refByPath].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([path, visits]) => ({ path, visits })),
     pages,
-    hasVisitData: visits.length > 0,
+    hasVisitData: hasVisitSource || visits.length > 0,
   };
 }
 
