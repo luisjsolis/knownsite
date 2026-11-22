@@ -34,6 +34,8 @@ Usage:
                                                        What changed, when engines were told, which
                                                        crawlers came back, visitors from AI answers
 
+Docs and the spec: https://knownsite.dev
+
 Environment:
   KNOWNSITE_PRIVATE_KEY   signing key (else .knownsite/private.key); without it output is unsigned (Level 1)
   KNOWNSITE_SITE          site URL (else knownsite.config.json "site", else VERCEL_PROJECT_PRODUCTION_URL)
@@ -173,6 +175,7 @@ async function cmdCheck(cwd, v, args) {
     fixes.forEach((f, i) => console.log(`    ${i + 1}. ${f.gain ? `+${f.gain} ` : ''}${f.fix}`));
   }
   console.log('\n  Fix all of this on every deploy: npx knownsite init');
+  console.log('  Learn more: https://knownsite.dev');
 }
 
 async function cmdPrerender(cwd, v) {

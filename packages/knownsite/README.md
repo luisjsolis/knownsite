@@ -2,6 +2,7 @@
 
 Make your site discoverable by search engines and AI assistants on every deploy. Reference
 implementation of the [Knownsite Protocol](https://github.com/luisjsolis/knownsite/blob/main/SPEC.md). Zero dependencies, Node 20+.
+Website: [knownsite.dev](https://knownsite.dev)
 
 ```sh
 npx knownsite init --site https://your-site.com   # once: keys + knownsite.config.json
