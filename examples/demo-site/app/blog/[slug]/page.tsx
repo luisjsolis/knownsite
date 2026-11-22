@@ -21,6 +21,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   if (!post) notFound();
   return (
     <article>
+      <p className="eyebrow">Blog</p>
       <h1>{post.title}</h1>
       <p className="muted">{post.date}</p>
       {post.body.map((para, i) => <p key={i}>{para}</p>)}

@@ -11,6 +11,9 @@ export const SITE =
 const OG_IMAGE = { url: '/opengraph-image', width: 1200, height: 630, type: 'image/png',
   alt: 'Knownsite: get your site found by search engines and AI assistants' };
 
+/** Public contact for sales and support (a role address, fine to publish). */
+export const SALES_EMAIL = 'sales@knownsite.dev';
+
 /** Title, description, canonical link and Open Graph tags for one page. */
 export function pageMeta(path: string, title: string, description: string, opts: { absoluteTitle?: boolean } = {}): Metadata {
   return {

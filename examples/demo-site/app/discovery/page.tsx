@@ -6,7 +6,8 @@ export const metadata = pageMeta('/discovery', 'Live discovery report', "This si
 export default function DiscoveryPage() {
   return (
     <>
-      <h1>Live discovery report</h1>
+      <p className="eyebrow">Live report</p>
+      <h1>This site's own discovery files</h1>
       <p className="lede">Read live from this site&apos;s published discovery files. What a search engine or AI
         assistant sees.</p>
       <Report />

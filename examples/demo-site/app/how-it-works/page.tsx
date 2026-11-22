@@ -5,7 +5,8 @@ export const metadata = pageMeta('/how-it-works', 'How it works', 'What happens 
 export default function HowItWorks() {
   return (
     <>
-      <h1>How it works</h1>
+      <p className="eyebrow">How it works</p>
+      <h1>What happens on every deploy</h1>
       <p className="lede">Two commands, added to the build and deploy you already have.</p>
 
       <h2>1. On build: <code>knownsite build</code></h2>

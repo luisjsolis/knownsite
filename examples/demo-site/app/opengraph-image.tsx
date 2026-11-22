@@ -12,10 +12,10 @@ export default function Image() {
       <div
         style={{
           width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
-          padding: '72px 80px', background: '#0f172a', color: '#f8fafc', fontFamily: 'sans-serif',
+          padding: '72px 80px', background: '#0b1b3a', color: '#f8fafc', fontFamily: 'sans-serif',
         }}
       >
-        <div style={{ fontSize: 40, fontWeight: 700, color: '#38bdf8' }}>Knownsite</div>
+        <div style={{ fontSize: 44, fontWeight: 700, letterSpacing: -1 }}>knownsite.</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
           <div style={{ fontSize: 68, fontWeight: 700, lineHeight: 1.1 }}>
             Get your site found by search engines and AI assistants.

@@ -7,7 +7,8 @@ export const metadata = pageMeta('/blog', 'Blog', 'News and notes on the Knownsi
 export default function Blog() {
   return (
     <>
-      <h1>Blog</h1>
+      <p className="eyebrow">Blog</p>
+      <h1>News and notes</h1>
       {posts.map((p) => (
         <div className="card" key={p.slug}>
           <h2 style={{ margin: 0 }}><Link href={`/blog/${p.slug}`}>{p.title}</Link></h2>

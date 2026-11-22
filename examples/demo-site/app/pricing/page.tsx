@@ -1,5 +1,6 @@
 import { pageMeta } from '../meta';
 import Contact from './contact';
+import { SALES_EMAIL } from '../meta';
 
 export const metadata = pageMeta('/pricing', 'Pricing',
   'Free check and open-source tool. Pro and Business plans track what ChatGPT, Claude, Perplexity and Gemini say about you every week.');
@@ -26,6 +27,7 @@ export default function Pricing() {
   const api = process.env.NEXT_PUBLIC_CHECK_API ?? '';
   return (
     <>
+      <p className="eyebrow">Pricing</p>
       <h1>Know what AI says about you, and prove what works.</h1>
       <p className="lede">Monitoring tools tell you what AI says. Knownsite also fixes the technical side on every deploy
         and shows cause and effect: you changed a page, engines were told, AI crawlers re-read it, AI answers started
@@ -39,15 +41,15 @@ export default function Pricing() {
             {p.cta ? <a className="button" href={p.cta.href}>{p.cta.label}</a>
               : p.link ? <a className="button" href={p.link}>Start {p.name}</a>
               : api ? <a className="button" href={`?plan=${p.id}#talk`}>Get {p.name}</a>
-              : <span className="button disabled">Opening soon</span>}
-            {!p.cta && p.link && api && <a className="muted small" href={`?plan=${p.id}#talk`}>or talk to us first</a>}
+              : <a className="button" href={`mailto:${SALES_EMAIL}?subject=Knownsite%20${p.name}`}>Email us</a>}
+            {!p.cta && p.link && <a className="muted small" href={api ? `?plan=${p.id}#talk` : `mailto:${SALES_EMAIL}?subject=Knownsite%20${p.name}`}>or talk to us first</a>}
           </div>
         ))}
       </div>
       <div className="card founding">
         <strong>Founding customers:</strong> the first 10 Business customers pay <strong>$400/month</strong>, locked in for
         their first 12 months, in exchange for letting us share their results as a case study.{' '}
-        {api ? <a href="?plan=business#talk">Ask for a founding code</a> : 'Ask us for a founding code.'}
+        {api ? <a href="?plan=business#talk">Ask for a founding code</a> : <>Email <a href={`mailto:${SALES_EMAIL}?subject=Founding%20code`}>{SALES_EMAIL}</a> for a founding code.</>}
       </div>
       <p className="muted">Early access: weekly reports arrive by email while the dashboard is being built. Cancel anytime.</p>
 
@@ -68,10 +70,8 @@ export default function Pricing() {
       </tbody></table>
       <p className="muted">Answers can vary from person to person and day to day; that&apos;s why we track many questions every week
         instead of trusting one.</p>
-      {api && (<>
-        <h2 id="talk">Talk to us</h2>
-        <Contact api={api} />
-      </>)}
+      <h2 id="talk">Talk to us</h2>
+      {api ? <Contact api={api} /> : <p>Email <a href={`mailto:${SALES_EMAIL}`}>{SALES_EMAIL}</a> with your site and questions. We reply within one business day.</p>}
     </>
   );
 }
