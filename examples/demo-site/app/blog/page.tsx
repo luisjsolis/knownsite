@@ -1,11 +1,8 @@
-import type { Metadata } from 'next';
+import { pageMeta } from '../meta';
 import Link from 'next/link';
 import { posts } from './posts';
 
-export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'News and notes on the Knownsite Protocol.',
-};
+export const metadata = pageMeta('/blog', 'Blog', 'News and notes on the Knownsite Protocol.');
 
 export default function Blog() {
   return (

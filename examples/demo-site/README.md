@@ -6,10 +6,10 @@ project's own site. `/discovery` shows its live discovery files.
 - **Build:** `npm run build` runs `next build && knownsite build`.
 - **After deploy:** `.github/workflows/knownsite-notify.yml` runs `knownsite notify` and `knownsite verify`.
 
-## Deploy on Firebase (where it runs now: https://knownsite.web.app)
+## Deploy on Firebase (where it runs now: https://knownsite.dev; also served at knownsite.web.app)
 
 ```sh
-npm run deploy:firebase   # builds signed for knownsite.web.app, then firebase deploy
+npm run deploy:firebase   # builds signed for knownsite.dev, then firebase deploy
 ```
 
 `firebase.json` sends `X-Robots-Tag: noindex, nofollow` on every response while the site is in

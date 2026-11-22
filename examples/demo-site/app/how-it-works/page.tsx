@@ -1,9 +1,6 @@
-import type { Metadata } from 'next';
+import { pageMeta } from '../meta';
 
-export const metadata: Metadata = {
-  title: 'How it works',
-  description: 'What happens on every deploy: generate discovery files, sign content records, notify engines.',
-};
+export const metadata = pageMeta('/how-it-works', 'How it works', 'What happens on every deploy: generate discovery files, sign content records, notify engines.');
 
 export default function HowItWorks() {
   return (

@@ -5,7 +5,7 @@ implementation of the [Knownsite Protocol](https://github.com/luisjsolis/knownsi
 
 ```sh
 npx knownsite init --site https://your-site.com   # once: keys + knownsite.config.json
-next build && knownsite build                                 # every build, on the static output
+next build && knownsite build                                 # every build, after your framework
 knownsite notify                                              # every deploy, once it is live
 knownsite verify                                              # check any site like a receiver would
 knownsite check https://any-site.com                          # score how findable any site is (0-100)
@@ -13,7 +13,8 @@ knownsite check https://any-site.com                          # score how findab
 
 ## What it does
 
-**`knownsite build`** runs on your framework's static output (`out/`, `dist/`, …) and writes:
+**`knownsite build`** runs after your framework's build, on its static output (`out/`, `dist/`, …) or
+a Next.js server build (see below), and writes:
 
 | File | For |
 |---|---|
@@ -27,6 +28,49 @@ knownsite check https://any-site.com                          # score how findab
 | `{indexnow-key}.txt` | IndexNow key file proving you own the host. |
 
 Pages marked `noindex`, pages whose canonical points elsewhere, and `/404` and `/500` are skipped.
+
+## Single-page apps (Vite, Bolt, Create React App)
+
+An SPA's HTML is an empty `<div id="root">` until JavaScript runs, and most search and AI crawlers
+don't run it. `knownsite prerender` opens each page in a headless browser and saves what it renders
+as real HTML, before `knownsite build`:
+
+```sh
+npm i -D playwright && npx playwright install chromium
+# knownsite.config.json: "outDir": "dist"
+"build": "vite build && knownsite prerender && knownsite build"
+```
+
+It follows internal links from `/` (add others with `"prerender": { "routes": ["/hidden"] }`),
+skips pages that render almost nothing, and never overwrites a real static page. The original
+empty shell is kept as `200.html`; point your host's SPA fallback at it instead of `index.html`, so
+routes that weren't prerendered still boot the app (the command prints the line for Netlify, Vercel
+and Firebase). Visitors get the same app as before: the saved pages still load your JavaScript.
+
+## Next.js without static export
+
+If there is no `out/` but there is a `.next/` build, `knownsite build` runs in server mode:
+
+- It reads the prerendered pages from `.next/server/app` (and `pages/`) and writes its files to
+  `public/`, which Next.js and Vercel serve as static files.
+- Pages rendered per request (dynamic, e.g. reading cookies or headers) have no HTML at build time,
+  so they aren't recorded yet; the build lists them.
+- Routes your app serves itself (`app/sitemap.ts`, `app/robots.ts`, an `llms.txt` route) are kept.
+- It does not edit HTML in server mode: add JSON-LD in your layout. The build says how many pages
+  have none.
+
+The files in `public/` are build output; keep them out of git:
+
+```
+# .gitignore
+public/.well-known/discovery.json
+public/.well-known/discovery/
+public/sitemap.xml
+public/llms.txt
+```
+
+(Skip any line for a file you wrote yourself. `robots.txt` and the IndexNow key file are safe to
+commit.)
 
 **`knownsite notify`** reads `last-deploy.json` from the live site and sends only the changed URLs:
 
@@ -75,7 +119,7 @@ variable. Without it, output is unsigned (Level 1) and everything else still wor
 vercel env add KNOWNSITE_PRIVATE_KEY production < .knownsite/private.key
 ```
 
-Set the build command to `next build && knownsite build` (Next.js with `output: 'export'`), then run
+Set the build command to `next build && knownsite build` (static export or server mode), then run
 `knownsite notify --deploy $VERCEL_DEPLOYMENT_ID` after deploy, e.g. from a GitHub Action on the
 `deployment_status` event. The site URL defaults to `VERCEL_PROJECT_PRODUCTION_URL`.
 
@@ -134,6 +178,29 @@ Events have the fields `at, kind, agent, company, purpose, path, verified, ip, u
 containing `{"knownsite_visit": …}` (so exported Vercel logs work as is). Pass auth headers with
 `--visits-header "apikey: …"`. Other servers: `recordVisit(request, { sink })` from
 `knownsite/visits` takes any standard `Request`.
+
+Or connect a collector, a service that keeps visits and notify history for you (nothing to lose
+on CI machines, no database to run). Your site registers by signing a challenge with its Knownsite
+key, so no account is needed:
+
+```sh
+knownsite connect --collector https://collector.example   # once; tokens go to .knownsite/
+# on your host: KNOWNSITE_COLLECTOR and KNOWNSITE_INGEST_TOKEN (write-only) — printed by connect
+knownsite report --from-collector
+```
+
+With those two variables set, `knownsiteVisits()` and `knownsite notify` send there automatically.
+
+Static sites (no request-time code): read your host's access logs instead. `--logs` understands
+Google Cloud Logging JSON (Firebase Hosting, once Cloud Logging is turned on under Hosting →
+Integrations), Vercel log drains, Cloudflare Logpush and nginx/Apache combined logs, and runs each
+line through the same crawler and referral checks:
+
+```sh
+gcloud logging read 'logName:"firebasehosting"' --project YOUR_PROJECT --freshness 30d --format json \
+  | jq -c '.[]' > hosting.jsonl
+knownsite report --logs hosting.jsonl
+```
 
 If `notify` runs in CI (e.g. a GitHub Action), the history file is written on the CI machine and
 lost with it; commit it from the job or keep running `notify` locally for now.

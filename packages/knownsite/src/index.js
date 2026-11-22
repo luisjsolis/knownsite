@@ -7,3 +7,7 @@ export { parseHtml, pageText, fileToPath } from './scan.js';
 export { checkSite, rankFixes, parseRobots, robotsAllows } from './check.js';
 export { classifyVisit, visitEvent, recordVisit, consoleSink, httpSink, fileSink, parseVisits, BOTS, AI_REFERRERS } from './visits.js';
 export { buildReport, renderReport, loadVisits } from './report.js';
+export { parseLogLine, visitsFromLogs } from './logs.js';
+export { prerender, internalLinks, routeFile } from './prerender.js';
+export { connectCollector, collectorSettings, sendNotification, fetchCollectorReport } from './collector.js';
+export { collectorSink, defaultSink } from './visits.js';

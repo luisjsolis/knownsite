@@ -7,7 +7,7 @@
     "build": "next build && knownsite build",
     "notify": "knownsite notify",
     "verify": "knownsite verify",
-    "deploy:firebase": "KNOWNSITE_SITE=https://knownsite.web.app npm run build && firebase deploy --only hosting"
+    "deploy:firebase": "KNOWNSITE_SITE=https://knownsite.dev npm run build && firebase deploy --only hosting"
   },
   "dependencies": {
     "marked": "18.1.1",

@@ -83,3 +83,17 @@ test('hostingWarnings flags a Firebase ignore rule that would drop /.well-known/
   await writeFile(path.join(dir, 'firebase.json'), JSON.stringify({ hosting: [{ site: 'a', ignore: ['**/node_modules/**'] }] }));
   assert.deepEqual(await hostingWarnings(dir), []);
 });
+
+test('build ignores previous records on another origin (domain move): nothing "removed" on the old host', async () => {
+  const { mkdtemp, mkdir, writeFile } = await import('node:fs/promises');
+  const { tmpdir } = await import('node:os');
+  const path = await import('node:path');
+  const { build } = await import('../src/build.js');
+  const { DEFAULTS } = await import('../src/config.js');
+  const cwd = await mkdtemp(path.join(tmpdir(), 'ks-move-'));
+  await mkdir(path.join(cwd, 'out'));
+  await writeFile(path.join(cwd, 'out', 'index.html'), '<html><head><title>Home</title></head><body><main>Hello there</main></body></html>');
+  const r = await build({ cwd, config: { ...DEFAULTS, site: 'https://new.test' }, privateKey: null,
+    previousRecords: [{ url: 'https://old.test/', hash: 'x' }, { url: 'https://old.test/blog', hash: 'y' }] });
+  assert.deepEqual(r.changes, { added: ['https://new.test/'], updated: [], removed: [] });
+});

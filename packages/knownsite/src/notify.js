@@ -89,7 +89,9 @@ export async function notify({ config, privateKey, expectDeploy, waitSeconds = 0
   const info = await fetchLastDeploy(config.site, { expectDeploy, waitSeconds, fetchImpl });
   const at = new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
   const { changes, deploy } = info;
-  const urls = [...changes.added, ...changes.updated, ...changes.removed];
+  // IndexNow rejects a whole batch if any URL is on another host, so send only this site's URLs.
+  const own = (u) => { try { return new URL(u).host === new URL(config.site).host; } catch { return false; } };
+  const urls = [...changes.added, ...changes.updated, ...changes.removed].filter(own);
   const engines = [];
   const add = (engine, via, result) => engines.push({ engine, via, ...result });
 

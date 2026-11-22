@@ -4,7 +4,7 @@
 //
 //   // proxy.ts
 //   import { knownsiteVisits } from 'knownsite/next';
-//   const logVisit = knownsiteVisits();            // default: one JSON line per visit in the logs
+//   const logVisit = knownsiteVisits();   // default: your collector if configured, else JSON lines in the logs
 //   export function proxy(request, event) {
 //     logVisit(request, event);
 //     // ...your own routing, or return nothing
@@ -12,15 +12,16 @@
 //
 // Make sure your matcher lets crawler files through (robots.txt, sitemap.xml, llms.txt) if you
 // want those visits too; Next's default matcher examples often exclude them.
-import { recordVisit, consoleSink } from './visits.js';
+import { recordVisit, defaultSink } from './visits.js';
 
 /**
  * @param {object} [opts]
- * @param {(event: object) => Promise<void>} [opts.sink]  where events go (default: console JSON lines)
+ * @param {(event: object) => Promise<void>} [opts.sink]  where events go (default: the collector if
+ *   KNOWNSITE_COLLECTOR and KNOWNSITE_INGEST_TOKEN are set, else console JSON lines)
  * @param {boolean} [opts.productionOnly=true]  skip in `next dev` and preview deploys
  * @param {boolean} [opts.verify=true]  check crawler IPs against the operators' published ranges
  */
-export function knownsiteVisits({ sink = consoleSink(), productionOnly = true, verify = true } = {}) {
+export function knownsiteVisits({ sink = defaultSink(), productionOnly = true, verify = true } = {}) {
   return function logVisit(request, event) {
     if (productionOnly && !isProduction()) return;
     const pending = recordVisit(request, { sink, verify });
@@ -33,4 +34,4 @@ function isProduction() {
   return process.env.NODE_ENV === 'production';
 }
 
-export { consoleSink, httpSink, fileSink } from './visits.js';
+export { consoleSink, httpSink, fileSink, collectorSink } from './visits.js';

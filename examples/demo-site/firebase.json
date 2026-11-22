@@ -1,13 +1,20 @@
 {
   "hosting": {
     "public": "out",
-    "ignore": ["firebase.json"],
+    "ignore": [
+      "firebase.json"
+    ],
     "cleanUrls": true,
     "trailingSlash": false,
     "headers": [
       {
-        "source": "**",
-        "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+        "source": "/opengraph-image",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "image/png"
+          }
+        ]
       }
     ]
   }

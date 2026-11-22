@@ -150,7 +150,7 @@ export function renderReport(r, { timeZone } = {}) {
     if (g && g[0].changedAt === p.changedAt) g.push(p); else groups.push([p]);
   }
   const told = (n, changedAt) => {
-    if (!n) return '      → engines not told (no `knownsite notify` run in knownsite.history.jsonl for this change)';
+    if (!n) return '      → engines not told (no `knownsite notify` run recorded for this change)';
     const engines = n.engines.map((e) => e.engine).join('; ') || 'nobody (no engine accepted)';
     return `      → told ${engines}  ${sameDay(n.at, changedAt) ? 'the same day' : day(n.at)}`;
   };

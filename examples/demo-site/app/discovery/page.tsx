@@ -1,10 +1,7 @@
-import type { Metadata } from 'next';
+import { pageMeta } from '../meta';
 import Report from './report';
 
-export const metadata: Metadata = {
-  title: 'Live discovery report',
-  description: "This site's own Knownsite files, read live: manifest, latest deploy changes and signed content records.",
-};
+export const metadata = pageMeta('/discovery', 'Live discovery report', "This site's own Knownsite files, read live: manifest, latest deploy changes and signed content records.");
 
 export default function DiscoveryPage() {
   return (

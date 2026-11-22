@@ -1,3 +1,4 @@
+import { pageMeta } from '../../meta';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { posts } from '../posts';
@@ -11,7 +12,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
-  return post ? { title: post.title, description: post.summary } : {};
+  return post ? pageMeta(`/blog/${post.slug}`, post.title, post.summary) : {};
 }
 
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -184,6 +184,17 @@ export function httpSink(url, { headers = {}, fetchImpl = fetch } = {}) {
   };
 }
 
+/** Send events to a Knownsite collector (see `knownsite connect`), with the site's write-only token. */
+export function collectorSink(url = process.env.KNOWNSITE_COLLECTOR, token = process.env.KNOWNSITE_INGEST_TOKEN, { fetchImpl = fetch } = {}) {
+  if (!url || !token) throw new Error('collectorSink needs KNOWNSITE_COLLECTOR and KNOWNSITE_INGEST_TOKEN');
+  return httpSink(`${url.replace(/\/$/, '')}/v1/visits`, { headers: { authorization: `Bearer ${token}` }, fetchImpl });
+}
+
+/** Default sink: the collector when it is configured in the environment, else console JSON lines. */
+export function defaultSink() {
+  return process.env.KNOWNSITE_COLLECTOR && process.env.KNOWNSITE_INGEST_TOKEN ? collectorSink() : consoleSink();
+}
+
 /** Append JSON lines to a file (a long-running Node server or local testing). */
 export function fileSink(file) {
   return async (event) => {

@@ -122,3 +122,47 @@ test('notify with no changes sends nothing', async (t) => {
   assert.equal(posts.length, 0);
   assert.match(report.note, /No content changes/);
 });
+
+test('Next.js server mode: reads prerendered pages from .next, writes to public/, keeps the app\'s own routes', async () => {
+  const cwd = await mkdtemp(path.join(tmpdir(), 'knownsite-next-'));
+  const app = path.join(cwd, '.next', 'server', 'app');
+  await mkdir(path.join(app, 'blog'), { recursive: true });
+  await mkdir(path.join(cwd, '.next', 'server', 'pages'), { recursive: true });
+  await mkdir(path.join(cwd, 'public'), { recursive: true });
+  await writeFile(path.join(cwd, '.next', 'BUILD_ID'), 'abc');
+  await writeFile(path.join(app, 'index.html'), page('Acme', '<p>We make anvils.</p>'));
+  await writeFile(path.join(app, 'blog', 'first.html'), page('First post', '<p>Hello</p>'));
+  await writeFile(path.join(app, '_not-found.html'), page('404', '<p>nope</p>'));
+  await writeFile(path.join(cwd, '.next', 'server', 'pages', '404.html'), page('404', '<p>nope</p>'));
+  await writeFile(path.join(cwd, '.next', 'server', 'app-paths-manifest.json'), JSON.stringify({
+    '/page': 'app/page.js', '/blog/[slug]/page': 'x', '/(marketing)/live/page': 'x', '/_not-found/page': 'x',
+    '/sitemap.xml/route': 'x', '/opengraph-image/route': 'x',
+  }));
+  await writeFile(path.join(cwd, 'public', 'robots.txt'), 'User-agent: *\nAllow: /\n');
+
+  const { privateKey, publicKey } = generateKeys();
+  const config = { ...DEFAULTS, site: SITE, keys: [{ kid: 'k1', alg: 'Ed25519', pub: publicKey }], indexnow: { key: 'abc123' } };
+  const r = await build({ cwd, config, privateKey, previousRecords: [] });
+
+  assert.equal(r.mode, 'next-server');
+  assert.deepEqual(r.records.map((x) => x.url), [`${SITE}/`, `${SITE}/blog/first`]);
+  assert.ok(r.records.every((x) => verifyObject(x, publicKey)));
+  assert.deepEqual(r.appRoutes, ['/sitemap.xml']);
+  assert.ok(!r.written.includes('sitemap.xml'), 'the app serves its own sitemap');
+  assert.deepEqual(r.perRequest, ['/live'], 'route group stripped; dynamic [slug] not listed');
+  assert.equal(r.jsonLdInjected, 0);
+  assert.equal(r.jsonLdMissing, 2);
+  const pub = (p) => readFile(path.join(cwd, 'public', p), 'utf8');
+  assert.match(await pub('robots.txt'), /Sitemap: https:\/\/example.com\/sitemap.xml/);
+  assert.equal(JSON.parse(await pub(PATHS.manifest)).indexnow, `${SITE}/abc123.txt`);
+  assert.equal(parseRecords(await pub(PATHS.records)).length, 2);
+  assert.equal(await pub('abc123.txt'), 'abc123');
+  assert.doesNotMatch(await readFile(path.join(app, 'index.html'), 'utf8'), /ld\+json/, 'server-mode HTML is not edited');
+  await rm(cwd, { recursive: true, force: true });
+});
+
+test('build fails clearly when there is no build output', async () => {
+  const cwd = await mkdtemp(path.join(tmpdir(), 'knownsite-empty-'));
+  await assert.rejects(build({ cwd, config: { ...DEFAULTS, site: SITE }, privateKey: null, previousRecords: [] }), /No build output found/);
+  await rm(cwd, { recursive: true, force: true });
+});
