@@ -112,14 +112,14 @@ async function cmdNotify(cwd, v) {
   await writeFile(path.join(cwd, '.knownsite', 'report.json'), `${JSON.stringify(report, null, 2)}\n`);
   // History for `knownsite report`: when each change was announced, and to whom. Kept next to
   // knownsite.config.json (not in the git-ignored .knownsite/) so it is committed with the site.
-  if (!v['dry-run'] && report.engines.length) {
-    const { at, deploy, changes, engines } = report;
-    await appendFile(path.join(cwd, HISTORY_FILE), `${JSON.stringify({ at, deploy, changes, engines })}\n`);
+  if (!v['dry-run'] && (report.engines.length || report.heldOut?.length)) {
+    const { at, deploy, changes, engines, heldOut } = report;
+    await appendFile(path.join(cwd, HISTORY_FILE), `${JSON.stringify({ at, deploy, changes, engines, heldOut })}\n`);
   }
-  const col = v['dry-run'] || !report.engines.length ? null : await collectorSettings(cwd);
+  const col = v['dry-run'] || !(report.engines.length || report.heldOut?.length) ? null : await collectorSettings(cwd);
   if (col?.ingestToken) {
-    const { at, deploy, changes, engines } = report;
-    await sendNotification(col, { at, deploy, changes, engines })
+    const { at, deploy, changes, engines, heldOut } = report;
+    await sendNotification(col, { at, deploy, changes, engines, heldOut })
       .then(() => { report.collector = 'sent'; })
       .catch((err) => { report.collector = `failed: ${err.message}`; });
   }
@@ -130,6 +130,7 @@ async function cmdNotify(cwd, v) {
     console.log(`knownsite notify: ${config.site}  deploy ${report.deploy.id}`);
     console.log(`  changes: ${added.length} added, ${updated.length} updated, ${removed.length} removed`);
     if (report.note) console.log(`  ${report.note}`);
+    if (report.heldOut?.length) console.log(`  experiment: ${report.heldOut.length} changed pages held out (not announced), ${added.length + updated.length - report.heldOut.length} announced`);
     for (const e of report.engines) console.log(`  ${mark(e.ok)} ${e.engine}  via ${e.via}: ${e.detail}`);
     if (report.collector) console.log(`  ${report.collector === 'sent' ? '✓' : '✗'} collector: ${report.collector}`);
     console.log(`  report saved to .knownsite/report.json; history in ${HISTORY_FILE} (commit it)`);

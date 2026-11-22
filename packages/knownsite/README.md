@@ -191,6 +191,18 @@ knownsite report --from-collector
 
 With those two variables set, `knownsiteVisits()` and `knownsite notify` send there automatically.
 
+**Measure what announcing changes is worth.** Hold back a share of new or changed pages from
+`notify` and compare how fast crawlers come back to announced vs held-back pages:
+
+```json
+"notify": { "holdout": 0.5, "salt": "exp-2026-11" }
+```
+
+Each page lands in the same group on every deploy (by URL hash); removals are always announced;
+held-back pages stay in your sitemap. `knownsite report` then adds an "Experiment" table: per
+crawler, pages re-read, median time to first visit, and the share re-read within 1, 3 and 7 days.
+Remove the setting to announce everything again.
+
 Static sites (no request-time code): read your host's access logs instead. `--logs` understands
 Google Cloud Logging JSON (Firebase Hosting, once Cloud Logging is turned on under Hosting →
 Integrations), Vercel log drains, Cloudflare Logpush and nginx/Apache combined logs, and runs each

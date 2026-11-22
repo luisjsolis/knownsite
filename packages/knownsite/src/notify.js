@@ -1,7 +1,20 @@
 // `knownsite notify`: run once the deploy is live. Reads the change list that `knownsite build` published,
 // pushes it to IndexNow and any Knownsite receivers, and returns a per-engine report. SPEC.md §5.
 import { PATHS, PROTOCOL_VERSION } from './build.js';
+import { createHash } from 'node:crypto';
 import { signObject } from './sign.js';
+
+/**
+ * Experiment hold-out (config "notify": { "holdout": 0.5, "salt": "exp1" }): a fixed share of new or
+ * changed pages is deliberately not announced, so `knownsite report` can compare how fast crawlers
+ * come back to announced vs held-back pages. Bucketing is by URL hash, so a page stays in the same
+ * group across deploys. Removals are always announced. Held-back pages stay in the sitemap.
+ */
+export function isHeldOut(url, { holdout = 0, salt = '' } = {}) {
+  if (!(holdout > 0)) return false;
+  const n = createHash('sha256').update(`${salt}|${url}`).digest().readUInt32BE(0) / 0x100000000;
+  return n < Math.min(holdout, 1);
+}
 
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/indexnow';
 const INDEXNOW_BATCH = 10_000;
@@ -91,12 +104,16 @@ export async function notify({ config, privateKey, expectDeploy, waitSeconds = 0
   const { changes, deploy } = info;
   // IndexNow rejects a whole batch if any URL is on another host, so send only this site's URLs.
   const own = (u) => { try { return new URL(u).host === new URL(config.site).host; } catch { return false; } };
-  const urls = [...changes.added, ...changes.updated, ...changes.removed].filter(own);
+  const exp = config.notify ?? {};
+  const changed = [...changes.added, ...changes.updated].filter(own);
+  const heldOut = changed.filter((u) => isHeldOut(u, exp));
+  const urls = [...changed.filter((u) => !heldOut.includes(u)), ...changes.removed.filter(own)];
   const engines = [];
   const add = (engine, via, result) => engines.push({ engine, via, ...result });
 
   if (urls.length === 0) {
-    return { site: config.site, at, deploy, changes, engines, note: 'No content changes in this deploy; nothing sent.' };
+    return { site: config.site, at, deploy, changes, engines, heldOut,
+      note: heldOut.length ? `All ${heldOut.length} changed pages held out (experiment); nothing sent.` : 'No content changes in this deploy; nothing sent.' };
   }
 
   if (!config.indexnow?.key) {
@@ -122,5 +139,5 @@ export async function notify({ config, privateKey, expectDeploy, waitSeconds = 0
       dryRun ? { ok: true, status: 0, detail: 'dry run' } : await pingReceiver({ receiver, payload: signed, fetchImpl }));
   }
 
-  return { site: config.site, at, deploy, changes, engines };
+  return { site: config.site, at, deploy, changes, engines, heldOut };
 }

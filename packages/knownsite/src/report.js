@@ -71,10 +71,13 @@ export function buildReport({ site, records, notifications = [], visits = [], no
     .map((r) => {
       const p = pathOf(r.url);
       const changedAt = t(r.modified);
-      const told = notifications
+      const run = notifications
         .filter((n) => t(n.at) >= changedAt - 60_000) // notify runs right after the deploy that changed it
         .filter((n) => [...(n.changes?.added ?? []), ...(n.changes?.updated ?? [])].some((u) => pathOf(u) === p))
         .sort((a, b) => t(a.at) - t(b.at))[0];
+      // Experiment: a page the notify run deliberately held back was not announced.
+      const heldBack = Boolean(run?.heldOut?.some((u) => pathOf(u) === p));
+      const told = heldBack ? null : run;
       const firstByAgent = new Map();
       for (const v of crawls) {
         if (v.purpose === 'training' || normPath(v.path) !== p || t(v.at) < changedAt) continue;
@@ -87,6 +90,7 @@ export function buildReport({ site, records, notifications = [], visits = [], no
       const added = told ? (told.changes?.added ?? []).some((u) => pathOf(u) === p) : false;
       return {
         url: r.url, path: p, title: r.title, changedAt: r.modified, change: added ? 'published' : 'changed',
+        experiment: run?.heldOut ? (heldBack ? 'held-out' : 'announced') : null,
         notified: told ? { at: told.at, engines: (told.engines ?? []).filter((e) => e.ok).map((e) => ({ engine: e.engine, via: e.via })) } : null,
         recrawls: [...firstByAgent.values()]
           .sort((a, b) => t(a.at) - t(b.at))
@@ -101,6 +105,7 @@ export function buildReport({ site, records, notifications = [], visits = [], no
 
   return {
     site,
+    experiment: experimentSummary(pages, until),
     since: new Date(since).toISOString(),
     until: new Date(until).toISOString(),
     days,
@@ -110,6 +115,38 @@ export function buildReport({ site, records, notifications = [], visits = [], no
     topReferredPages: [...refByPath].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([path, visits]) => ({ path, visits })),
     pages,
     hasVisitData: visits.length > 0,
+  };
+}
+
+const median = (xs) => {
+  if (!xs.length) return null;
+  const s = [...xs].sort((a, b) => a - b);
+  return s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2;
+};
+
+/**
+ * Announced vs held-out pages (notify "holdout"): per crawler, how many pages it re-read, the median
+ * hours from change to first visit, and the share re-read within 1, 3 and 7 days. Pages changed too
+ * recently to have had 7 days are counted only in the windows they've had.
+ */
+export function experimentSummary(pages, until) {
+  const groups = { announced: pages.filter((p) => p.experiment === 'announced'), 'held-out': pages.filter((p) => p.experiment === 'held-out') };
+  if (!groups.announced.length || !groups['held-out'].length) return null;
+  const agents = [...new Set(pages.flatMap((p) => p.recrawls.map((r) => r.agent)))].sort();
+  const stats = (list, agent) => {
+    const hours = list.map((p) => p.recrawls.find((r) => r.agent === agent)?.hoursAfterChange).filter((h) => h != null);
+    const within = (d) => {
+      const eligible = list.filter((p) => until - Date.parse(p.changedAt) >= d * DAY);
+      if (!eligible.length) return null;
+      const hit = eligible.filter((p) => { const h = p.recrawls.find((r) => r.agent === agent)?.hoursAfterChange; return h != null && h <= d * 24; });
+      return Math.round((hit.length / eligible.length) * 100);
+    };
+    return { pages: list.length, reread: hours.length, medianHours: median(hours), within1d: within(1), within3d: within(3), within7d: within(7) };
+  };
+  return {
+    announced: groups.announced.length,
+    heldOut: groups['held-out'].length,
+    byAgent: Object.fromEntries(agents.map((a) => [a, { announced: stats(groups.announced, a), heldOut: stats(groups['held-out'], a) }])),
   };
 }
 
@@ -140,6 +177,21 @@ export function renderReport(r, { timeZone } = {}) {
     out.push('');
   }
 
+  if (r.experiment) {
+    const e = r.experiment;
+    const pct = (v) => (v == null ? '  -' : `${String(v).padStart(3)}%`);
+    const hrs = (v) => (v == null ? 'not yet' : v < 48 ? `${Math.round(v)}h` : `${Math.round(v / 24)}d`);
+    out.push(`  Experiment: ${e.announced} pages announced vs ${e.heldOut} held back (not announced)`);
+    out.push('    crawler            group       re-read  median   ≤1 day  ≤3 days  ≤7 days');
+    for (const [agent, s] of Object.entries(e.byAgent)) {
+      for (const [label, g] of [['announced', s.announced], ['held back', s.heldOut]]) {
+        out.push(`    ${(label === 'announced' ? agent : '').padEnd(18)} ${label.padEnd(10)} ${`${g.reread}/${g.pages}`.padStart(7)}  ${hrs(g.medianHours).padStart(7)}  ${pct(g.within1d)}    ${pct(g.within3d)}     ${pct(g.within7d)}`);
+      }
+    }
+    if (!Object.keys(e.byAgent).length) out.push('    no crawler has re-read any of these pages yet');
+    out.push('');
+  }
+
   out.push('  What changed, and what happened next');
   if (!r.pages.length) out.push(`    No page changed in the last ${r.days} days.`);
   // Pages changed in the same deploy share a timestamp. A big batch (first install, a redesign)
@@ -150,7 +202,7 @@ export function renderReport(r, { timeZone } = {}) {
     if (g && g[0].changedAt === p.changedAt) g.push(p); else groups.push([p]);
   }
   const told = (n, changedAt) => {
-    if (!n) return '      → engines not told (no `knownsite notify` run recorded for this change)';
+    if (!n) return '      → engines not told (no `knownsite notify` run recorded for this change, or held back)';
     const engines = n.engines.map((e) => e.engine).join('; ') || 'nobody (no engine accepted)';
     return `      → told ${engines}  ${sameDay(n.at, changedAt) ? 'the same day' : day(n.at)}`;
   };
@@ -186,7 +238,7 @@ export function renderReport(r, { timeZone } = {}) {
       continue;
     }
     for (const p of g) {
-      out.push(`    ${p.path}  ${p.change} ${day(p.changedAt)}`);
+      out.push(`    ${p.path}  ${p.change} ${day(p.changedAt)}${p.experiment === 'held-out' ? '  (held back: experiment)' : ''}`);
       out.push(told(p.notified, p.changedAt));
       for (const c of p.recrawls) {
         out.push(`      → ${c.agent} re-read it  ${day(c.at)} (${gap(c.hoursAfterChange)})${c.verified === null ? ', unverified' : ''}`);

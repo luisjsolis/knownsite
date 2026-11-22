@@ -1,6 +1,6 @@
 {
   "name": "knownsite",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Make every site discoverable by search engines and AI assistants on deploy. Reference implementation of the Knownsite Protocol.",
   "type": "module",
   "bin": {
