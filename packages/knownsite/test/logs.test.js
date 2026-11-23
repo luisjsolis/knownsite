@@ -58,3 +58,11 @@ test('visitsFromLogs: crawlers (verified) and AI referrals; other hosts, assets 
   assert.equal(events[0].at, '2026-11-20T10:00:00.000Z');
   assert.equal(events[2].ip, null, 'people: no IP');
 });
+
+test('visitsFromLogs accepts a JSON array (gcloud --format json without jq)', async () => {
+  const entry = { timestamp: '2026-11-22T03:00:00Z', httpRequest: { requestMethod: 'GET', requestUrl: 'https://example.com/a', userAgent: 'Mozilla/5.0 (compatible; Claude-SearchBot/1.0)', remoteIp: '1.2.3.4', status: 200 } };
+  const text = JSON.stringify([entry, entry], null, 2);
+  const r = await visitsFromLogs(text, { site: 'https://example.com', verify: false });
+  assert.equal(r.parsed, 2);
+  assert.equal(r.events.length, 2);
+});

@@ -77,12 +77,26 @@ const isAsset = (path) => ASSET.test(path.split('?')[0]) && !/^\/\.well-known\//
  * @param {string} opts.site      https://example.com, used for host filtering and URLs
  * @param {boolean} [opts.verify=true]
  */
+/** One entry per line; a JSON array (e.g. `gcloud logging read --format json` without jq) is split into entries. */
+function logLines(text) {
+  const t = text.trimStart();
+  if (t.startsWith('[')) {
+    try {
+      const arr = JSON.parse(t);
+      if (Array.isArray(arr)) return arr.map((e) => JSON.stringify(e));
+    } catch {
+      // not one JSON array: fall through to lines
+    }
+  }
+  return text.split('\n');
+}
+
 export async function visitsFromLogs(text, { site, verify = true, fetchImpl = fetch } = {}) {
   const host = new URL(site).host;
   const events = [];
   let lines = 0;
   let parsed = 0;
-  for (const line of text.split('\n')) {
+  for (const line of logLines(text)) {
     if (!line.trim()) continue;
     lines++;
     const r = parseLogLine(line);

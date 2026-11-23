@@ -211,9 +211,8 @@ line through the same crawler and referral checks:
 
 ```sh
 gcloud logging read 'logName="projects/YOUR_PROJECT/logs/firebasehosting.googleapis.com%2Fwebrequests"' \
-  --project YOUR_PROJECT --freshness 30d --format json \
-  | jq -c '.[]' > hosting.jsonl
-knownsite report --logs hosting.jsonl
+  --project YOUR_PROJECT --freshness 30d --format json > hosting.json
+knownsite report --logs hosting.json   # a JSON array or JSON lines both work
 ```
 
 If `notify` runs in CI (e.g. a GitHub Action), the history file is written on the CI machine and
