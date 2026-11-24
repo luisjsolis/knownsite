@@ -18,6 +18,7 @@
   --ok: #067647;
   --bad: #b42318;
   --cta-gradient: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+  --brand-green: #22c55e;
   --shadow-soft: 0 12px 40px rgba(11, 27, 58, 0.08);
   --ring-inner: #ffffff;
   --font-sans: var(--font-inter), "Inter", "Segoe UI", system-ui, sans-serif;
@@ -74,9 +75,9 @@ strong { color: var(--text-primary); font-weight: 600; }
 }
 .brand { display: flex; align-items: center; gap: 8px; color: var(--text-secondary); }
 .brand:hover { text-decoration: none; color: var(--text-primary); }
-.brand svg { width: 22px; height: 22px; color: var(--text-primary); }
+.brand svg { width: 26px; height: 26px; flex: none; color: var(--text-primary); }
 .brand-name { display: block; font-size: 16px; font-weight: 600; letter-spacing: -0.02em; color: var(--text-primary); line-height: 1; }
-.brand-dot { background: var(--cta-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brand-dot { color: var(--brand-green); }
 .brand-sub { display: block; font-size: 11px; color: var(--text-muted); line-height: 1; margin-top: 4px; }
 .site-nav { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
 .site-nav a { font-size: 13px; font-weight: 300; color: var(--text-muted); white-space: nowrap; }

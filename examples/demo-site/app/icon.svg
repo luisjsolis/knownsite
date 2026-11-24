@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <style>.t{fill:#0b1b3a}@media (prefers-color-scheme:dark){.t{fill:#ffffff}}</style>
-  <text class="t" x="5" y="25" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="-1">k</text>
-  <circle cx="23.5" cy="22.6" r="3" fill="#0ea5e9"/>
+  <style>.k{stroke:#0b1b3a}@media (prefers-color-scheme:dark){.k{stroke:#ffffff}}</style>
+  <path class="k" d="M7.5 6v20M18 11.5 8.3 19.6M12 17l6.2 8.6" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25.5" cy="24.5" r="3.4" fill="#22c55e"/>
 </svg>

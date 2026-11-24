@@ -13,7 +13,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-grid">
           <div>
-            <a className="pill" href="https://github.com/luisjsolis/knownsite">Open standard · v0.1.2 on npm <span className="arrow">→</span></a>
+            <a className="pill" href="https://github.com/luisjsolis/knownsite">Open standard · v0.1.3 on npm <span className="arrow">→</span></a>
             <h1>Get your site <span className="grad">found</span> by search engines and AI assistants.</h1>
             <p className="lede">Knownsite runs on every deploy: readable pages, sitemap and structured data, instant change
               notifications to search engines, and proof of what happened next.</p>

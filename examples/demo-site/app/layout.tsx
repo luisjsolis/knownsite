@@ -21,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="site-header-inner">
             <Link href="/" className="brand">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7.5 6v20M18 11.5 8.3 19.6M12 17l6.2 8.6" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /><circle cx="25.5" cy="24.5" r="3.4" fill="var(--brand-green)" /></svg>
               <span><span className="brand-name">knownsite<span className="brand-dot">.</span></span><span className="brand-sub">by WellnessLabs</span></span>
             </Link>
             <nav className="site-nav">

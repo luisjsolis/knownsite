@@ -15,7 +15,13 @@ export default function Image() {
           padding: '72px 80px', background: '#0b1b3a', color: '#f8fafc', fontFamily: 'sans-serif',
         }}
       >
-        <div style={{ fontSize: 44, fontWeight: 700, letterSpacing: -1 }}>knownsite.</div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 18, fontSize: 44, fontWeight: 700, letterSpacing: -1 }}>
+          <svg width="60" height="60" viewBox="0 0 32 32"><path d="M7.5 6v20M18 11.5 8.3 19.6M12 17l6.2 8.6" fill="none" stroke="#f8fafc" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /><circle cx="25.5" cy="24.5" r="3.4" fill="#22c55e" /></svg>
+          <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+            knownsite
+            <div style={{ width: 9, height: 9, borderRadius: 9, background: '#22c55e', marginLeft: -6, marginBottom: 11 }} />
+          </div>
+        </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
           <div style={{ fontSize: 68, fontWeight: 700, lineHeight: 1.1 }}>
             Get your site found by search engines and AI assistants.
