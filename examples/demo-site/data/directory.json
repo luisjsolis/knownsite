@@ -1,0 +1,2013 @@
+{
+ "generatedAt": "2026-11-26T02:39:25.316Z",
+ "categories": [
+  {
+   "slug": "ai-headshot-generators",
+   "name": "AI headshot generators",
+   "description": "Tools that turn selfies into professional headshots.",
+   "sites": [
+    {
+     "host": "aragon.ai",
+     "checkedAt": "2026-11-26T02:39:01.246Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.aragon.ai/",
+     "status": 200,
+     "blocked": false,
+     "title": "The Leading AI Headshot Generator | Aragon.ai",
+     "description": "Get professional AI headshots in minutes with our new AI headshot generator. Save hundreds of dollars and hours of your time. Built by AI researchers.",
+     "noindex": false,
+     "words": 4722,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 355,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "betterpic.io",
+     "checkedAt": "2026-11-26T02:39:01.266Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.betterpic.io/",
+     "status": 200,
+     "blocked": false,
+     "title": "Best AI Headshot Generator for Professional Photos",
+     "description": "BetterPic's AI headshot generator turns selfies into 4K professional headshots in under an hour. 150+ styles, studio quality, 100% money-back guarantee.",
+     "noindex": false,
+     "words": 2071,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Nuxt",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "capturely.com",
+     "checkedAt": "2026-11-26T02:39:01.268Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://capturely.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Professional Virtual Headshots for Teams | Capturely",
+     "description": "Studio-quality team headshots in 10 minutes, no studio needed. Capturely connects your team with professional photographers via smartphone. Trusted by Google, Netflix, and 1,000+ companies.",
+     "noindex": false,
+     "words": 628,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "freeheadshot.org",
+     "checkedAt": "2026-11-26T02:39:01.268Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://freeheadshot.org/",
+     "status": 200,
+     "blocked": false,
+     "title": "Free AI Headshot Generator | Professional Photos in 60 Seconds",
+     "description": "Upload one selfie and get three professional headshots in about 60 seconds. 232 styles, no signup, no card. Every style works on the free tier.",
+     "noindex": false,
+     "words": 4046,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 464,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "headshotpro.com",
+     "checkedAt": "2026-11-26T02:39:01.269Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.headshotpro.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "AI Headshot Generator for Professional Headshots | HeadshotPro",
+     "description": "Turn a few selfies into 30 to 70 studio-quality professional headshots in as little as 15 minutes. AI headshot generator for individuals and teams, from $29, 100% money-back guarantee.",
+     "noindex": false,
+     "words": 2545,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 172,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Nuxt",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "instaheadshots.com",
+     "checkedAt": "2026-11-26T02:39:01.269Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://magicstudio.com/headshots/",
+     "status": 200,
+     "blocked": false,
+     "title": "Magic Studio - Most Realistic AI Headshot Generator",
+     "description": "Get 100s of stunning AI headshots with Magic Studio's AI Headshot Generator. Rated 5/5 on Trustpilot with 36 million+ headshots already delivered!",
+     "noindex": false,
+     "words": 2188,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 11,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "photopacks.ai",
+     "checkedAt": "2026-11-26T02:39:01.270Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.photopacks.ai/index.html",
+     "status": 200,
+     "blocked": false,
+     "title": "The #1 AI Headshot Generator For Professionals",
+     "description": "Our AI headshot generator creates 40+ professional headshots from your ordinary photos in less than 1 hour. Perfect for LinkedIn, resumes & more.",
+     "noindex": false,
+     "words": 1377,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "profilebakery.com",
+     "checkedAt": "2026-11-26T02:39:01.270Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://profilebakery.com/",
+     "status": 429,
+     "blocked": true,
+     "title": null,
+     "description": null,
+     "noindex": null,
+     "words": null,
+     "jsonLd": null,
+     "robots": {
+      "found": false,
+      "status": 429,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "realest-ai-headshot.com",
+     "checkedAt": "2026-11-26T02:39:05.305Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://realest-ai-headshot.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "AI Headshot Generator That Still Looks Like You | Realest AI Headshot",
+     "description": "Turn a few selfies into professional headshots for LinkedIn, résumés and listings, without the AI turning you into a prettier stranger. Try one for $5.99.",
+     "noindex": false,
+     "words": 2225,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 2,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "ours": true
+    },
+    {
+     "host": "secta.ai",
+     "checkedAt": "2026-11-26T02:39:05.310Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://secta.ai/",
+     "status": 200,
+     "blocked": false,
+     "title": "#1 AI Headshot generator for Professionals 20m+ generations | Secta Labs",
+     "description": "More than an AI headshot generator. Own your first impression with Secta Labs. Professional and fun photos, risk-free and in less than an hour.",
+     "noindex": false,
+     "words": 1065,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 478,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "tryitonai.com",
+     "checkedAt": "2026-11-26T02:39:05.321Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://tryitonai.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Try it on | LinkedIn posts and headshots for local professionals",
+     "description": "Answer one short question a day and get a LinkedIn post in your words, with a professional photo of you. AI headshots from a selfie, from $35.",
+     "noindex": false,
+     "words": 1154,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 30,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "ai-visibility-tools",
+   "name": "AI search visibility tools",
+   "description": "Tools that check or track how a site shows up in AI assistants and AI search.",
+   "sites": [
+    {
+     "host": "citeworthy.io",
+     "checkedAt": "2026-11-26T02:39:05.326Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://citeworthy.io/",
+     "status": 200,
+     "blocked": false,
+     "title": "Citeworthy — SEO & AI-visibility audits for your website",
+     "description": "Citeworthy audits your site the way AI crawlers and search engines read it, shows you what blocks them, and serves the fixes you approve from the edge.",
+     "noindex": false,
+     "words": 1916,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 20,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "knownsite.dev",
+     "checkedAt": "2026-11-26T02:39:05.334Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://knownsite.dev/",
+     "status": 200,
+     "blocked": false,
+     "title": "Knownsite: get your site found by search engines and AI assistants",
+     "description": "Free, open-source tool that gets your site indexed by Google, Bing, ChatGPT, Claude and Perplexity automatically, every time you deploy.",
+     "noindex": false,
+     "words": 1081,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 9,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 2,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": true
+    },
+    {
+     "host": "otterly.ai",
+     "checkedAt": "2026-11-26T02:39:05.341Z",
+     "version": "0.1",
+     "reachable": false,
+     "error": "connection closed",
+     "robots": null,
+     "ours": false
+    },
+    {
+     "host": "peec.ai",
+     "checkedAt": "2026-11-26T02:39:05.385Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://peec.ai/",
+     "status": 200,
+     "blocked": false,
+     "title": "Peec AI - AI Search Platform for Marketing Teams",
+     "description": "Peec AI is an AI search platform that helps marketing teams understand and improve how their brands are discovered, represented, and recommended.",
+     "noindex": false,
+     "words": 2330,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 193,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "tryprofound.com",
+     "checkedAt": "2026-11-26T02:39:05.478Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.tryprofound.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "The AI Platform to Power Your Marketing | Profound",
+     "description": "Profound is the AI marketing platform built for the agentic era. See what your customers ask AI, deploy agents to act on it, and measure the results in a collaborative workbench",
+     "noindex": false,
+     "words": 1182,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 817,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "ai-assistants",
+   "name": "AI assistants",
+   "description": "General-purpose AI chat assistants.",
+   "sites": [
+    {
+     "host": "chatgpt.com",
+     "checkedAt": "2026-11-26T02:39:06.993Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://chatgpt.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "ChatGPT: Chat, Work, Create & Code with AI",
+     "description": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
+     "noindex": false,
+     "words": 277,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": false
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": false,
+       "Applebot-Extended": true,
+       "CCBot": false,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 3
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 80,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "claude.ai",
+     "checkedAt": "2026-11-26T02:39:09.357Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://claude.ai/",
+     "status": 403,
+     "blocked": true,
+     "title": null,
+     "description": null,
+     "noindex": null,
+     "words": null,
+     "jsonLd": null,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": false,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": false,
+       "ClaudeBot": true,
+       "Google-Extended": false,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "copilot.microsoft.com",
+     "checkedAt": "2026-11-26T02:39:09.362Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://copilot.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Microsoft Copilot | Sign in",
+     "description": "Microsoft Copilot is AI built to help you get things done. Create, brainstorm, learn, and solve problems with AI chat that works across your day.",
+     "noindex": false,
+     "words": 979,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 288,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "gemini.google.com",
+     "checkedAt": "2026-11-26T02:39:09.371Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://gemini.google.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "‎Google Gemini",
+     "description": "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+     "noindex": false,
+     "words": 6,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 350,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "perplexity.ai",
+     "checkedAt": "2026-11-26T02:39:09.430Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.perplexity.ai/",
+     "status": 200,
+     "blocked": false,
+     "title": "Perplexity",
+     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+     "noindex": false,
+     "words": 0,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "website-builders",
+   "name": "Website builders and hosts",
+   "description": "Where sites are built and deployed, including AI site builders.",
+   "sites": [
+    {
+     "host": "bolt.new",
+     "checkedAt": "2026-11-26T02:39:09.546Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://bolt.new/",
+     "status": 200,
+     "blocked": false,
+     "title": "Bolt AI builder: Websites, apps & prototypes",
+     "description": "Build and scale high-performing websites & apps using your words. Join millions and start building today.",
+     "noindex": false,
+     "words": 508,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 3
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 2,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "framer.com",
+     "checkedAt": "2026-11-26T02:39:11.198Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.framer.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Framer: Free website builder and AI design agent",
+     "description": "The free website builder with a design agent that takes you from idea to launch. Changes stay editable, with hosting, CMS, analytics, SEO, and AEO built in.",
+     "noindex": false,
+     "words": 1705,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 2,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Framer",
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "lovable.dev",
+     "checkedAt": "2026-11-26T02:39:12.501Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://lovable.dev/",
+     "status": 403,
+     "blocked": true,
+     "title": null,
+     "description": null,
+     "noindex": null,
+     "words": null,
+     "jsonLd": null,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 11,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "netlify.com",
+     "checkedAt": "2026-11-26T02:39:12.511Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.netlify.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Where apps come to life | Netlify",
+     "description": "Start with a prompt, agent, or code. Netlify gives you everything you need to create, share, and run your app at any scale.",
+     "noindex": false,
+     "words": 934,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 1,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Netlify",
+      "framework": "Astro",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "squarespace.com",
+     "checkedAt": "2026-11-26T02:39:13.413Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.squarespace.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Website Builder – Easily Create Your Own Website &mdash; Squarespace",
+     "description": "Create a website and grow your business with a free Squarespace trial. Start with customizable website templates, AI website builder tools, or a domain name.",
+     "noindex": false,
+     "words": 3971,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 6256,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Squarespace",
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "v0.app",
+     "checkedAt": "2026-11-26T02:39:13.451Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://v0.app/",
+     "status": 200,
+     "blocked": false,
+     "title": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+     "description": "Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.",
+     "noindex": false,
+     "words": 673,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 5,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "vercel.com",
+     "checkedAt": "2026-11-26T02:39:13.513Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://vercel.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Agentic Infrastructure - Vercel",
+     "description": "The autonomous stack for every app and agent.",
+     "noindex": false,
+     "words": 552,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 9622,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "webflow.com",
+     "checkedAt": "2026-11-26T02:39:13.531Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://webflow.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Webflow: The agentic web platform for modern businesses",
+     "description": "Design, build, optimize, and rank in AI search — all in Webflow. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams.",
+     "noindex": false,
+     "words": 2968,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 6,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "wix.com",
+     "checkedAt": "2026-11-26T02:39:13.637Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.wix.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Wix.com - The platform trusted by millions of businesses",
+     "description": "Build the business you have in mind on a platform trusted by millions. Hosting, business tools, domains and marketing built in. Try it for free.",
+     "noindex": true,
+     "words": 937,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 9339,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Wix",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "ai-image-tools",
+   "name": "AI image and photo tools",
+   "description": "Editing, upscaling, background removal and image generation.",
+   "sites": [
+    {
+     "host": "canva.com",
+     "checkedAt": "2026-11-26T02:39:15.248Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.canva.com/",
+     "status": 403,
+     "blocked": true,
+     "title": null,
+     "description": null,
+     "noindex": null,
+     "words": null,
+     "jsonLd": null,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": false,
+       "ClaudeBot": false,
+       "Google-Extended": true,
+       "Applebot-Extended": false,
+       "CCBot": false,
+       "Meta-ExternalAgent": false
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 3,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "firefly.adobe.com",
+     "checkedAt": "2026-11-26T02:39:16.525Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://firefly.adobe.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Adobe Firefly: Your all-in-one AI creative studio",
+     "description": "Firefly gives you the speed, control, and creative freedom to go from idea to high-quality content. Generate images, video, audio and more with 30+ AI models, all in one place.",
+     "noindex": false,
+     "words": 57,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 30,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    },
+    {
+     "host": "letsenhance.io",
+     "checkedAt": "2026-11-26T02:39:16.620Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://letsenhance.io/",
+     "status": 200,
+     "blocked": false,
+     "title": "Let's Enhance: AI Image App to Upscale, Sharpen & Improve Quality Online | Try Free",
+     "description": "Try our AI image & video tools: enhancer, upscaler, generator, editor. Online & API. Free to start.",
+     "noindex": false,
+     "words": 615,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Gatsby",
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "picsart.com",
+     "checkedAt": "2026-11-26T02:39:17.479Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://picsart.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Picsart | Create, Edit, and Share",
+     "description": "Make videos, images, and designs with Picsart. Edit and share what you make, and explore ways to earn from it.",
+     "noindex": false,
+     "words": 11567,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 9
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 634,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "remove.bg",
+     "checkedAt": "2026-11-26T02:39:17.511Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.remove.bg/",
+     "status": 200,
+     "blocked": false,
+     "title": "Remove Background from Image for Free – remove.bg",
+     "description": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.",
+     "noindex": false,
+     "words": 374,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 9,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "upscayl.org",
+     "checkedAt": "2026-11-26T02:39:17.572Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://upscayl.org/",
+     "status": 200,
+     "blocked": false,
+     "title": "Upscayl - AI Image Upscaler",
+     "description": "The #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. Upscayl uses the power of AI to upscale your images with the best quality possible.",
+     "noindex": false,
+     "words": 1792,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "transcription",
+   "name": "Transcription",
+   "description": "Turn audio and video into text.",
+   "sites": [
+    {
+     "host": "otter.ai",
+     "checkedAt": "2026-11-26T02:39:17.689Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://otter.ai/",
+     "status": 200,
+     "blocked": false,
+     "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights",
+     "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
+     "noindex": false,
+     "words": 1672,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 580,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "turboscribe.ai",
+     "checkedAt": "2026-11-26T02:39:19.126Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://turboscribe.ai/",
+     "status": 403,
+     "blocked": true,
+     "title": null,
+     "description": null,
+     "noindex": null,
+     "words": null,
+     "jsonLd": null,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1721,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "pdf-tools",
+   "name": "PDF tools",
+   "description": "Merge, split, compress and convert PDFs online.",
+   "sites": [
+    {
+     "host": "ilovepdf.com",
+     "checkedAt": "2026-11-26T02:39:19.399Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.ilovepdf.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "iLovePDF | Online PDF tools for PDF lovers",
+     "description": "iLovePDF is an online service to work with PDF files completely free and easy to use. Merge PDF, split PDF, compress PDF, office to PDF, PDF to JPG and more!",
+     "noindex": false,
+     "words": 1109,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1415,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "ours": false
+    },
+    {
+     "host": "smallpdf.com",
+     "checkedAt": "2026-11-26T02:39:20.666Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://smallpdf.com/",
+     "status": 200,
+     "blocked": false,
+     "title": "Smallpdf - A Free Solution to all your PDF Problems",
+     "description": "Smallpdf - the platform that makes it super easy to convert and edit all your PDF files. Solving all your PDF problems in one place - and yes, free.",
+     "noindex": false,
+     "words": 755,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 852,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "ours": false
+    }
+   ]
+  }
+ ]
+}
