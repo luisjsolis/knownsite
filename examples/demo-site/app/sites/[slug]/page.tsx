@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { pageMeta, SALES_EMAIL } from '../../meta';
+import { data as altData, publishedPages, hostOf, isChecked } from '../../alternatives/data';
 import {
-  directory, listed, findSite, fmtDate, aiSearchSummary, textSummary, platformLine,
+  directory, listed, findSite, allHosts, fmtDate, aiSearchSummary, textSummary, platformLine,
   AI_SEARCH_BOTS, SEARCH_BOTS, TRAINING_BOTS, type Category, type Site,
 } from '../data';
 
@@ -11,7 +12,7 @@ export const dynamicParams = false;
 
 export function generateStaticParams() {
   const cats = directory().categories;
-  return [...cats.map((c) => ({ slug: c.slug })), ...cats.flatMap((c) => listed(c).map((s) => ({ slug: s.host })))];
+  return [...cats.map((c) => ({ slug: c.slug })), ...allHosts().map((h) => ({ slug: h }))];
 }
 
 const category = (slug: string) => directory().categories.find((c) => c.slug === slug) ?? null;
@@ -30,7 +31,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const c = category(slug);
   if (c) return <CategoryPage c={c} />;
   const f = findSite(slug);
-  if (f) return <SitePage site={f.site} category={f.category} />;
+  if (f) return <SitePage site={f.site} categories={f.categories} />;
   notFound();
 }
 
@@ -49,7 +50,7 @@ function CategoryPage({ c }: { c: Category }) {
           <tbody>
             {sites.map((s) => (
               <tr key={s.host}>
-                <td><Link href={`/sites/${s.host}`}>{s.host}</Link>{s.ours && <div className="muted small">Made by the Knownsite team</div>}</td>
+                <td><Link href={`/sites/${s.host}`}>{s.name ?? s.host}</Link>{s.name && <div className="muted small">{s.host}</div>}{s.ours && <div className="muted small">Made by the Knownsite team</div>}</td>
                 <td>{aiSearchSummary(s)}</td>
                 <td>{s.blocked ? <span className="muted">Not measured</span> : textSummary(s)}</td>
                 <td>{yes(s.sitemap?.found)}</td>
@@ -83,13 +84,21 @@ function BotTable({ title, bots, allow }: { title: string; bots: [string, string
   );
 }
 
-function SitePage({ site: s, category: c }: { site: Site; category: Category }) {
-  const others = listed(c).filter((o) => o.host !== s.host);
+function SitePage({ site: s, categories }: { site: Site; categories: Category[] }) {
+  const others = [...new Map(categories.flatMap((c) => listed(c)).filter((o) => o.host !== s.host).map((o) => [o.host, o])).values()];
   const platform = platformLine(s.platform);
+  // The alternatives pages this site appears on, and its own if it has one: the web of links.
+  const alt = altData();
+  const pages = publishedPages(alt);
+  const keysHere = Object.entries(alt.products).filter(([k, p]) => hostOf(k, alt) === s.host).map(([k]) => k);
+  const ownPages = pages.filter((p) => keysHere.includes(p.host));
+  const listedOn = pages.filter((p) => !keysHere.includes(p.host) && p.alternatives.some((k) => keysHere.includes(k) && isChecked(alt.products[k])));
   return (
     <>
-      <p className="eyebrow"><Link href="/sites">Directory</Link> · <Link href={`/sites/${c.slug}`}>{c.name}</Link></p>
-      <h1>{s.host}</h1>
+      <p className="eyebrow"><Link href="/sites">Directory</Link> · {categories.map((c, i) => <span key={c.slug}>{i ? ', ' : ''}<Link href={`/sites/${c.slug}`}>{c.name}</Link></span>)}</p>
+      <h1>{s.name ?? s.host}</h1>
+      {s.name && <p className="muted" style={{ marginTop: -8 }}>{s.host}</p>}
+      {s.products && <p className="muted" style={{ marginTop: -8 }}>Products listed here: {s.products.join(', ')}</p>}
       {s.title && <p className="lede">{s.title}</p>}
       {s.description && <p>&ldquo;{s.description}&rdquo; <span className="muted small">(the site&rsquo;s own description)</span></p>}
       <p className="muted small">
@@ -122,10 +131,20 @@ function SitePage({ site: s, category: c }: { site: Site; category: Category }) 
         {platform && <li>Detected: {platform}.</li>}
       </ul>
 
+      {(ownPages.length > 0 || listedOn.length > 0) && (
+        <>
+          <h2>Compared with other tools</h2>
+          <ul>
+            {ownPages.map((p) => <li key={p.host}><Link href={`/alternatives/${p.host}`}>{alt.products[p.host].name} alternatives</Link></li>)}
+            {listedOn.map((p) => <li key={p.host}>Listed on <Link href={`/alternatives/${p.host}`}>{alt.products[p.host].name} alternatives</Link></li>)}
+          </ul>
+        </>
+      )}
+
       {others.length > 0 && (
         <>
           <h2>Similar sites</h2>
-          <p>{others.map((o, i) => <span key={o.host}>{i ? ' · ' : ''}<Link href={`/sites/${o.host}`}>{o.host}</Link></span>)}</p>
+          <p>{others.map((o, i) => <span key={o.host}>{i ? ' · ' : ''}<Link href={`/sites/${o.host}`}>{o.name ?? o.host}</Link></span>)}</p>
         </>
       )}
 

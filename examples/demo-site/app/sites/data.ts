@@ -10,7 +10,7 @@ export type Site = {
   host: string; checkedAt: string; reachable: boolean; error?: string; optedOut?: boolean; blocked?: boolean;
   url?: string; status?: number; title?: string | null; description?: string | null; noindex?: boolean | null; words?: number | null;
   jsonLd?: boolean | null; robots: Robots | null; llmsTxt?: boolean; sitemap?: { found: boolean; entries: number; listedInRobots: boolean };
-  knownsiteLevel?: number; platform?: Platform; ours?: boolean; rank?: number; html?: boolean; website?: boolean;
+  knownsiteLevel?: number; platform?: Platform; ours?: boolean; rank?: number; html?: boolean; website?: boolean; name?: string; products?: string[];
 };
 export type Category = { slug: string; name: string; description: string; sites: Site[] };
 export type Directory = { generatedAt: string; categories: Category[] };
@@ -30,13 +30,15 @@ export const study = (): Study | null => load<Study | null>('study.json', null);
 /** Sites we list: reachable and not opted out of KnownsiteBot. Alphabetical, ours included. */
 export const listed = (c: Category) => c.sites.filter((s) => s.reachable && !s.optedOut).sort((a, b) => a.host.localeCompare(b.host));
 
-export function findSite(host: string): { site: Site; category: Category } | null {
-  for (const category of directory().categories) {
-    const site = listed(category).find((s) => s.host === host);
-    if (site) return { site, category };
-  }
-  return null;
+/** A site and every category it's listed in (Zoho is in accounting, meetings and word processors). */
+export function findSite(host: string): { site: Site; category: Category; categories: Category[] } | null {
+  const categories = directory().categories.filter((c) => listed(c).some((s) => s.host === host));
+  if (!categories.length) return null;
+  return { site: listed(categories[0]).find((s) => s.host === host)!, category: categories[0], categories };
 }
+
+/** Every host in the directory, once. */
+export const allHosts = () => [...new Set(directory().categories.flatMap((c) => listed(c).map((s) => s.host)))];
 
 export const AI_SEARCH_BOTS: [string, string][] = [['OAI-SearchBot', 'ChatGPT search'], ['Claude-SearchBot', 'Claude'], ['PerplexityBot', 'Perplexity']];
 export const SEARCH_BOTS: [string, string][] = [['Googlebot', 'Google Search'], ['Bingbot', 'Bing (also feeds ChatGPT and Copilot)']];

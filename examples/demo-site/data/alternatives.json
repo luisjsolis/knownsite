@@ -8,7 +8,8 @@
         "Headshots",
         "Free tier",
         "Money back"
-      ]
+      ],
+      "description": "Tools that turn selfies into professional headshots."
     },
     "ai-visibility-tools": {
       "name": "AI search visibility tools",
@@ -17,7 +18,8 @@
         "What it does",
         "AI engines",
         "Free plan"
-      ]
+      ],
+      "description": "Tools that check or track how a site shows up in AI assistants and AI search."
     },
     "transcription": {
       "name": "Transcription",
@@ -26,7 +28,8 @@
         "Paid from",
         "Billed annually",
         "Notes"
-      ]
+      ],
+      "description": "Turn meetings, audio and video into text."
     },
     "pdf-tools": {
       "name": "Online PDF tools",
@@ -35,7 +38,8 @@
         "Paid from",
         "What happens to your files",
         "Sign-up needed"
-      ]
+      ],
+      "description": "Merge, split, compress and convert PDFs."
     },
     "image-compression": {
       "name": "Image compressors",
@@ -44,7 +48,8 @@
         "Paid from",
         "What happens to your files",
         "Limits"
-      ]
+      ],
+      "description": "Make image files smaller."
     },
     "background-removal": {
       "name": "Background removers",
@@ -53,7 +58,8 @@
         "Paid from",
         "Free download quality",
         "Also does"
-      ]
+      ],
+      "description": "Remove the background from a photo."
     },
     "rental-management": {
       "name": "Rental management for landlords",
@@ -63,7 +69,8 @@
         "Tenant screening",
         "Online rent payments",
         "Languages"
-      ]
+      ],
+      "description": "Listing, screening and rent collection for landlords."
     },
     "prayer-and-bible-apps": {
       "name": "Prayer and Bible apps",
@@ -72,7 +79,8 @@
         "What you get",
         "Tradition",
         "Languages"
-      ]
+      ],
+      "description": "Daily prayer, Scripture and devotionals."
     },
     "accounting-software": {
       "name": "Accounting software",
@@ -81,7 +89,8 @@
         "Paid from",
         "Free trial",
         "Built for"
-      ]
+      ],
+      "description": "Invoicing, expenses and books for small businesses."
     },
     "notes-and-workspaces": {
       "name": "Notes and workspace apps",
@@ -90,7 +99,8 @@
         "Paid from",
         "Works offline",
         "Platforms"
-      ]
+      ],
+      "description": "Notes, documents and team wikis."
     },
     "photo-editors": {
       "name": "Photo editors",
@@ -99,7 +109,8 @@
         "Paid from",
         "Runs in",
         "Notes"
-      ]
+      ],
+      "description": "Edit and retouch photos."
     },
     "writing-assistants": {
       "name": "Writing assistants",
@@ -108,7 +119,8 @@
         "Paid from",
         "Languages",
         "Works in"
-      ]
+      ],
+      "description": "Grammar, spelling and style checking."
     },
     "word-processors": {
       "name": "Word processors",
@@ -117,7 +129,8 @@
         "Paid from",
         "Runs in",
         "Works with Word files"
-      ]
+      ],
+      "description": "Write and edit documents."
     },
     "classroom-quizzes": {
       "name": "Classroom quiz and polling tools",
@@ -126,7 +139,8 @@
         "Paid from",
         "Free plan limits",
         "What it's for"
-      ]
+      ],
+      "description": "Quizzes, polls and games for classes and meetings."
     },
     "video-meetings": {
       "name": "Video meeting apps",
@@ -135,7 +149,8 @@
         "Paid from",
         "Free meeting length",
         "Participants"
-      ]
+      ],
+      "description": "Video calls and online meetings."
     },
     "link-in-bio": {
       "name": "Link-in-bio tools",
@@ -144,7 +159,8 @@
         "Paid from",
         "Custom domain",
         "Sells products"
-      ]
+      ],
+      "description": "One link for a social profile that leads to everything else."
     },
     "project-management": {
       "name": "Project management",
@@ -153,7 +169,8 @@
         "Paid from",
         "Free plan users",
         "Built for"
-      ]
+      ],
+      "description": "Plan and track work across a team."
     },
     "ai-chat-assistants": {
       "name": "AI chat assistants",
@@ -162,7 +179,8 @@
         "Paid from",
         "Made by",
         "Notable for"
-      ]
+      ],
+      "description": "General-purpose AI chat assistants."
     }
   },
   "products": {

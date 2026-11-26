@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T02:39:25.316Z",
+ "generatedAt": "2026-11-26T18:29:33.525Z",
  "categories": [
   {
    "slug": "ai-headshot-generators",
@@ -8,11 +8,12 @@
    "sites": [
     {
      "host": "aragon.ai",
-     "checkedAt": "2026-11-26T02:39:01.246Z",
+     "checkedAt": "2026-11-26T18:28:38.120Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://www.aragon.ai/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "The Leading AI Headshot Generator | Aragon.ai",
      "description": "Get professional AI headshots in minutes with our new AI headshot generator. Save hundreds of dollars and hours of your time. Built by AI researchers.",
@@ -44,7 +45,7 @@
      "llmsTxt": true,
      "sitemap": {
       "found": true,
-      "entries": 355,
+      "entries": 357,
       "listedInRobots": true
      },
      "knownsiteLevel": 0,
@@ -54,165 +55,17 @@
       "framework": "Next.js",
       "cdn": null
      },
-     "ours": false
-    },
-    {
-     "host": "betterpic.io",
-     "checkedAt": "2026-11-26T02:39:01.266Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.betterpic.io/",
-     "status": 200,
-     "blocked": false,
-     "title": "Best AI Headshot Generator for Professional Photos",
-     "description": "BetterPic's AI headshot generator turns selfies into 4K professional headshots in under an hour. 150+ styles, studio quality, 100% money-back guarantee.",
-     "noindex": false,
-     "words": 2071,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 2
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 4,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "Vercel",
-      "framework": "Nuxt",
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "capturely.com",
-     "checkedAt": "2026-11-26T02:39:01.268Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://capturely.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Professional Virtual Headshots for Teams | Capturely",
-     "description": "Studio-quality team headshots in 10 minutes, no studio needed. Capturely connects your team with professional photographers via smartphone. Trusted by Google, Netflix, and 1,000+ companies.",
-     "noindex": false,
-     "words": 628,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 4,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": "WordPress",
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "freeheadshot.org",
-     "checkedAt": "2026-11-26T02:39:01.268Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://freeheadshot.org/",
-     "status": 200,
-     "blocked": false,
-     "title": "Free AI Headshot Generator | Professional Photos in 60 Seconds",
-     "description": "Upload one selfie and get three professional headshots in about 60 seconds. 232 styles, no signup, no card. Every style works on the free tier.",
-     "noindex": false,
-     "words": 4046,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 464,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "Vercel",
-      "framework": "Next.js",
-      "cdn": "Cloudflare"
-     },
+     "name": "Aragon",
      "ours": false
     },
     {
      "host": "headshotpro.com",
-     "checkedAt": "2026-11-26T02:39:01.269Z",
+     "checkedAt": "2026-11-26T18:28:38.137Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://www.headshotpro.com/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "AI Headshot Generator for Professional Headshots | HeadshotPro",
      "description": "Turn a few selfies into 30 to 70 studio-quality professional headshots in as little as 15 minutes. AI headshot generator for individuals and teams, from $29, 100% money-back guarantee.",
@@ -254,20 +107,22 @@
       "framework": "Nuxt",
       "cdn": null
      },
+     "name": "HeadshotPro",
      "ours": false
     },
     {
-     "host": "instaheadshots.com",
-     "checkedAt": "2026-11-26T02:39:01.269Z",
+     "host": "betterpic.io",
+     "checkedAt": "2026-11-26T18:28:38.138Z",
      "version": "0.1",
      "reachable": true,
-     "url": "https://magicstudio.com/headshots/",
+     "url": "https://www.betterpic.io/",
      "status": 200,
+     "html": true,
      "blocked": false,
-     "title": "Magic Studio - Most Realistic AI Headshot Generator",
-     "description": "Get 100s of stunning AI headshots with Magic Studio's AI Headshot Generator. Rated 5/5 on Trustpilot with 36 million+ headshots already delivered!",
+     "title": "Best AI Headshot Generator for Professional Photos",
+     "description": "BetterPic's AI headshot generator turns selfies into 4K professional headshots in under an hour. 150+ styles, studio quality, 100% money-back guarantee.",
      "noindex": false,
-     "words": 2188,
+     "words": 2071,
      "jsonLd": true,
      "robots": {
       "found": true,
@@ -291,128 +146,30 @@
       },
       "sitemaps": 2
      },
-     "llmsTxt": false,
+     "llmsTxt": true,
      "sitemap": {
       "found": true,
-      "entries": 11,
+      "entries": 4,
       "listedInRobots": true
      },
      "knownsiteLevel": 0,
      "platform": {
       "builder": null,
       "host": "Vercel",
-      "framework": "Next.js",
+      "framework": "Nuxt",
       "cdn": null
      },
-     "ours": false
-    },
-    {
-     "host": "photopacks.ai",
-     "checkedAt": "2026-11-26T02:39:01.270Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.photopacks.ai/index.html",
-     "status": 200,
-     "blocked": false,
-     "title": "The #1 AI Headshot Generator For Professionals",
-     "description": "Our AI headshot generator creates 40+ professional headshots from your ordinary photos in less than 1 hour. Perfect for LinkedIn, resumes & more.",
-     "noindex": false,
-     "words": 1377,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 1,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "AWS CloudFront",
-      "framework": "Next.js",
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "profilebakery.com",
-     "checkedAt": "2026-11-26T02:39:01.270Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://profilebakery.com/",
-     "status": 429,
-     "blocked": true,
-     "title": null,
-     "description": null,
-     "noindex": null,
-     "words": null,
-     "jsonLd": null,
-     "robots": {
-      "found": false,
-      "status": 429,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 0
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": false,
-      "entries": 0,
-      "listedInRobots": false
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "Vercel",
-      "framework": null,
-      "cdn": null
-     },
+     "name": "BetterPic",
      "ours": false
     },
     {
      "host": "realest-ai-headshot.com",
-     "checkedAt": "2026-11-26T02:39:05.305Z",
+     "checkedAt": "2026-11-26T18:28:38.138Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://realest-ai-headshot.com/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "AI Headshot Generator That Still Looks Like You | Realest AI Headshot",
      "description": "Turn a few selfies into professional headshots for LinkedIn, résumés and listings, without the AI turning you into a prettier stranger. Try one for $5.99.",
@@ -454,15 +211,17 @@
       "framework": "Next.js",
       "cdn": "Cloudflare"
      },
+     "name": "Realest AI Headshot",
      "ours": true
     },
     {
      "host": "secta.ai",
-     "checkedAt": "2026-11-26T02:39:05.310Z",
+     "checkedAt": "2026-11-26T18:28:38.139Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://secta.ai/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "#1 AI Headshot generator for Professionals 20m+ generations | Secta Labs",
      "description": "More than an AI headshot generator. Own your first impression with Secta Labs. Professional and fun photos, risk-free and in less than an hour.",
@@ -504,15 +263,17 @@
       "framework": "Next.js",
       "cdn": null
      },
+     "name": "Secta Labs",
      "ours": false
     },
     {
      "host": "tryitonai.com",
-     "checkedAt": "2026-11-26T02:39:05.321Z",
+     "checkedAt": "2026-11-26T18:28:38.140Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://tryitonai.com/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "Try it on | LinkedIn posts and headshots for local professionals",
      "description": "Answer one short question a day and get a LinkedIn post in your words, with a professional photo of you. AI headshots from a selfie, from $35.",
@@ -554,6 +315,59 @@
       "framework": "Next.js",
       "cdn": null
      },
+     "name": "Try It On AI",
+     "ours": false
+    },
+    {
+     "host": "magicstudio.com",
+     "checkedAt": "2026-11-26T18:29:03.215Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://magicstudio.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Magic Studio | Realistic AI Headshot Generator",
+     "description": "Turn your selfies into realistic, professional headshots for LinkedIn, resumes and work. Rated 5/5 by 17,000+ reviewers on Trustpilot.",
+     "noindex": false,
+     "words": 1553,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 3
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 12,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "InstaHeadshots (Magic Studio)",
      "ours": false
     }
    ]
@@ -564,171 +378,13 @@
    "description": "Tools that check or track how a site shows up in AI assistants and AI search.",
    "sites": [
     {
-     "host": "citeworthy.io",
-     "checkedAt": "2026-11-26T02:39:05.326Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://citeworthy.io/",
-     "status": 200,
-     "blocked": false,
-     "title": "Citeworthy — SEO & AI-visibility audits for your website",
-     "description": "Citeworthy audits your site the way AI crawlers and search engines read it, shows you what blocks them, and serves the fixes you approve from the edge.",
-     "noindex": false,
-     "words": 1916,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 20,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "knownsite.dev",
-     "checkedAt": "2026-11-26T02:39:05.334Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://knownsite.dev/",
-     "status": 200,
-     "blocked": false,
-     "title": "Knownsite: get your site found by search engines and AI assistants",
-     "description": "Free, open-source tool that gets your site indexed by Google, Bing, ChatGPT, Claude and Perplexity automatically, every time you deploy.",
-     "noindex": false,
-     "words": 1081,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 9,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 2,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": "Next.js",
-      "cdn": null
-     },
-     "ours": true
-    },
-    {
-     "host": "otterly.ai",
-     "checkedAt": "2026-11-26T02:39:05.341Z",
-     "version": "0.1",
-     "reachable": false,
-     "error": "connection closed",
-     "robots": null,
-     "ours": false
-    },
-    {
-     "host": "peec.ai",
-     "checkedAt": "2026-11-26T02:39:05.385Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://peec.ai/",
-     "status": 200,
-     "blocked": false,
-     "title": "Peec AI - AI Search Platform for Marketing Teams",
-     "description": "Peec AI is an AI search platform that helps marketing teams understand and improve how their brands are discovered, represented, and recommended.",
-     "noindex": false,
-     "words": 2330,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 193,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "Vercel",
-      "framework": "Next.js",
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
      "host": "tryprofound.com",
-     "checkedAt": "2026-11-26T02:39:05.478Z",
+     "checkedAt": "2026-11-26T18:28:38.140Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://www.tryprofound.com/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "The AI Platform to Power Your Marketing | Profound",
      "description": "Profound is the AI marketing platform built for the agentic era. See what your customers ask AI, deploy agents to act on it, and measure the results in a collaborative workbench",
@@ -770,177 +426,22 @@
       "framework": "Next.js",
       "cdn": "Cloudflare"
      },
-     "ours": false
-    }
-   ]
-  },
-  {
-   "slug": "ai-assistants",
-   "name": "AI assistants",
-   "description": "General-purpose AI chat assistants.",
-   "sites": [
-    {
-     "host": "chatgpt.com",
-     "checkedAt": "2026-11-26T02:39:06.993Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://chatgpt.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "ChatGPT: Chat, Work, Create & Code with AI",
-     "description": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
-     "noindex": false,
-     "words": 277,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": false
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": false,
-       "Applebot-Extended": true,
-       "CCBot": false,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 3
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 80,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
+     "name": "Profound",
      "ours": false
     },
     {
-     "host": "claude.ai",
-     "checkedAt": "2026-11-26T02:39:09.357Z",
+     "host": "peec.ai",
+     "checkedAt": "2026-11-26T18:28:38.141Z",
      "version": "0.1",
      "reachable": true,
-     "url": "https://claude.ai/",
-     "status": 403,
-     "blocked": true,
-     "title": null,
-     "description": null,
-     "noindex": null,
-     "words": null,
-     "jsonLd": null,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": false,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": false,
-       "ClaudeBot": true,
-       "Google-Extended": false,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": false,
-      "entries": 0,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "copilot.microsoft.com",
-     "checkedAt": "2026-11-26T02:39:09.362Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://copilot.com/",
+     "url": "https://peec.ai/",
      "status": 200,
+     "html": true,
      "blocked": false,
-     "title": "Microsoft Copilot | Sign in",
-     "description": "Microsoft Copilot is AI built to help you get things done. Create, brainstorm, learn, and solve problems with AI chat that works across your day.",
+     "title": "Peec AI - AI Search Platform for Marketing Teams",
+     "description": "Peec AI is an AI search platform that helps marketing teams understand and improve how their brands are discovered, represented, and recommended.",
      "noindex": false,
-     "words": 979,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 0
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 288,
-      "listedInRobots": false
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "gemini.google.com",
-     "checkedAt": "2026-11-26T02:39:09.371Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://gemini.google.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "‎Google Gemini",
-     "description": "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
-     "noindex": false,
-     "words": 6,
+     "words": 2022,
      "jsonLd": true,
      "robots": {
       "found": true,
@@ -964,10 +465,72 @@
       },
       "sitemaps": 1
      },
-     "llmsTxt": false,
+     "llmsTxt": true,
      "sitemap": {
       "found": true,
-      "entries": 350,
+      "entries": 194,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Peec AI",
+     "ours": false
+    },
+    {
+     "host": "otterly.ai",
+     "checkedAt": "2026-11-26T18:28:42.185Z",
+     "version": "0.1",
+     "reachable": false,
+     "error": "connection closed",
+     "robots": null,
+     "name": "Otterly.AI",
+     "ours": false
+    },
+    {
+     "host": "citeworthy.io",
+     "checkedAt": "2026-11-26T18:28:42.196Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://citeworthy.io/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Citeworthy — SEO & AI-visibility audits for your website",
+     "description": "Citeworthy audits your site the way AI crawlers and search engines read it, shows you what blocks them, and serves the fixes you approve from the edge.",
+     "noindex": false,
+     "words": 1916,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 20,
       "listedInRobots": true
      },
      "knownsiteLevel": 0,
@@ -975,230 +538,77 @@
       "builder": null,
       "host": null,
       "framework": null,
-      "cdn": null
+      "cdn": "Cloudflare"
      },
+     "name": "Citeworthy",
      "ours": false
     },
     {
-     "host": "perplexity.ai",
-     "checkedAt": "2026-11-26T02:39:09.430Z",
+     "host": "knownsite.dev",
+     "checkedAt": "2026-11-26T18:28:42.200Z",
      "version": "0.1",
      "reachable": true,
-     "url": "https://www.perplexity.ai/",
+     "url": "https://knownsite.dev/",
      "status": 200,
+     "html": true,
      "blocked": false,
-     "title": "Perplexity",
-     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+     "title": "Knownsite: get your site found by search engines and AI assistants",
+     "description": "Free, open-source tool that gets your site indexed by Google, Bing, ChatGPT, Claude and Perplexity automatically, every time you deploy.",
      "noindex": false,
-     "words": 0,
+     "words": 1085,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 79,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 2,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Knownsite",
+     "ours": true
+    },
+    {
+     "host": "scrunch.com",
+     "checkedAt": "2026-11-26T18:29:01.498Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://scrunch.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Scrunch | The AI Customer Experience Platform | AI search visibility & optimization",
+     "description": "Monitor brand presence in AI search, analyze and optimize your website, and deliver content directly to AI agents with Scrunch.",
+     "noindex": false,
+     "words": 5194,
      "jsonLd": false,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 2
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 4,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    }
-   ]
-  },
-  {
-   "slug": "website-builders",
-   "name": "Website builders and hosts",
-   "description": "Where sites are built and deployed, including AI site builders.",
-   "sites": [
-    {
-     "host": "bolt.new",
-     "checkedAt": "2026-11-26T02:39:09.546Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://bolt.new/",
-     "status": 200,
-     "blocked": false,
-     "title": "Bolt AI builder: Websites, apps & prototypes",
-     "description": "Build and scale high-performing websites & apps using your words. Join millions and start building today.",
-     "noindex": false,
-     "words": 508,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 3
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 2,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "framer.com",
-     "checkedAt": "2026-11-26T02:39:11.198Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.framer.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Framer: Free website builder and AI design agent",
-     "description": "The free website builder with a design agent that takes you from idea to launch. Changes stay editable, with hosting, CMS, analytics, SEO, and AEO built in.",
-     "noindex": false,
-     "words": 1705,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 0
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 2,
-      "listedInRobots": false
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": "Framer",
-      "host": null,
-      "framework": null,
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "lovable.dev",
-     "checkedAt": "2026-11-26T02:39:12.501Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://lovable.dev/",
-     "status": 403,
-     "blocked": true,
-     "title": null,
-     "description": null,
-     "noindex": null,
-     "words": null,
-     "jsonLd": null,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 11,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "netlify.com",
-     "checkedAt": "2026-11-26T02:39:12.511Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.netlify.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Where apps come to life | Netlify",
-     "description": "Start with a prompt, agent, or code. Netlify gives you everything you need to create, share, and run your app at any scale.",
-     "noindex": false,
-     "words": 934,
-     "jsonLd": true,
      "robots": {
       "found": true,
       "status": 200,
@@ -1230,567 +640,63 @@
      "knownsiteLevel": 0,
      "platform": {
       "builder": null,
-      "host": "Netlify",
+      "host": null,
+      "framework": "Astro",
+      "cdn": "Cloudflare"
+     },
+     "name": "Scrunch",
+     "ours": false
+    },
+    {
+     "host": "athenahq.ai",
+     "checkedAt": "2026-11-26T18:29:01.945Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://athenahq.ai/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "AthenaHQ | Agents to Win on AI Search",
+     "description": "AthenaHQ is a leading AEO & GEO platform trusted by commercial & enterprise businesses to become the answer AI gives and the brand AI trusts.",
+     "noindex": false,
+     "words": 2502,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 242,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
       "framework": "Astro",
       "cdn": null
      },
-     "ours": false
-    },
-    {
-     "host": "squarespace.com",
-     "checkedAt": "2026-11-26T02:39:13.413Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.squarespace.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Website Builder – Easily Create Your Own Website &mdash; Squarespace",
-     "description": "Create a website and grow your business with a free Squarespace trial. Start with customizable website templates, AI website builder tools, or a domain name.",
-     "noindex": false,
-     "words": 3971,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 6256,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": "Squarespace",
-      "host": null,
-      "framework": null,
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "v0.app",
-     "checkedAt": "2026-11-26T02:39:13.451Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://v0.app/",
-     "status": 200,
-     "blocked": false,
-     "title": "v0 by Vercel - Build Full-Stack Web Apps with AI",
-     "description": "Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.",
-     "noindex": false,
-     "words": 673,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 5,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "Vercel",
-      "framework": "Next.js",
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "vercel.com",
-     "checkedAt": "2026-11-26T02:39:13.513Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://vercel.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Agentic Infrastructure - Vercel",
-     "description": "The autonomous stack for every app and agent.",
-     "noindex": false,
-     "words": 552,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 9622,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "Vercel",
-      "framework": "Next.js",
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "webflow.com",
-     "checkedAt": "2026-11-26T02:39:13.531Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://webflow.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Webflow: The agentic web platform for modern businesses",
-     "description": "Design, build, optimize, and rank in AI search — all in Webflow. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams.",
-     "noindex": false,
-     "words": 2968,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 6,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": "Webflow",
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "wix.com",
-     "checkedAt": "2026-11-26T02:39:13.637Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.wix.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Wix.com - The platform trusted by millions of businesses",
-     "description": "Build the business you have in mind on a platform trusted by millions. Hosting, business tools, domains and marketing built in. Try it for free.",
-     "noindex": true,
-     "words": 937,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 9339,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": "Wix",
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    }
-   ]
-  },
-  {
-   "slug": "ai-image-tools",
-   "name": "AI image and photo tools",
-   "description": "Editing, upscaling, background removal and image generation.",
-   "sites": [
-    {
-     "host": "canva.com",
-     "checkedAt": "2026-11-26T02:39:15.248Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.canva.com/",
-     "status": 403,
-     "blocked": true,
-     "title": null,
-     "description": null,
-     "noindex": null,
-     "words": null,
-     "jsonLd": null,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": false,
-       "ClaudeBot": false,
-       "Google-Extended": true,
-       "Applebot-Extended": false,
-       "CCBot": false,
-       "Meta-ExternalAgent": false
-      },
-      "sitemaps": 2
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 3,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "firefly.adobe.com",
-     "checkedAt": "2026-11-26T02:39:16.525Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://firefly.adobe.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Adobe Firefly: Your all-in-one AI creative studio",
-     "description": "Firefly gives you the speed, control, and creative freedom to go from idea to high-quality content. Generate images, video, audio and more with 30+ AI models, all in one place.",
-     "noindex": false,
-     "words": 57,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 30,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": "AWS CloudFront",
-      "framework": null,
-      "cdn": null
-     },
-     "ours": false
-    },
-    {
-     "host": "letsenhance.io",
-     "checkedAt": "2026-11-26T02:39:16.620Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://letsenhance.io/",
-     "status": 200,
-     "blocked": false,
-     "title": "Let's Enhance: AI Image App to Upscale, Sharpen & Improve Quality Online | Try Free",
-     "description": "Try our AI image & video tools: enhancer, upscaler, generator, editor. Online & API. Free to start.",
-     "noindex": false,
-     "words": 615,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 0
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": false,
-      "entries": 0,
-      "listedInRobots": false
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": "Gatsby",
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "picsart.com",
-     "checkedAt": "2026-11-26T02:39:17.479Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://picsart.com/",
-     "status": 200,
-     "blocked": false,
-     "title": "Picsart | Create, Edit, and Share",
-     "description": "Make videos, images, and designs with Picsart. Edit and share what you make, and explore ways to earn from it.",
-     "noindex": false,
-     "words": 11567,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 9
-     },
-     "llmsTxt": true,
-     "sitemap": {
-      "found": true,
-      "entries": 634,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": "Next.js",
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "remove.bg",
-     "checkedAt": "2026-11-26T02:39:17.511Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://www.remove.bg/",
-     "status": 200,
-     "blocked": false,
-     "title": "Remove Background from Image for Free – remove.bg",
-     "description": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.",
-     "noindex": false,
-     "words": 374,
-     "jsonLd": false,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 9,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": null,
-      "cdn": "Cloudflare"
-     },
-     "ours": false
-    },
-    {
-     "host": "upscayl.org",
-     "checkedAt": "2026-11-26T02:39:17.572Z",
-     "version": "0.1",
-     "reachable": true,
-     "url": "https://upscayl.org/",
-     "status": 200,
-     "blocked": false,
-     "title": "Upscayl - AI Image Upscaler",
-     "description": "The #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. Upscayl uses the power of AI to upscale your images with the best quality possible.",
-     "noindex": false,
-     "words": 1792,
-     "jsonLd": true,
-     "robots": {
-      "found": true,
-      "status": 200,
-      "aiSearch": {
-       "OAI-SearchBot": true,
-       "Claude-SearchBot": true,
-       "PerplexityBot": true
-      },
-      "search": {
-       "Googlebot": true,
-       "Bingbot": true
-      },
-      "training": {
-       "GPTBot": true,
-       "ClaudeBot": true,
-       "Google-Extended": true,
-       "Applebot-Extended": true,
-       "CCBot": true,
-       "Meta-ExternalAgent": true
-      },
-      "sitemaps": 1
-     },
-     "llmsTxt": false,
-     "sitemap": {
-      "found": true,
-      "entries": 1,
-      "listedInRobots": true
-     },
-     "knownsiteLevel": 0,
-     "platform": {
-      "builder": null,
-      "host": null,
-      "framework": "Next.js",
-      "cdn": "Cloudflare"
-     },
+     "name": "AthenaHQ",
      "ours": false
     }
    ]
@@ -1798,15 +704,16 @@
   {
    "slug": "transcription",
    "name": "Transcription",
-   "description": "Turn audio and video into text.",
+   "description": "Turn meetings, audio and video into text.",
    "sites": [
     {
      "host": "otter.ai",
-     "checkedAt": "2026-11-26T02:39:17.689Z",
+     "checkedAt": "2026-11-26T18:28:42.205Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://otter.ai/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "Otter Meeting Agent - AI Notetaker, Transcription, Insights",
      "description": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
@@ -1848,15 +755,173 @@
       "framework": null,
       "cdn": "Cloudflare"
      },
+     "name": "Otter.ai",
+     "ours": false
+    },
+    {
+     "host": "fireflies.ai",
+     "checkedAt": "2026-11-26T18:28:42.214Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://fireflies.ai/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Fireflies.ai | AI Teammate to transcribe, summarize, analyze meetings, Real time AI note taker",
+     "description": "Fireflies uses generative AI to bring ChatGPT to meetings. Generate transcripts and smart summaries for Zoom, Google Meet, Microsoft Teams, Webex and several other platforms.",
+     "noindex": false,
+     "words": 1456,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 8,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "name": "Fireflies.ai",
+     "ours": false
+    },
+    {
+     "host": "fathom.ai",
+     "checkedAt": "2026-11-26T18:28:42.292Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.fathom.ai/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Fathom AI Notetaker - Never Take Notes Again",
+     "description": "Fathom captures, transcribes, and summarizes Zoom, Google Meet, and Microsoft Teams calls. Free for individuals, with AI-powered CRM updates for teams.",
+     "noindex": false,
+     "words": 1283,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 155,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Fathom",
+     "ours": false
+    },
+    {
+     "host": "rev.com",
+     "checkedAt": "2026-11-26T18:28:42.362Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.rev.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Investigative Intelligence & Legal Transcription Platform | Rev",
+     "description": "Built for investigations that hold up under court. Rev’s legal AI platform turns digital evidence into verified, citable findings to help you manage your case.",
+     "noindex": false,
+     "words": 2487,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 4321,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Rev",
      "ours": false
     },
     {
      "host": "turboscribe.ai",
-     "checkedAt": "2026-11-26T02:39:19.126Z",
+     "checkedAt": "2026-11-26T18:28:43.757Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://turboscribe.ai/",
      "status": 403,
+     "html": true,
      "blocked": true,
      "title": null,
      "description": null,
@@ -1898,22 +963,24 @@
       "framework": null,
       "cdn": "Cloudflare"
      },
+     "name": "TurboScribe",
      "ours": false
     }
    ]
   },
   {
    "slug": "pdf-tools",
-   "name": "PDF tools",
-   "description": "Merge, split, compress and convert PDFs online.",
+   "name": "Online PDF tools",
+   "description": "Merge, split, compress and convert PDFs.",
    "sites": [
     {
      "host": "ilovepdf.com",
-     "checkedAt": "2026-11-26T02:39:19.399Z",
+     "checkedAt": "2026-11-26T18:28:45.195Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://www.ilovepdf.com/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "iLovePDF | Online PDF tools for PDF lovers",
      "description": "iLovePDF is an online service to work with PDF files completely free and easy to use. Merge PDF, split PDF, compress PDF, office to PDF, PDF to JPG and more!",
@@ -1955,15 +1022,17 @@
       "framework": null,
       "cdn": "Cloudflare"
      },
+     "name": "iLovePDF",
      "ours": false
     },
     {
      "host": "smallpdf.com",
-     "checkedAt": "2026-11-26T02:39:20.666Z",
+     "checkedAt": "2026-11-26T18:28:46.233Z",
      "version": "0.1",
      "reachable": true,
      "url": "https://smallpdf.com/",
      "status": 200,
+     "html": true,
      "blocked": false,
      "title": "Smallpdf - A Free Solution to all your PDF Problems",
      "description": "Smallpdf - the platform that makes it super easy to convert and edit all your PDF files. Solving all your PDF problems in one place - and yes, free.",
@@ -2005,6 +1074,4528 @@
       "framework": null,
       "cdn": null
      },
+     "name": "Smallpdf",
+     "ours": false
+    },
+    {
+     "host": "pdf24.org",
+     "checkedAt": "2026-11-26T18:28:46.281Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.pdf24.org/en/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Solutions for all PDF problems - 100% free - PDF24",
+     "description": "Free solutions for all PDF problems. Online and offline. Merge PDF, Compress PDF, Edit PDF, Convert PDF, ...",
+     "noindex": false,
+     "words": 196,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "PDF24 Tools",
+     "ours": false
+    },
+    {
+     "host": "sejda.com",
+     "checkedAt": "2026-11-26T18:28:46.332Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.sejda.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Sejda helps with your PDF tasks",
+     "description": "Sejda helps with your PDF tasks. Quick and simple online service, no installation required! Split, merge or convert PDF to images, alternate mix or split scans and many other.",
+     "noindex": false,
+     "words": 2366,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 753,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Sejda",
+     "ours": false
+    },
+    {
+     "host": "simple-ai-tools.web.app",
+     "checkedAt": "2026-11-26T18:28:46.457Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://simple-ai-tools.web.app/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Simple AI Tools: free online tools, no upload, no sign-up",
+     "description": "Free tools that run in your browser: compress and resize images, HEIC to JPG, passport photos, merge PDFs, QR codes. Your files never leave your device.",
+     "noindex": false,
+     "words": 324,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Firebase Hosting",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Simple AI Tools",
+     "ours": true
+    }
+   ]
+  },
+  {
+   "slug": "image-compression",
+   "name": "Image compressors",
+   "description": "Make image files smaller.",
+   "sites": [
+    {
+     "host": "tinypng.com",
+     "checkedAt": "2026-11-26T18:28:46.616Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://tinypng.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "TinyPNG – Image Compressor: AVIF, JPEG XL, WebP, PNG, JPEG",
+     "description": "Free online image compressor for faster websites! Reduce the file size of AVIF, JPEG XL, WebP, PNG and JPEG images with TinyPNG’s smart lossy compression.",
+     "noindex": false,
+     "words": 2792,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 447,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "TinyPNG",
+     "ours": false
+    },
+    {
+     "host": "squoosh.app",
+     "checkedAt": "2026-11-26T18:28:47.859Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://squoosh.app/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Squoosh",
+     "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+     "noindex": false,
+     "words": 80,
+     "jsonLd": false,
+     "robots": {
+      "found": false,
+      "status": 404,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Netlify",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Squoosh",
+     "ours": false
+    },
+    {
+     "host": "iloveimg.com",
+     "checkedAt": "2026-11-26T18:28:49.219Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.iloveimg.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "iLoveIMG | The fastest free web app for easy image modification.",
+     "description": "iLoveIMG is the webapp that lets you modify images in seconds for free. Crop, resize, compress, convert, and more in just a few clicks!",
+     "noindex": false,
+     "words": 615,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1622,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "iLoveIMG",
+     "ours": false
+    },
+    {
+     "host": "simple-ai-tools.web.app",
+     "checkedAt": "2026-11-26T18:28:46.457Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://simple-ai-tools.web.app/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Simple AI Tools: free online tools, no upload, no sign-up",
+     "description": "Free tools that run in your browser: compress and resize images, HEIC to JPG, passport photos, merge PDFs, QR codes. Your files never leave your device.",
+     "noindex": false,
+     "words": 324,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Firebase Hosting",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Simple AI Tools",
+     "ours": true
+    },
+    {
+     "host": "imageoptim.com",
+     "checkedAt": "2026-11-26T18:28:49.237Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://imageoptim.com/mac",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ImageOptim — better Save for Web",
+     "description": "A free app that makes images load faster and take less disk space, without sacrificing quality. Removes private EXIF data from photos and improves compression.",
+     "noindex": false,
+     "words": 855,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "ImageOptim",
+     "ours": false
+    },
+    {
+     "host": "shortpixel.com",
+     "checkedAt": "2026-11-26T18:28:50.448Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://shortpixel.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ShortPixel Image Optimizer – Compress & Convert to WebP & AVIF | ShortPixel",
+     "description": "The best image optimization plugin for WordPress to boost your site speed! Optimize images and PDFs, bulk compress to WebP/AVIF, resize, and enable lazy loading.",
+     "noindex": false,
+     "words": 1433,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "ShortPixel",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "background-removal",
+   "name": "Background removers",
+   "description": "Remove the background from a photo.",
+   "sites": [
+    {
+     "host": "remove.bg",
+     "checkedAt": "2026-11-26T18:28:50.480Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.remove.bg/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Remove Background from Image for Free – remove.bg",
+     "description": "Remove image backgrounds automatically in 5 seconds with just one click. Don't spend hours manually picking pixels. Upload your photo now & see the magic.",
+     "noindex": false,
+     "words": 374,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 9,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "remove.bg",
+     "ours": false
+    },
+    {
+     "host": "photoroom.com",
+     "checkedAt": "2026-11-26T18:28:50.483Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.photoroom.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "The AI Photo and Video Editor for E‑commerce | Photoroom",
+     "description": "Photoroom turns your product photos into listing images and videos that help you sell, from product page videos to video ads.",
+     "noindex": false,
+     "words": 2129,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 399,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Astro",
+      "cdn": "Cloudflare"
+     },
+     "name": "Photoroom",
+     "ours": false
+    },
+    {
+     "host": "pixelcut.ai",
+     "checkedAt": "2026-11-26T18:28:50.786Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.pixelcut.ai/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Pixelcut | Free AI Photo Editor",
+     "description": "Easy-to-use AI tools to make your photos stand out!",
+     "noindex": false,
+     "words": 504,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 14,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Pixelcut",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "rental-management",
+   "name": "Rental management for landlords",
+   "description": "Listing, screening and rent collection for landlords.",
+   "sites": [
+    {
+     "host": "turbotenant.com",
+     "checkedAt": "2026-11-26T18:28:50.876Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.turbotenant.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "TurboTenant | Rental Property Management",
+     "description": "Over 1M landlords trust TurboTenant for rental property management. Whether you self-manage or want full-service, we have a solution for you.",
+     "noindex": false,
+     "words": 1354,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 10,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "TurboTenant",
+     "ours": false
+    },
+    {
+     "host": "avail.com",
+     "checkedAt": "2026-11-26T18:28:51.952Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.avail.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Avail | Landlord Software & Property Management Software for Rental Property Management",
+     "description": "Simplify rental property management with Avail. Use free landlord software to screen tenants, create leases, and collect rent with our DIY landlord tools.",
+     "noindex": false,
+     "words": 1254,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 274,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "name": "Avail",
+     "ours": false
+    },
+    {
+     "host": "rentredi.com",
+     "checkedAt": "2026-11-26T18:28:53.264Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://rentredi.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "RentRedi – Property Management Software for Landlords | Free to Start",
+     "description": "Manage rentals with ease. RentRedi helps landlords collect rent, screen tenants, and handle maintenance — all from one simple dashboard.",
+     "noindex": false,
+     "words": 1484,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1061,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Framer",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "RentRedi",
+     "ours": false
+    },
+    {
+     "host": "tenantcloud.com",
+     "checkedAt": "2026-11-26T18:28:53.427Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.tenantcloud.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "TenantCloud: Property Management Software",
+     "description": "Cloud-based property management software for Landlords, Property Managers, Tenants and Service Pros. Build rental history, collect or pay rent online, store accounting. Online rental applications and Maintenance requests.",
+     "noindex": false,
+     "words": 2685,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 6,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "TenantCloud",
+     "ours": false
+    },
+    {
+     "host": "innago.com",
+     "checkedAt": "2026-11-26T18:28:54.562Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://innago.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Innago - Property Management Software Built for You",
+     "description": "Whether you have one unit or one thousand. Innago makes life easier. Streamline your property management with our comprehensive platform for landlords and property managers.",
+     "noindex": false,
+     "words": 631,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1114,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Innago",
+     "ours": false
+    },
+    {
+     "host": "fia.rent",
+     "checkedAt": "2026-11-26T18:28:54.806Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://fia.rent/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Fía — Verified tenants, without the chaos",
+     "description": "Post your unit, screen tenants and collect rent — in Spanish and English. Rent with confidence.",
+     "noindex": false,
+     "words": 1034,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 31,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Fía",
+     "ours": true
+    },
+    {
+     "host": "appfolio.com",
+     "checkedAt": "2026-11-26T18:28:54.910Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.appfolio.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "AppFolio: Move Beyond Property Management Software",
+     "description": "Ditch yesterday’s property management software. Learn how the AppFolio Performance Platform helps you deliver more value for residents, owners, and investors.",
+     "noindex": false,
+     "words": 1286,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 629,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Nuxt",
+      "cdn": null
+     },
+     "name": "AppFolio",
+     "ours": false
+    },
+    {
+     "host": "buildium.com",
+     "checkedAt": "2026-11-26T18:28:55.340Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.buildium.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Buildium: Property Management Software",
+     "description": "Property management software built to keep property managers ahead of what's next. Control day-to-day tasks, offer top app experiences, and uncover new revenue.",
+     "noindex": false,
+     "words": 3274,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 23,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Buildium",
+     "ours": false
+    },
+    {
+     "host": "doorloop.com",
+     "checkedAt": "2026-11-26T18:28:55.948Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.doorloop.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Property Management Software | DoorLoop",
+     "description": "DoorLoop is the highest rated rental property management software that helps screen tenants, collect rent, manage accounting, & more.",
+     "noindex": false,
+     "words": 1743,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 2458,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "DoorLoop",
+     "ours": false
+    },
+    {
+     "host": "baselane.com",
+     "checkedAt": "2026-11-26T18:28:56.036Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.baselane.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Baselane: Landlord Software - Banking, Accounting & Rent Collection",
+     "description": "Gain clarity and control of your rental property finances with all-in-one banking, accounting, and automated rent collection. Sign up with Baselane for free!",
+     "noindex": false,
+     "words": 872,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 747,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Baselane",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "prayer-and-bible-apps",
+   "name": "Prayer and Bible apps",
+   "description": "Daily prayer, Scripture and devotionals.",
+   "sites": [
+    {
+     "host": "youversion.com",
+     "checkedAt": "2026-11-26T18:28:57.341Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.youversion.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "YouVersion | Free Bible Apps & Digital Ministry Tools",
+     "description": "Discover YouVersion’s free Bible apps and digital tools that help people, churches, and ministries engage with God’s Word every day.",
+     "noindex": false,
+     "words": 794,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 671,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "YouVersion Bible App",
+     "ours": false
+    },
+    {
+     "host": "biblegateway.com",
+     "checkedAt": "2026-11-26T18:28:57.774Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.biblegateway.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "BibleGateway.com: A searchable online Bible in over 150 versions and 50 languages.",
+     "description": "Read, hear, and study Scripture at the world's most-visited Christian website. Grow your faith with devotionals, Bible reading plans, and mobile apps.",
+     "noindex": false,
+     "words": 2045,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 12,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Bible Gateway",
+     "ours": false
+    },
+    {
+     "host": "olivetree.com",
+     "checkedAt": "2026-11-26T18:28:58.670Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.olivetree.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Olive Tree Bible Software",
+     "description": null,
+     "noindex": false,
+     "words": 4747,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Olive Tree Bible App",
+     "ours": false
+    },
+    {
+     "host": "glorify.global",
+     "checkedAt": "2026-11-26T18:28:58.858Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.glorify.global/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Glorify Ring | The World's First Christian Smart Ring",
+     "description": "Meet Glorify Ring, a Christian smart ring with gentle haptic reminders, phone-free voice notes for thoughts, and body insights in the Glorify App.",
+     "noindex": false,
+     "words": 5506,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1176,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Glorify",
+     "ours": false
+    },
+    {
+     "host": "reina.web.app",
+     "checkedAt": "2026-11-26T18:28:58.959Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://reina.web.app/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Reina de la Paz: oración diaria",
+     "description": "El Evangelio del día, una breve reflexión y una oración. Gratis, en español y en inglés.",
+     "noindex": false,
+     "words": 477,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 80,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 2,
+     "platform": {
+      "builder": null,
+      "host": "Firebase Hosting",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Reina de la Paz",
+     "ours": true
+    },
+    {
+     "host": "hallow.com",
+     "checkedAt": "2026-11-26T18:28:59.720Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://hallow.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "#1 App for Christian & Catholic Prayer, Meditation, Bible + Sleep | Hallow",
+     "description": "Pray every day this Lent with Mark Wahlberg, Chris Pratt, Jonathan Roumie, and millions of others around the world on Hallow, the #1 prayer app.",
+     "noindex": false,
+     "words": 206,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 3
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Hallow",
+     "ours": false
+    },
+    {
+     "host": "abide.com",
+     "checkedAt": "2026-11-26T18:29:00.106Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://abide.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Abide: The #1 Christian App - Sleep Meditation Bible",
+     "description": "Connect with God in a New Way Christian Meditation to Transform Your Life Download the Abide App for free today. [&hellip;]",
+     "noindex": false,
+     "words": 519,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Abide",
+     "ours": false
+    },
+    {
+     "host": "pray.com",
+     "checkedAt": "2026-11-26T18:29:00.176Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.pray.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Pray.com: Daily Prayer, Bible Stories & Christian Podcasts",
+     "description": "Christian podcasts, daily prayers, Bible stories, meditations and worship music from Pray.com.",
+     "noindex": false,
+     "words": 2731,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 30
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 692,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Pray.com",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "accounting-software",
+   "name": "Accounting software",
+   "description": "Invoicing, expenses and books for small businesses.",
+   "sites": [
+    {
+     "host": "quickbooks.intuit.com",
+     "checkedAt": "2026-11-26T18:29:03.310Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://quickbooks.intuit.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "QuickBooks®: Official Site | Smart Tools. Better Business.",
+     "description": "Organize & manage your business with the #1 rated solution. Fast & easy setup. Sign up for a free trial to join 7 million businesses already using QuickBooks.",
+     "noindex": false,
+     "words": 3796,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 33
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 822,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "QuickBooks",
+     "ours": false
+    },
+    {
+     "host": "xero.com",
+     "checkedAt": "2026-11-26T18:29:03.743Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.xero.com/us/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Accounting Software for Small Businesses | Xero US",
+     "description": "Xero online accounting software for your business connects you to your bank, accountant, bookkeeper, and other business apps. Start a free trial today. ",
+     "noindex": false,
+     "words": 1417,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 14,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Xero",
+     "ours": false
+    },
+    {
+     "host": "freshbooks.com",
+     "checkedAt": "2026-11-26T18:29:04.382Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.freshbooks.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Invoice and Accounting Software for Small Businesses - FreshBooks",
+     "description": "The best cloud based small business accounting software. Send invoices, track time, manage receipts, expenses, and accept credit cards. Free 30-day trial.",
+     "noindex": false,
+     "words": 1932,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 15,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "FreshBooks",
+     "ours": false
+    },
+    {
+     "host": "waveapps.com",
+     "checkedAt": "2026-11-26T18:29:04.634Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.waveapps.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Wave: Small Business Software - Wave Financial",
+     "description": "Create beautiful invoices, accept online payments, and make accounting easy—all in one place—with Wave’s suite of money management tools.",
+     "noindex": false,
+     "words": 2175,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 944,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Wave",
+     "ours": false
+    },
+    {
+     "host": "zoho.com",
+     "checkedAt": "2026-11-26T18:29:06.005Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.zoho.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Zoho | Cloud Software Suite for Businesses",
+     "description": "A unique and powerful software suite trusted by millions of businesses worldwide. Zoho covers your end-to-end business needs, from sales and marketing to finance, HR, and beyond.",
+     "noindex": false,
+     "words": 591,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 545,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "products": [
+      "Zoho Books",
+      "Zoho Writer",
+      "Zoho Meeting"
+     ],
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "notes-and-workspaces",
+   "name": "Notes and workspace apps",
+   "description": "Notes, documents and team wikis.",
+   "sites": [
+    {
+     "host": "notion.com",
+     "checkedAt": "2026-11-26T18:29:06.009Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.notion.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "A shared brain for your team and agents. | Notion",
+     "description": "Notion is where your company’s knowledge and context lives so your team and agents can get more done, faster.",
+     "noindex": false,
+     "words": 563,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": false
+      },
+      "sitemaps": 12
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 169,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "name": "Notion",
+     "ours": false
+    },
+    {
+     "host": "obsidian.md",
+     "checkedAt": "2026-11-26T18:29:06.022Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://obsidian.md/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Obsidian - Sharpen your thinking",
+     "description": "The free and flexible app for your private thoughts.",
+     "noindex": false,
+     "words": 1119,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "GitHub Pages",
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Obsidian",
+     "ours": false
+    },
+    {
+     "host": "evernote.com",
+     "checkedAt": "2026-11-26T18:29:07.264Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://evernote.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Best Note Taking App - Organize Your Notes with Evernote",
+     "description": "Our note taking app helps you capture and prioritize ideas, projects and to-do lists, so nothing falls through the cracks. Start your free trial today!",
+     "noindex": false,
+     "words": 706,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 216,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Evernote",
+     "ours": false
+    },
+    {
+     "host": "anytype.io",
+     "checkedAt": "2026-11-26T18:29:07.393Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://anytype.io/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Anytype — A safe haven for digital collaboration",
+     "description": "Create notes, tasks, databases, and chats that only you can access. Your data stays on your device — fully owned, secure, and private. Free to start.",
+     "noindex": false,
+     "words": 0,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Nuxt",
+      "cdn": null
+     },
+     "name": "Anytype",
+     "ours": false
+    },
+    {
+     "host": "clickup.com",
+     "checkedAt": "2026-11-26T18:29:08.478Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://clickup.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ClickUp™ | Maximize productivity • Software, AI, and humans converge",
+     "description": "Our mission is to make the world more productive. To do this, we built the everything app for work - Tasks, Docs, Goals, and Chat.",
+     "noindex": false,
+     "words": 2171,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "ClickUp",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "photo-editors",
+   "name": "Photo editors",
+   "description": "Edit and retouch photos.",
+   "sites": [
+    {
+     "host": "adobe.com",
+     "checkedAt": "2026-11-26T18:29:08.557Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.adobe.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Adobe: Creative, marketing and document management solutions",
+     "description": "Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.",
+     "noindex": false,
+     "words": 920,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 9
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 91,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Adobe Photoshop",
+     "ours": false
+    },
+    {
+     "host": "gimp.org",
+     "checkedAt": "2026-11-26T18:29:08.780Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.gimp.org/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "GIMP - GNU Image Manipulation Program",
+     "description": "GIMP - The GNU Image Manipulation Program: The Free and Open Source Image Editor",
+     "noindex": false,
+     "words": 398,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 406,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "GIMP",
+     "ours": false
+    },
+    {
+     "host": "affinity.studio",
+     "checkedAt": "2026-11-26T18:29:10.057Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.affinity.studio/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Unsupported client",
+     "description": "It seems you are using an old or unsupported browser. To continue enjoying our product, please update to a recent version of one of the following browsers:",
+     "noindex": true,
+     "words": 37,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 3,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Affinity",
+     "ours": false
+    },
+    {
+     "host": "photopea.com",
+     "checkedAt": "2026-11-26T18:29:10.058Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.photopea.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Photopea | Online Photo Editor",
+     "description": "Photopea Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures. Do Online Photo Editing in your browser for free!",
+     "noindex": false,
+     "words": 433,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Photopea",
+     "ours": false
+    },
+    {
+     "host": "pixlr.com",
+     "checkedAt": "2026-11-26T18:29:10.062Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://pixlr.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Free AI Photo Editor & Image Generator Online | Pixlr",
+     "description": "Pixlr is a free online AI photo editor and image generator. Edit photos, generate AI images and videos, swap faces, remove backgrounds, make collages — powered by Flux, Kling, Veo & more. No install needed.",
+     "noindex": false,
+     "words": 2523,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 2,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Pixlr",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "writing-assistants",
+   "name": "Writing assistants",
+   "description": "Grammar, spelling and style checking.",
+   "sites": [
+    {
+     "host": "grammarly.com",
+     "checkedAt": "2026-11-26T18:29:11.349Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.grammarly.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Grammarly: Free AI Writing Assistance",
+     "description": "Grammarly makes AI writing convenient. Work smarter with personalized AI guidance and text generation on any app or website.",
+     "noindex": false,
+     "words": 1235,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 11,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Grammarly",
+     "ours": false
+    },
+    {
+     "host": "languagetool.org",
+     "checkedAt": "2026-11-26T18:29:11.582Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://languagetool.org/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Free AI Grammar Checker - LanguageTool",
+     "description": "Instantly check grammar, punctuation, and spelling errors with LanguageTool's AI-powered grammar checker. Enhance your writing in over 30 languages with ease.",
+     "noindex": false,
+     "words": 1568,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "LanguageTool",
+     "ours": false
+    },
+    {
+     "host": "prowritingaid.com",
+     "checkedAt": "2026-11-26T18:29:12.585Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://prowritingaid.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ProWritingAid: Black Friday—Up to 50% off",
+     "description": "Unlock your story’s potential with ProWritingAid—the ultimate toolkit to enhance prose and finish your draft. Don’t miss our Black Friday Sale.",
+     "noindex": false,
+     "words": 2016,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "ProWritingAid",
+     "ours": false
+    },
+    {
+     "host": "hemingwayapp.com",
+     "checkedAt": "2026-11-26T18:29:12.645Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://hemingwayapp.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Hemingway Editor",
+     "description": "Hemingway Editor makes your writing bold and clear.",
+     "noindex": false,
+     "words": 117,
+     "jsonLd": false,
+     "robots": {
+      "found": false,
+      "status": 404,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Render",
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "name": "Hemingway Editor",
+     "ours": false
+    },
+    {
+     "host": "wordtune.com",
+     "checkedAt": "2026-11-26T18:29:13.035Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://wordtune.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Wordtune — Express yourself with confidence",
+     "description": "Perfect your English with a free AI writer that can paraphrase, rewrite, correct your grammar and more.",
+     "noindex": false,
+     "words": 1154,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 347,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Wordtune",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "word-processors",
+   "name": "Word processors",
+   "description": "Write and edit documents.",
+   "sites": [
+    {
+     "host": "microsoft.com",
+     "checkedAt": "2026-11-26T18:29:14.151Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.microsoft.com/en-us",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+     "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+     "noindex": false,
+     "words": 852,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 22
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "products": [
+      "Microsoft Word",
+      "Microsoft Teams",
+      "Microsoft Copilot"
+     ],
+     "ours": false
+    },
+    {
+     "host": "docs.google.com",
+     "checkedAt": "2026-11-26T18:29:14.258Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1932007424:1795717757453931",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Sign in - Google Accounts",
+     "description": null,
+     "noindex": false,
+     "words": 131,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Google Docs",
+     "ours": false
+    },
+    {
+     "host": "libreoffice.org",
+     "checkedAt": "2026-11-26T18:29:14.271Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.libreoffice.org/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Free and private office suite, no forced AI — LibreOffice",
+     "description": "LibreOffice is a free office suite",
+     "noindex": false,
+     "words": 800,
+     "jsonLd": false,
+     "robots": {
+      "found": false,
+      "status": 404,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 28,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "LibreOffice Writer",
+     "ours": false
+    },
+    {
+     "host": "onlyoffice.com",
+     "checkedAt": "2026-11-26T18:29:15.474Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.onlyoffice.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Private AI-powered office infrastructure | ONLYOFFICE",
+     "description": "Build secure AI-powered office infrastructure with ONLYOFFICE. Co-edit documents, automate workflows, and use AI assistants while keeping your data private.",
+     "noindex": false,
+     "words": 1120,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 3,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "ONLYOFFICE",
+     "ours": false
+    },
+    {
+     "host": "zoho.com",
+     "checkedAt": "2026-11-26T18:29:06.005Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.zoho.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Zoho | Cloud Software Suite for Businesses",
+     "description": "A unique and powerful software suite trusted by millions of businesses worldwide. Zoho covers your end-to-end business needs, from sales and marketing to finance, HR, and beyond.",
+     "noindex": false,
+     "words": 591,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 545,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "products": [
+      "Zoho Books",
+      "Zoho Writer",
+      "Zoho Meeting"
+     ],
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "classroom-quizzes",
+   "name": "Classroom quiz and polling tools",
+   "description": "Quizzes, polls and games for classes and meetings.",
+   "sites": [
+    {
+     "host": "kahoot.com",
+     "checkedAt": "2026-11-26T18:29:15.909Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://kahoot.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Kahoot! | Learning games | Make learning awesome!",
+     "description": "Kahoot! is a game-based learning platform that brings engagement and fun to 1+ billion players every year at school, at work, and at home.",
+     "noindex": false,
+     "words": 1056,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 9
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 21,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Kahoot!",
+     "ours": false
+    },
+    {
+     "host": "gimkit.com",
+     "checkedAt": "2026-11-26T18:29:16.631Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.gimkit.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Gimkit - live learning game show",
+     "description": "Gimkit is a game show for the classroom that requires knowledge, collaboration, and strategy to win. Get started for free!",
+     "noindex": false,
+     "words": 9,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": false,
+       "ClaudeBot": false,
+       "Google-Extended": false,
+       "Applebot-Extended": false,
+       "CCBot": false,
+       "Meta-ExternalAgent": false
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Gimkit",
+     "ours": false
+    },
+    {
+     "host": "wayground.com",
+     "checkedAt": "2026-11-26T18:29:16.768Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://wayground.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Quizizz is now Wayground | Teacher AI and Resources",
+     "description": "Find standards-aligned resources that engage every student. Wayground (formerly Quizizz) helps teachers differentiate instruction with AI and track student progress.",
+     "noindex": false,
+     "words": 2037,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": false,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 63,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Wayground (formerly Quizizz)",
+     "ours": false
+    },
+    {
+     "host": "mentimeter.com",
+     "checkedAt": "2026-11-26T18:29:17.172Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.mentimeter.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Interactive presentation & audience engagement tool - Mentimeter",
+     "description": "Engage your audience with live polls, quizzes, and Q&A. Create interactive presentations in minutes. Perfect for meetings, classes, and events.",
+     "noindex": false,
+     "words": 971,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Mentimeter",
+     "ours": false
+    },
+    {
+     "host": "slido.com",
+     "checkedAt": "2026-11-26T18:29:18.321Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.slido.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Home | Slido - Audience Interaction Made Easy",
+     "description": "Slido is an easy to use Q&A and polling platform. Increase engagement at your meetings, events, and conferences.",
+     "noindex": false,
+     "words": 858,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Slido",
+     "ours": false
+    },
+    {
+     "host": "socrative.com",
+     "checkedAt": "2026-11-26T18:29:18.385Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.socrative.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Home - Socrative | Socrative",
+     "description": "Socrative is a platform for real-time assessment, providing quizzes, instant feedback and quick insights that save time for educators.\n",
+     "noindex": false,
+     "words": 680,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 1,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Astro",
+      "cdn": null
+     },
+     "name": "Socrative",
+     "ours": false
+    },
+    {
+     "host": "classpoint.io",
+     "checkedAt": "2026-11-26T18:29:18.666Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.classpoint.io/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ClassPoint | The #1 Student Engagement Tool in PowerPoint.",
+     "description": "ClassPoint is an all-in-one teaching and student engagement tool integrated seamlessly with PowerPoint. It helps educators, trainers to engage students in class as convenient and effortless as possible.",
+     "noindex": false,
+     "words": 1569,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 2916,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Vercel",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "ClassPoint",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "video-meetings",
+   "name": "Video meeting apps",
+   "description": "Video calls and online meetings.",
+   "sites": [
+    {
+     "host": "zoom.us",
+     "checkedAt": "2026-11-26T18:29:19.521Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.zoom.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "One platform to connect | Zoom",
+     "description": "Modernize workflows with Zoom's trusted collaboration tools: including video meetings, Zoom Chat, VoIP phone, webinars, whiteboard, contact center, and events.",
+     "noindex": false,
+     "words": 1792,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 5454,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Zoom",
+     "ours": false
+    },
+    {
+     "host": "meet.google.com",
+     "checkedAt": "2026-11-26T18:29:20.736Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://workspace.google.com/products/meet/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Google Meet: Online Web and Video Conferencing Calls | Google Workspace",
+     "description": "Use Google Meet for secure online web conferencing calls and video chat as a part of Google Workspace.",
+     "noindex": false,
+     "words": 6244,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Google Meet",
+     "ours": false
+    },
+    {
+     "host": "microsoft.com",
+     "checkedAt": "2026-11-26T18:29:14.151Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.microsoft.com/en-us",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+     "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+     "noindex": false,
+     "words": 852,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 22
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "products": [
+      "Microsoft Word",
+      "Microsoft Teams",
+      "Microsoft Copilot"
+     ],
+     "ours": false
+    },
+    {
+     "host": "jitsi.org",
+     "checkedAt": "2026-11-26T18:29:20.871Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://jitsi.org/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Free Video Conferencing Software for Web & Mobile | Jitsi",
+     "description": "Learn more about Jitsi, a free open-source video conferencing software for web & mobile. Make a call, launch on your own servers, integrate into your app, and more.",
+     "noindex": false,
+     "words": 294,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 7,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "WordPress",
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Jitsi Meet",
+     "ours": false
+    },
+    {
+     "host": "whereby.com",
+     "checkedAt": "2026-11-26T18:29:21.085Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://whereby.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Secure, customizable & reliable WebRTC Video Calls| Whereby",
+     "description": "Host quick instant meetings or embed video calls into your platform with Whereby’s video conferencing API and SDK.",
+     "noindex": false,
+     "words": 764,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 414,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Framer",
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Whereby",
+     "ours": false
+    },
+    {
+     "host": "zoho.com",
+     "checkedAt": "2026-11-26T18:29:06.005Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.zoho.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Zoho | Cloud Software Suite for Businesses",
+     "description": "A unique and powerful software suite trusted by millions of businesses worldwide. Zoho covers your end-to-end business needs, from sales and marketing to finance, HR, and beyond.",
+     "noindex": false,
+     "words": 591,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 545,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "products": [
+      "Zoho Books",
+      "Zoho Writer",
+      "Zoho Meeting"
+     ],
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "link-in-bio",
+   "name": "Link-in-bio tools",
+   "description": "One link for a social profile that leads to everything else.",
+   "sites": [
+    {
+     "host": "linktr.ee",
+     "checkedAt": "2026-11-26T18:29:21.382Z",
+     "version": "0.1",
+     "reachable": true,
+     "optedOut": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": false
+      },
+      "sitemaps": 5
+     },
+     "name": "Linktree",
+     "ours": false
+    },
+    {
+     "host": "beacons.ai",
+     "checkedAt": "2026-11-26T18:29:21.475Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://beacons.ai/",
+     "status": 403,
+     "html": true,
+     "blocked": true,
+     "title": null,
+     "description": null,
+     "noindex": null,
+     "words": null,
+     "jsonLd": null,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 122,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Beacons",
+     "ours": false
+    },
+    {
+     "host": "stan.store",
+     "checkedAt": "2026-11-26T18:29:22.621Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://stan.store/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Stan - Your Creator Store",
+     "description": "We work 1-on-1 with the Top Creators to monetize their business",
+     "noindex": false,
+     "words": 19,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": false,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 11,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Stan",
+     "ours": false
+    },
+    {
+     "host": "carrd.co",
+     "checkedAt": "2026-11-26T18:29:22.726Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://carrd.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Carrd - Simple, free, fully responsive one-page sites for pretty much anything",
+     "description": "A free platform for building simple, fully responsive one-page sites for pretty much anything.",
+     "noindex": false,
+     "words": 324,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 0
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": false
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Carrd",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "project-management",
+   "name": "Project management",
+   "description": "Plan and track work across a team.",
+   "sites": [
+    {
+     "host": "atlassian.com",
+     "checkedAt": "2026-11-26T18:29:22.911Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.atlassian.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Collaboration software for software, IT and business teams | Atlassian",
+     "description": "Atlassian's team collaboration software like Jira, Confluence and Trello help teams organize, discuss, and complete shared work.",
+     "noindex": false,
+     "words": 4669,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 8,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Jira",
+     "ours": false
+    },
+    {
+     "host": "linear.app",
+     "checkedAt": "2026-11-26T18:29:23.578Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://linear.app/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Linear – The system for product development",
+     "description": "Purpose-built for planning and building products with AI agents.",
+     "noindex": false,
+     "words": 1628,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 1047,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "name": "Linear",
+     "ours": false
+    },
+    {
+     "host": "asana.com",
+     "checkedAt": "2026-11-26T18:29:24.903Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://asana.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Work & Project Management for Human-Agent Teams • Asana",
+     "description": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.",
+     "noindex": false,
+     "words": 1529,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 16,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Netlify",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "Asana",
+     "ours": false
+    },
+    {
+     "host": "monday.com",
+     "checkedAt": "2026-11-26T18:29:25.137Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://monday.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "The AI Workspace for People & Agents | monday.com",
+     "description": "Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI Workspace to drive business results.",
+     "noindex": false,
+     "words": 2443,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 9,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": "Webflow",
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "monday.com",
+     "ours": false
+    },
+    {
+     "host": "trello.com",
+     "checkedAt": "2026-11-26T18:29:25.256Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://trello.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Capture, organize, and tackle your to-dos from anywhere",
+     "description": "Make the impossible, possible with Trello. The ultimate tool to boost your productivity. Escape the clutter and chaos—stay efficient with Inbox, Boards, and Planner from anywhere, even on mobile.",
+     "noindex": false,
+     "words": 1251,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": false,
+      "entries": 0,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Trello",
+     "ours": false
+    },
+    {
+     "host": "clickup.com",
+     "checkedAt": "2026-11-26T18:29:08.478Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://clickup.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ClickUp™ | Maximize productivity • Software, AI, and humans converge",
+     "description": "Our mission is to make the world more productive. To do this, we built the everything app for work - Tasks, Docs, Goals, and Chat.",
+     "noindex": false,
+     "words": 2171,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "ClickUp",
+     "ours": false
+    }
+   ]
+  },
+  {
+   "slug": "ai-chat-assistants",
+   "name": "AI chat assistants",
+   "description": "General-purpose AI chat assistants.",
+   "sites": [
+    {
+     "host": "chatgpt.com",
+     "checkedAt": "2026-11-26T18:29:25.595Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://chatgpt.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "ChatGPT: Chat, Work, Create & Code with AI",
+     "description": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.",
+     "noindex": false,
+     "words": 277,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": false
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": false,
+       "Applebot-Extended": true,
+       "CCBot": false,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 3
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 80,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "ChatGPT",
+     "ours": false
+    },
+    {
+     "host": "claude.com",
+     "checkedAt": "2026-11-26T18:29:26.847Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://claude.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Claude by Anthropic | The AI for problem solvers",
+     "description": "Claude is an AI assistant built by Anthropic and designed to be helpful, honest, and harmless, so you can do your best work.",
+     "noindex": false,
+     "words": 1012,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 4671,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": "Next.js",
+      "cdn": "Cloudflare"
+     },
+     "name": "Claude",
+     "ours": false
+    },
+    {
+     "host": "gemini.google",
+     "checkedAt": "2026-11-26T18:29:27.052Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://gemini.google.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "‎Google Gemini",
+     "description": "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+     "noindex": false,
+     "words": 6,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "name": "Gemini",
+     "ours": false
+    },
+    {
+     "host": "perplexity.ai",
+     "checkedAt": "2026-11-26T18:29:27.059Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.perplexity.ai/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Perplexity",
+     "description": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+     "noindex": false,
+     "words": 0,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 2
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 4,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Perplexity",
+     "ours": false
+    },
+    {
+     "host": "microsoft.com",
+     "checkedAt": "2026-11-26T18:29:14.151Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://www.microsoft.com/en-us",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps",
+     "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more.",
+     "noindex": false,
+     "words": 852,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 22
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 25,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": null,
+      "framework": null,
+      "cdn": null
+     },
+     "products": [
+      "Microsoft Word",
+      "Microsoft Teams",
+      "Microsoft Copilot"
+     ],
+     "ours": false
+    },
+    {
+     "host": "mistral.ai",
+     "checkedAt": "2026-11-26T18:29:27.735Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://mistral.ai/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "Mistral | #1 in Sovereign AI: Frontier Open Models You Own",
+     "description": "Mistral AI builds frontier open-weight models you own. Customize with Forge, deploy agents with Studio, run on-prem, your VPC, or our European sovereign cloud.",
+     "noindex": false,
+     "words": 1036,
+     "jsonLd": true,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": true,
+     "sitemap": {
+      "found": true,
+      "entries": 1,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "Netlify",
+      "framework": null,
+      "cdn": "Cloudflare"
+     },
+     "name": "Le Chat (Mistral)",
+     "ours": false
+    },
+    {
+     "host": "deepseek.com",
+     "checkedAt": "2026-11-26T18:29:29.318Z",
+     "version": "0.1",
+     "reachable": true,
+     "url": "https://deepseek.com/",
+     "status": 200,
+     "html": true,
+     "blocked": false,
+     "title": "DeepSeek | 深度求索",
+     "description": "深度求索（DeepSeek），探索未至之境。专注于研究世界领先的通用人工智能底层模型与技术，开源 DeepSeek-V4、DeepSeek-R1 等前沿大模型。和 DeepSeek AI 对话，轻松接入 API。",
+     "noindex": false,
+     "words": 83,
+     "jsonLd": false,
+     "robots": {
+      "found": true,
+      "status": 200,
+      "aiSearch": {
+       "OAI-SearchBot": true,
+       "Claude-SearchBot": true,
+       "PerplexityBot": true
+      },
+      "search": {
+       "Googlebot": true,
+       "Bingbot": true
+      },
+      "training": {
+       "GPTBot": true,
+       "ClaudeBot": true,
+       "Google-Extended": true,
+       "Applebot-Extended": true,
+       "CCBot": true,
+       "Meta-ExternalAgent": true
+      },
+      "sitemaps": 1
+     },
+     "llmsTxt": false,
+     "sitemap": {
+      "found": true,
+      "entries": 46,
+      "listedInRobots": true
+     },
+     "knownsiteLevel": 0,
+     "platform": {
+      "builder": null,
+      "host": "AWS CloudFront",
+      "framework": "Next.js",
+      "cdn": null
+     },
+     "name": "DeepSeek",
      "ours": false
     }
    ]

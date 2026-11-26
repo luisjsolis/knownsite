@@ -63,7 +63,7 @@ export default async function Page({ params }: { params: Promise<{ host: string 
               return (
                 <tr key={h}>
                   <td>
-                    <strong>{h !== host && published.has(h) ? <Link href={`/alternatives/${h}`}>{p.name}</Link> : p.name}</strong>{h === host && <div className="muted small">the tool you asked about</div>}
+                    <strong>{h === host ? p.name : <Link href={published.has(h) ? `/alternatives/${h}` : `/sites/${hostOf(h, d)}`}>{p.name}</Link>}</strong>{h === host && <div className="muted small">the tool you asked about</div>}
                     {p.ours && <div className="muted small">Made by the Knownsite team</div>}
                     <div className="small"><a href={`https://${hostOf(h, d)}`} rel="nofollow noopener">{hostOf(h, d)}</a></div>
                   </td>
