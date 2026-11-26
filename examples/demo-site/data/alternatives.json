@@ -1,0 +1,1028 @@
+{
+  "note": "Alternatives pages. Facts come from each company's own pricing or home page on the date in `checked`; a missing fact says so instead of guessing. Sites we make have \"ours\": true.",
+  "categories": {
+    "ai-headshot-generators": {
+      "name": "AI headshot generators",
+      "columns": [
+        "Cheapest option",
+        "Headshots",
+        "Free tier",
+        "Money back"
+      ]
+    },
+    "ai-visibility-tools": {
+      "name": "AI search visibility tools",
+      "columns": [
+        "Starting price",
+        "What it does",
+        "AI engines",
+        "Free plan"
+      ]
+    },
+    "transcription": {
+      "name": "Transcription",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Billed annually",
+        "Notes"
+      ]
+    },
+    "pdf-tools": {
+      "name": "Online PDF tools",
+      "columns": [
+        "Free use",
+        "Paid from",
+        "What happens to your files",
+        "Sign-up needed"
+      ]
+    },
+    "image-compression": {
+      "name": "Image compressors",
+      "columns": [
+        "Free use",
+        "Paid from",
+        "What happens to your files",
+        "Limits"
+      ]
+    },
+    "background-removal": {
+      "name": "Background removers",
+      "columns": [
+        "Free use",
+        "Paid from",
+        "Free download quality",
+        "Also does"
+      ]
+    },
+    "rental-management": {
+      "name": "Rental management for landlords",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Tenant screening",
+        "Online rent payments",
+        "Languages"
+      ]
+    },
+    "prayer-and-bible-apps": {
+      "name": "Prayer and Bible apps",
+      "columns": [
+        "Price",
+        "What you get",
+        "Tradition",
+        "Languages"
+      ]
+    }
+  },
+  "products": {
+    "aragon.ai": {
+      "name": "Aragon",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-22",
+      "does": "Curated outfits and backgrounds, clothing and background changer tools, and team plans. It calls itself \"the #1 AI headshot company\".",
+      "cells": [
+        "$35 (listed beside $44)",
+        "40 to 100",
+        "No",
+        "Full refund if the photos weren't downloaded; free redo"
+      ],
+      "sources": [
+        "https://www.aragon.ai/pricing",
+        "https://www.aragon.ai/"
+      ]
+    },
+    "headshotpro.com": {
+      "name": "HeadshotPro",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-25",
+      "does": "An AI headshot generator that turns a few selfies into studio-quality professional headshots for individuals and teams.",
+      "cells": [
+        "$29 one-time (Individual Basic package, 30 headshots)",
+        "30 / 50 / 70 per shoot (Basic / Professional / Executive)",
+        "No free plan shown; a separate Free Headshot Generator tool is listed",
+        "Refund if results don't look like you; pricing FAQ says 30-day, homepage says no expiry"
+      ],
+      "sources": [
+        "https://www.headshotpro.com/pricing",
+        "https://www.headshotpro.com/"
+      ],
+      "host": "headshotpro.com"
+    },
+    "betterpic.io": {
+      "name": "BetterPic",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-22",
+      "does": "AI headshots in 1, 3 or 6 styles depending on the plan, in 4K.",
+      "cells": [
+        "Free tier; paid from $35",
+        "Up to 10 free; 20 to 120 paid",
+        "Yes, queue-based",
+        "Advertises 100% money back; full refund within 7 days if the order isn't completed"
+      ],
+      "sources": [
+        "https://www.betterpic.io/pricing"
+      ]
+    },
+    "realest-ai-headshot.com": {
+      "name": "Realest AI Headshot",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-22",
+      "ours": true,
+      "does": "Changes clothes, background and lighting and is instructed to keep your face, hairline, glasses and age. Works in Spanish.",
+      "cells": [
+        "$5.99 for 1 headshot",
+        "1, 20 or 40",
+        "No",
+        "No satisfaction refund; undelivered orders finished or refunded"
+      ],
+      "sources": [
+        "https://realest-ai-headshot.com/pricing"
+      ]
+    },
+    "secta.ai": {
+      "name": "Secta Labs",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-25",
+      "does": "AI headshots with 90+ styles, and editing of outfits, hair, glasses and backgrounds.",
+      "cells": [
+        "Not shown on its home page (one-time payment)",
+        "100+ (Professional Package, 7 styles)",
+        "Not mentioned",
+        "\"Refund guaranteed\" badge; terms not shown"
+      ],
+      "sources": [
+        "https://secta.ai/"
+      ]
+    },
+    "tryitonai.com": {
+      "name": "Try It On AI",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-25",
+      "does": "Writes LinkedIn posts with a professional photo of you; also sells headshots.",
+      "cells": [
+        "Headshots from $35 one-time; teams from $26/person",
+        "Count not shown",
+        "First LinkedIn post free; no free headshots shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.tryitonai.com/"
+      ]
+    },
+    "tryprofound.com": {
+      "name": "Profound",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "does": "\"The AI Platform to Power Your Marketing\": tracks AI answers and acts on them for marketing teams.",
+      "cells": [
+        "Custom (Enterprise only; $399 and $499 plans retired)",
+        "AI answer tracking and an AI marketing agent",
+        "Up to 10, incl. ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and AI Mode",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.tryprofound.com/pricing",
+        "https://www.tryprofound.com/"
+      ]
+    },
+    "peec.ai": {
+      "name": "Peec AI",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "does": "AI search analytics for marketing teams: tracks prompts across AI models and countries.",
+      "cells": [
+        "$95/mo for 50 prompts",
+        "Prompt tracking across AI models and countries",
+        "Choose 3 of 8 (ChatGPT, Perplexity, Gemini, Google AI Overview and AI Mode, and others)",
+        "Free trial (length not shown)"
+      ],
+      "sources": [
+        "https://peec.ai/pricing"
+      ]
+    },
+    "otterly.ai": {
+      "name": "Otterly.AI",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "does": "Monitors brand mentions and citations in AI search answers.",
+      "cells": [
+        "€29/mo for 16 prompts",
+        "Prompt tracking, daily",
+        "4 of 7 (ChatGPT, Google AI Overviews and AI Mode, Perplexity, Copilot, Gemini, Claude)",
+        "Free trial (length not shown)"
+      ],
+      "sources": [
+        "https://otterly.ai/pricing"
+      ]
+    },
+    "citeworthy.io": {
+      "name": "Citeworthy",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "does": "Audits a site the way AI crawlers see it and can serve approved fixes from the edge.",
+      "cells": [
+        "Free; Pro $29/mo (paid plans not on sale yet)",
+        "Site audits, weekly citation checks, edge fixes",
+        "ChatGPT, Claude, Gemini, Perplexity",
+        "Yes: 1 site, 100 pages, weekly"
+      ],
+      "sources": [
+        "https://citeworthy.io/"
+      ]
+    },
+    "knownsite.dev": {
+      "name": "Knownsite",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "ours": true,
+      "does": "Open-source tool that makes a site readable by crawlers on every deploy, plus weekly tracking of AI answers.",
+      "cells": [
+        "Free; Pro $199/mo for 20 questions weekly",
+        "Free check and build tool; paid weekly answer tracking with competitors",
+        "Pro: ChatGPT and Claude; Business: plus Perplexity and Gemini",
+        "Yes: the check and the open-source tool"
+      ],
+      "sources": [
+        "https://knownsite.dev/pricing"
+      ]
+    },
+    "otter.ai": {
+      "name": "Otter.ai",
+      "category": "transcription",
+      "checked": "2026-11-25",
+      "does": "Meeting notes: joins Zoom, Teams and Google Meet, transcribes live and answers questions about the meeting.",
+      "cells": [
+        "300 minutes/month, 30 minutes per conversation",
+        "Pro $16.99/mo",
+        "Pro $8.33/mo; Business $19.99/user/mo",
+        "Sale prices shown on the page are left out"
+      ],
+      "sources": [
+        "https://otter.ai/pricing"
+      ]
+    },
+    "fireflies.ai": {
+      "name": "Fireflies.ai",
+      "category": "transcription",
+      "checked": "2026-11-25",
+      "does": "AI meeting assistant that records, transcribes and summarises calls.",
+      "cells": [
+        "Free forever (limits not shown in text)",
+        "Pro $18/seat/mo",
+        "Pro $10; Business $19/seat/mo",
+        "Enterprise $39/seat/mo, annual only"
+      ],
+      "sources": [
+        "https://fireflies.ai/pricing"
+      ]
+    },
+    "rev.com": {
+      "name": "Rev",
+      "category": "transcription",
+      "checked": "2026-11-25",
+      "does": "AI transcription plans, plus human transcription and captions charged per minute.",
+      "cells": [
+        "45 AI minutes/month, English only",
+        "Essentials $29.99/seat/mo",
+        "Essentials $25.49/seat/mo",
+        "Human transcription $1.99/min"
+      ],
+      "sources": [
+        "https://www.rev.com/pricing"
+      ]
+    },
+    "turboscribe.ai": {
+      "name": "TurboScribe",
+      "category": "transcription",
+      "unchecked": true,
+      "uncheckedWhy": "its pricing page refused our request"
+    },
+    "fathom.ai": {
+      "name": "Fathom",
+      "category": "transcription",
+      "checked": "2026-11-25",
+      "does": "AI meeting assistant that records, transcribes and summarises calls.",
+      "cells": [
+        "Unlimited recordings and transcriptions",
+        "Premium $20/user/mo",
+        "Premium $16/user/mo (the page doesn't label which price is annual)",
+        "Team plans need 2+ users"
+      ],
+      "sources": [
+        "https://fathom.ai/pricing"
+      ]
+    },
+    "simple-ai-tools.web.app": {
+      "host": "simple-ai-tools.web.app",
+      "name": "Simple AI Tools",
+      "category": "pdf-tools",
+      "ours": true,
+      "checked": "2026-11-25",
+      "does": "Free in-browser tools for photos, PDFs, invoices and text, plus hand-picked outside options for other tasks.",
+      "cells": [
+        "Yes, 14 free tools that run in your browser",
+        "Not shown",
+        "Nothing uploaded; tools run in your browser and files never leave your device",
+        "No sign-up"
+      ],
+      "sources": [
+        "https://simple-ai-tools.web.app/",
+        "https://simple-ai-tools.web.app/merge-pdf"
+      ]
+    },
+    "simple-ai-tools.web.app#image-compression": {
+      "host": "simple-ai-tools.web.app",
+      "name": "Simple AI Tools",
+      "category": "image-compression",
+      "ours": true,
+      "checked": "2026-11-25",
+      "does": "Free in-browser tools for photos, PDFs, invoices and text, plus hand-picked outside options for other tasks.",
+      "cells": [
+        "Free, no account or sign-up needed",
+        "Not shown",
+        "Not uploaded; tools run in your browser and files never leave your device",
+        "No daily limit, no watermark, no ads"
+      ],
+      "sources": [
+        "https://simple-ai-tools.web.app/",
+        "https://simple-ai-tools.web.app/compress-image"
+      ]
+    },
+    "fia.rent": {
+      "host": "fia.rent",
+      "name": "Fía",
+      "category": "rental-management",
+      "ours": true,
+      "checked": "2026-11-25",
+      "does": "Fía lets landlords screen, verify, and message rental applicants in one place.",
+      "cells": [
+        "Yes, free for landlords; the tenant pays for screening",
+        "Not shown",
+        "Yes: credit, income, evictions, identity and prior-landlord references; paid by the tenant",
+        "Not shown",
+        "English and Spanish"
+      ],
+      "sources": [
+        "https://fia.rent/"
+      ]
+    },
+    "reina.web.app": {
+      "host": "reina.web.app",
+      "name": "Reina de la Paz",
+      "category": "prayer-and-bible-apps",
+      "ours": true,
+      "checked": "2026-11-25",
+      "does": "Offers the day's Gospel reading with a reflection and a prayer, with an AI-voiced listening option.",
+      "cells": [
+        "Free (voluntary contributions accepted); Plus tier mentioned, no price shown",
+        "Daily Gospel, reflection and prayer; Rosary, Night and Circles sections; AI voice listening (Plus)",
+        "Christian; follows the liturgical calendar (Ordinary Time) and includes the Rosary",
+        "Spanish; English version linked"
+      ],
+      "sources": [
+        "https://reina.web.app/"
+      ]
+    },
+    "abide.com": {
+      "host": "abide.com",
+      "name": "Abide",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "Abide is a Christian meditation app with daily meditations, devotionals and biblical sleep stories.",
+      "cells": [
+        "$39.99/yr (yearly) or $9.99/mo (monthly), after a 7-day free trial",
+        "Daily meditation, devotional, and sleep story",
+        "Christian",
+        "Not shown"
+      ],
+      "sources": [
+        "https://abide.com/"
+      ]
+    },
+    "appfolio.com": {
+      "host": "appfolio.com",
+      "name": "AppFolio",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "AppFolio is a property management platform for running an entire residential portfolio in one place.",
+      "cells": [
+        "Not shown",
+        "$1.49 per unit/per month (Core; minimum spend and 50 unit minimum apply)",
+        "Not shown",
+        "Not shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.appfolio.com/pricing",
+        "https://www.appfolio.com/"
+      ]
+    },
+    "athenahq.ai": {
+      "host": "athenahq.ai",
+      "name": "AthenaHQ",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "does": "AthenaHQ tracks how a brand appears across major AI platforms, shows where it wins or loses visibility, and says what to",
+      "cells": [
+        "$295/month (Starter); a free Essential plan is also offered",
+        "Tracks a brand's AI search visibility and recommends fixes to improve it",
+        "ChatGPT, Perplexity, Gemini, Google AI Overviews, Copilot; paid adds AI Mode, Claude, Grok, DeepSeek, Meta AI",
+        "Yes: Essential Free with $25 free credit (300 credits)"
+      ],
+      "sources": [
+        "https://athenahq.ai/plans",
+        "https://athenahq.ai/"
+      ]
+    },
+    "avail.com": {
+      "host": "avail.com",
+      "name": "Avail",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "Avail is all-in-one landlord and property management software for listing rentals, screening tenants, signing leases and",
+      "cells": [
+        "Yes – Unlimited plan, $0/unit, unlimited units",
+        "$9/unit Per Month (Unlimited Plus)",
+        "Yes – TransUnion credit reports, background checks, criminal and eviction reports",
+        "Yes – free plan: tenants pay $2.50 per bank transfer; 3.5% card fee on any plan",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.avail.com/pricing",
+        "https://www.avail.com/"
+      ]
+    },
+    "baselane.com": {
+      "host": "baselane.com",
+      "name": "Baselane",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "Baselane provides banking and bookkeeping for managing rental finances for multi-property owners.",
+      "cells": [
+        "Yes, Core plan at $0/mo. (banking and bookkeeping essentials)",
+        "$20/mo. on an annual plan (Smart)",
+        "Yes, listed under tenant fees at $24.99+",
+        "Yes, rent, deposits and late fees collected online via ACH or card",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.baselane.com/pricing",
+        "https://www.baselane.com/"
+      ]
+    },
+    "biblegateway.com": {
+      "host": "biblegateway.com",
+      "name": "Bible Gateway",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "Online Bible site for reading, studying, and listening to Scripture in many versions, with reading plans.",
+      "cells": [
+        "As low as $4.67/mo for Bible Gateway Plus (sale)",
+        "Plus: Study Bibles, commentaries, and insights alongside the Scripture text; free trial offered",
+        "Christian; operated by HarperCollins Christian Publishing, no denomination stated",
+        "Bible versions in many languages, e.g. Arabic, English, Spanish, Chinese, Koine Greek, Hebrew"
+      ],
+      "sources": [
+        "https://www.biblegateway.com/"
+      ]
+    },
+    "buildium.com": {
+      "host": "buildium.com",
+      "name": "Buildium",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "Buildium is property management software that brings accounting, leasing, and maintenance into one place.",
+      "cells": [
+        "No free plan shown; free 14-day trial, no credit card required",
+        "$65/month (Essential)",
+        "Yes, powered by TransUnion; $17 per screening ($20 Enhanced on Growth & Premium)",
+        "Yes, online payments and autopay; fees vary by plan",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.buildium.com/pricing/"
+      ]
+    },
+    "doorloop.com": {
+      "host": "doorloop.com",
+      "name": "DoorLoop",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "DoorLoop is property management software for managing rent, leases, maintenance, and accounting in one platform, with an",
+      "cells": [
+        "Not shown",
+        "$2.50 per unit, per month (DoorLoop One; minimum spend and units apply)",
+        "Yes: criminal, credit, and eviction reports on applicants, $35",
+        "Yes: card or ACH, with autopay; incoming ACH $1.50 on One, free on Connect and Multiply",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.doorloop.com/pricing"
+      ]
+    },
+    "glorify.global": {
+      "host": "glorify.global",
+      "name": "Glorify",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "Glorify is an app that helps you build a daily devotional habit and strengthen your relationship with God.",
+      "cells": [
+        "Not shown",
+        "Daily quote, passage and devotional; meditations and sleep stories; worship music; 5–10-day audio courses; community",
+        "Bible-based; no tradition or denomination named",
+        "Site language options: EN, ES, PT"
+      ],
+      "sources": [
+        "https://www.glorify.global/app"
+      ]
+    },
+    "hallow.com": {
+      "host": "hallow.com",
+      "name": "Hallow",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "Hallow says it is the #1 prayer app, helping users pray every day.",
+      "cells": [
+        "Free to try (no paid price shown)",
+        "Daily prayers, plus Bible and How to Pray sections",
+        "Catholic",
+        "Not shown"
+      ],
+      "sources": [
+        "https://hallow.com/"
+      ]
+    },
+    "iloveimg.com": {
+      "host": "iloveimg.com",
+      "name": "iLoveIMG",
+      "category": "image-compression",
+      "checked": "2026-11-25",
+      "does": "iLoveIMG compresses JPG, PNG, SVG or GIF images to reduce their file size.",
+      "cells": [
+        "Yes, Basic plan is free with essential tools and limited processing",
+        "Premium 5 US $ / month (60 US $ billed annually); 9 US $ billed monthly",
+        "Files are encrypted and processed securely under GDPR; retention or deletion not shown",
+        "Free: 30 images per Compress batch (120 on Premium); 200 MB per task (4 GB on Premium)"
+      ],
+      "sources": [
+        "https://www.iloveimg.com/compress-image",
+        "https://www.iloveimg.com/pricing"
+      ]
+    },
+    "ilovepdf.com": {
+      "host": "ilovepdf.com",
+      "name": "iLovePDF",
+      "category": "pdf-tools",
+      "checked": "2026-11-25",
+      "does": "Online PDF tools to merge, split, compress, convert, rotate, unlock and watermark PDFs.",
+      "cells": [
+        "Yes, Basic plan is free with essential tools and limited document processing",
+        "Premium 5 US $ / month (60 US $ billed annually); 9 US $ billed monthly",
+        "Fully encrypted and processed securely under GDPR; retention/deletion not shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.ilovepdf.com/pricing",
+        "https://www.ilovepdf.com/"
+      ]
+    },
+    "innago.com": {
+      "host": "innago.com",
+      "name": "Innago",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "Innago is property management software for landlords managing rentals and tenants.",
+      "cells": [
+        "Yes, no monthly fee, no setup fee, no contract",
+        "Not shown",
+        "Not shown",
+        "Not shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://innago.com/pricing/",
+        "https://innago.com/"
+      ]
+    },
+    "magicstudio.com": {
+      "host": "magicstudio.com",
+      "name": "InstaHeadshots (Magic Studio)",
+      "category": "ai-headshot-generators",
+      "checked": "2026-11-25",
+      "does": "Turns your selfies into professional AI-generated headshots.",
+      "cells": [
+        "Starting at $59 USD",
+        "50 headshots, 5 looks (starting option)",
+        "Free to create and preview; pay only if you love your headshots and want to keep them",
+        "Refund if fewer than 4 decent headshots and none downloaded; contact within 3 days"
+      ],
+      "sources": [
+        "https://magicstudio.com/headshots/"
+      ]
+    },
+    "olivetree.com": {
+      "host": "olivetree.com",
+      "name": "Olive Tree Bible App",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "Olive Tree is a free Bible reading and study app with commentaries, study Bibles, and original-language tools that works",
+      "cells": [
+        "Free app; extra books sold in store",
+        "Free Bibles and study tools; 35,000+ books and 100+ translations available; works offline",
+        "Christian (no specific denomination stated)",
+        "English, Spanish, Portuguese, German, Chinese, Korean, others; Greek and Hebrew texts"
+      ],
+      "sources": [
+        "https://www.olivetree.com/"
+      ]
+    },
+    "pdf24.org": {
+      "host": "pdf24.org",
+      "name": "PDF24 Tools",
+      "category": "pdf-tools",
+      "checked": "2026-11-25",
+      "does": "PDF24 Tools offers free, easy-to-use PDF tools that work online and offline.",
+      "cells": [
+        "All tools free of charge without restrictions, funded by advertising",
+        "Not shown",
+        "Encrypted transfer; files removed from servers within one hour of last use",
+        "Not shown"
+      ],
+      "sources": [
+        "https://tools.pdf24.org/en/"
+      ]
+    },
+    "photoroom.com": {
+      "host": "photoroom.com",
+      "name": "Photoroom",
+      "category": "background-removal",
+      "checked": "2026-11-25",
+      "does": "Creates, edits and optimizes product images and videos for every channel, from one listing to a full catalog.",
+      "cells": [
+        "Can get started for free (limits not stated)",
+        "$7.50 per month, billed yearly (Pro)",
+        "Not shown",
+        "Makes video ads for Meta, TikTok and YouTube from product photos"
+      ],
+      "sources": [
+        "https://www.photoroom.com/pricing",
+        "https://www.photoroom.com/tools/background-remover"
+      ]
+    },
+    "pixelcut.ai": {
+      "host": "pixelcut.ai",
+      "name": "Pixelcut",
+      "category": "background-removal",
+      "checked": "2026-11-25",
+      "does": "Pixelcut is an AI platform for making and editing images and videos.",
+      "cells": [
+        "Free plan at $0, with limited background removal and limited upscale",
+        "Pro $8 per month, billed yearly ($10 also shown)",
+        "Free export without watermark (resolution not stated)",
+        "Creates AI UGC talking videos to promote a brand"
+      ],
+      "sources": [
+        "https://www.pixelcut.ai/pricing",
+        "https://www.pixelcut.ai/"
+      ]
+    },
+    "pray.com": {
+      "host": "pray.com",
+      "name": "Pray.com",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "Pray.com offers daily prayer, Bible stories and Christian podcasts.",
+      "cells": [
+        "$49.99/year (3 days free); $14.99/month or $5.99/week (7 days free)",
+        "Premium: no ads while you listen, watch and pray; Pray AI chat beyond 5 free messages a day",
+        "Christian",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.pray.com/"
+      ]
+    },
+    "remove.bg": {
+      "host": "remove.bg",
+      "name": "remove.bg",
+      "category": "background-removal",
+      "checked": "2026-11-25",
+      "does": "remove.bg automatically removes image backgrounds, making them white or transparent (PNG).",
+      "cells": [
+        "Background removal is described as free",
+        "Not shown",
+        "Not shown",
+        "Links to a video background removal tool"
+      ],
+      "sources": [
+        "https://www.remove.bg/pricing",
+        "https://www.remove.bg/"
+      ]
+    },
+    "rentredi.com": {
+      "host": "rentredi.com",
+      "name": "RentRedi",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "Rental property management software that helps landlords collect rent, screen tenants, and track taxes.",
+      "cells": [
+        "No free plan or free trial; 30-day money-back guarantee",
+        "$12/month, billed annually ($29.95/month billed monthly)",
+        "Yes; tenant-paid $39.99 (credit, criminal, eviction) or $49.99 with income verification",
+        "Yes; ACH, card, cash",
+        "Spanish tenant app; Spanish-language support for tenants"
+      ],
+      "sources": [
+        "https://rentredi.com/pricing",
+        "https://rentredi.com/"
+      ]
+    },
+    "scrunch.com": {
+      "host": "scrunch.com",
+      "name": "Scrunch",
+      "category": "ai-visibility-tools",
+      "checked": "2026-11-25",
+      "does": "Scrunch helps brands get their sites AI-ready so they show up and get cited in AI answers.",
+      "cells": [
+        "$250/mo (Core)",
+        "Scrunch helps brands get their sites AI-ready so they show up and get cited in AI answers.",
+        "ChatGPT, Perplexity, Gemini, Google AIO, Google AI Mode, Microsoft Copilot, Grok, Meta AI; Claude add-on",
+        "No free plan shown; 7-day free trial"
+      ],
+      "sources": [
+        "https://scrunch.com/pricing/",
+        "https://scrunch.com/"
+      ]
+    },
+    "sejda.com": {
+      "host": "sejda.com",
+      "name": "Sejda",
+      "category": "pdf-tools",
+      "checked": "2026-11-25",
+      "does": "Sejda is a PDF editor offering 30+ PDF tools, online in the browser or as a desktop app.",
+      "cells": [
+        "Yes, free plan at $0 with page and hourly limits, limited file uploads and tool-specific limits",
+        "$5 per user for 7 days (Web Week Pass, one-time payment)",
+        "Web: processed on Sejda's servers, then permanently deleted; Desktop: files never leave your computer",
+        "No signup required for free use"
+      ],
+      "sources": [
+        "https://www.sejda.com/upgrade",
+        "https://www.sejda.com/"
+      ]
+    },
+    "smallpdf.com": {
+      "host": "smallpdf.com",
+      "name": "Smallpdf",
+      "category": "pdf-tools",
+      "checked": "2026-11-25",
+      "does": "Smallpdf provides online tools to convert, compress, edit, merge and sign PDFs.",
+      "cells": [
+        "Free plan: 30+ tools with limited document downloads and daily download limits",
+        "Not shown",
+        "Processed with TLS encryption; storage or deletion of files not stated",
+        "Not shown for most tools; the Share tool is free with an account"
+      ],
+      "sources": [
+        "https://smallpdf.com/pricing",
+        "https://smallpdf.com/"
+      ]
+    },
+    "squoosh.app": {
+      "host": "squoosh.app",
+      "name": "Squoosh",
+      "category": "image-compression",
+      "checked": "2026-11-25",
+      "does": "Squoosh reduces image file size while maintaining high quality.",
+      "cells": [
+        "Not shown",
+        "Not shown",
+        "Images never leave your device; all processing is done locally.",
+        "Not shown"
+      ],
+      "sources": [
+        "https://squoosh.app/"
+      ]
+    },
+    "tenantcloud.com": {
+      "host": "tenantcloud.com",
+      "name": "TenantCloud",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "TenantCloud is rental management software for landlords and property managers: listings, screening, and online rent coll",
+      "cells": [
+        "Yes, $0/month: list rentals, screen applicants, collect rent online",
+        "$12.42/month (Essentials)",
+        "Yes, screening on all plans; Pro adds income verification and fraud detection",
+        "Yes, via ACH, debit/credit cards, Apple Pay and Google Pay (where available)",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.tenantcloud.com/pricing"
+      ]
+    },
+    "tinypng.com": {
+      "host": "tinypng.com",
+      "name": "TinyPNG",
+      "category": "image-compression",
+      "checked": "2026-11-25",
+      "does": "TinyPNG uses smart lossy compression to reduce the file size of WebP, AVIF, JPEG XL, JPEG, PNG and SVG images.",
+      "cells": [
+        "Yes, web compressor is free: up to 20 images at once, 5 MB each, 3 conversions.",
+        "Web Pro $3.25 per month, billed annually",
+        "Only you can access uploads; kept max 48 hours, then permanently deleted.",
+        "Free: 20 images per session, 5 MB each, 3 conversions, 150 background removals/month (5/day)."
+      ],
+      "sources": [
+        "https://tinypng.com/pricing/web",
+        "https://tinypng.com/"
+      ]
+    },
+    "turbotenant.com": {
+      "host": "turbotenant.com",
+      "name": "TurboTenant",
+      "category": "rental-management",
+      "checked": "2026-11-25",
+      "does": "TurboTenant is free software for landlords and property managers to manage rentals, plus full-service management.",
+      "cells": [
+        "Yes, $0/month with no fees or contracts",
+        "$12.42/month (Essentials, starting at)",
+        "Yes, free background, credit and eviction checks for landlords; renters pay the screening fee",
+        "Yes; renters pay a $2 ACH fee (free for Pro landlords) or a 3.49% card fee",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.turbotenant.com/pricing/",
+        "https://www.turbotenant.com/"
+      ]
+    },
+    "youversion.com": {
+      "host": "youversion.com",
+      "name": "YouVersion Bible App",
+      "category": "prayer-and-bible-apps",
+      "checked": "2026-11-25",
+      "does": "A Bible app for reading or listening to the Bible, exploring Bible Plans, creating Prayers and studying with Friends.",
+      "cells": [
+        "Free",
+        "Bible reading and audio, Bible Plans, Prayers, study with Friends; 3,900+ Bible versions",
+        "Not shown",
+        "2,400+ languages"
+      ],
+      "sources": [
+        "https://www.youversion.com/"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "host": "aragon.ai",
+      "alternatives": [
+        "headshotpro.com",
+        "betterpic.io",
+        "realest-ai-headshot.com",
+        "secta.ai",
+        "tryitonai.com"
+      ],
+      "coMentions": {
+        "asked": 30,
+        "named": 20,
+        "engines": "ChatGPT, Claude and Gemini",
+        "date": "2026-11-25",
+        "counts": {
+          "headshotpro.com": 18,
+          "betterpic.io": 17,
+          "secta.ai": 7,
+          "tryitonai.com": 2,
+          "realest-ai-headshot.com": 0
+        }
+      }
+    },
+    {
+      "host": "tryprofound.com",
+      "alternatives": [
+        "peec.ai",
+        "otterly.ai",
+        "citeworthy.io",
+        "knownsite.dev"
+      ]
+    },
+    {
+      "host": "otter.ai",
+      "alternatives": [
+        "fireflies.ai",
+        "fathom.ai",
+        "rev.com",
+        "turboscribe.ai"
+      ]
+    },
+    {
+      "host": "ilovepdf.com",
+      "alternatives": [
+        "smallpdf.com",
+        "pdf24.org",
+        "sejda.com",
+        "simple-ai-tools.web.app"
+      ]
+    },
+    {
+      "host": "pdf24.org",
+      "alternatives": [
+        "ilovepdf.com",
+        "smallpdf.com",
+        "sejda.com",
+        "simple-ai-tools.web.app"
+      ]
+    },
+    {
+      "host": "smallpdf.com",
+      "alternatives": [
+        "ilovepdf.com",
+        "pdf24.org",
+        "sejda.com",
+        "simple-ai-tools.web.app"
+      ]
+    },
+    {
+      "host": "tinypng.com",
+      "alternatives": [
+        "squoosh.app",
+        "iloveimg.com",
+        "simple-ai-tools.web.app#image-compression"
+      ]
+    },
+    {
+      "host": "remove.bg",
+      "alternatives": [
+        "photoroom.com",
+        "pixelcut.ai"
+      ]
+    },
+    {
+      "host": "turbotenant.com",
+      "alternatives": [
+        "avail.com",
+        "rentredi.com",
+        "tenantcloud.com",
+        "innago.com",
+        "fia.rent"
+      ]
+    },
+    {
+      "host": "appfolio.com",
+      "alternatives": [
+        "buildium.com",
+        "doorloop.com",
+        "tenantcloud.com"
+      ]
+    },
+    {
+      "host": "rentredi.com",
+      "alternatives": [
+        "turbotenant.com",
+        "baselane.com",
+        "innago.com",
+        "avail.com",
+        "fia.rent"
+      ]
+    },
+    {
+      "host": "youversion.com",
+      "alternatives": [
+        "biblegateway.com",
+        "olivetree.com",
+        "glorify.global",
+        "reina.web.app"
+      ]
+    },
+    {
+      "host": "hallow.com",
+      "alternatives": [
+        "abide.com",
+        "pray.com",
+        "glorify.global",
+        "reina.web.app"
+      ]
+    },
+    {
+      "host": "peec.ai",
+      "alternatives": [
+        "tryprofound.com",
+        "otterly.ai",
+        "scrunch.com",
+        "athenahq.ai",
+        "citeworthy.io",
+        "knownsite.dev"
+      ]
+    },
+    {
+      "host": "magicstudio.com",
+      "alternatives": [
+        "aragon.ai",
+        "headshotpro.com",
+        "betterpic.io",
+        "realest-ai-headshot.com"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { pageMeta, SALES_EMAIL } from '../meta';
 import { directory, listed, study, fmtDate } from './data';
+import { data as altData, publishedPages } from '../alternatives/data';
 
 export const metadata = pageMeta('/sites', 'Site directory: what AI crawlers can read',
   'Sites by category, with what each one lets AI search engines and AI training crawlers read, measured from its public files.');
@@ -9,6 +10,9 @@ export default function Sites() {
   const d = directory();
   const s = study();
   const total = d.categories.reduce((n, c) => n + listed(c).length, 0);
+  const alt = altData();
+  const altPages = publishedPages(alt).map((p) => ({ host: p.host, name: alt.products[p.host].name }))
+    .sort((a, b) => a.name.localeCompare(b.name));
   return (
     <>
       <p className="eyebrow">Directory</p>
@@ -28,6 +32,14 @@ export default function Sites() {
           <h2 style={{ margin: 0 }}><Link href="/study/ai-crawler-access">Study: which of the top {s.top.toLocaleString('en-US')} sites block AI crawlers?</Link></h2>
           <p style={{ margin: '4px 0 0' }}>The same measurements across the most-visited sites on the web, updated monthly.</p>
         </div>
+      )}
+
+      {altPages.length > 0 && (
+        <>
+          <h2>Alternatives</h2>
+          <p>Tools compared with the ones people search alternatives for, on facts from each company&rsquo;s own pages.</p>
+          <p>{altPages.map((p, i) => <span key={p.host}>{i ? ' · ' : ''}<Link href={`/alternatives/${p.host}`}>{p.name} alternatives</Link></span>)}</p>
+        </>
       )}
 
       <h2>Categories</h2>

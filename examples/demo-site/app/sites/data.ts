@@ -10,7 +10,7 @@ export type Site = {
   host: string; checkedAt: string; reachable: boolean; error?: string; optedOut?: boolean; blocked?: boolean;
   url?: string; status?: number; title?: string | null; description?: string | null; noindex?: boolean | null; words?: number | null;
   jsonLd?: boolean | null; robots: Robots | null; llmsTxt?: boolean; sitemap?: { found: boolean; entries: number; listedInRobots: boolean };
-  knownsiteLevel?: number; platform?: Platform; ours?: boolean; rank?: number;
+  knownsiteLevel?: number; platform?: Platform; ours?: boolean; rank?: number; html?: boolean; website?: boolean;
 };
 export type Category = { slug: string; name: string; description: string; sites: Site[] };
 export type Directory = { generatedAt: string; categories: Category[] };
