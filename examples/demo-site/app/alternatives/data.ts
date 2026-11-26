@@ -15,10 +15,17 @@ export const data = (): Data => JSON.parse(readFileSync(path.join(process.cwd(),
 /** A product key is its host, or host#category for a site listed in a second category. */
 export const hostOf = (key: string, d: Data) => d.products[key]?.host || key.split('#')[0];
 
-/** Published only with checked facts for the tool itself and at least 3 alternatives (no thin pages). */
+/**
+ * A product counts as checked when its facts were extracted and at least half its cells say something
+ * other than "Not shown": a row of blanks adds nothing to the comparison.
+ */
+export const isChecked = (p?: Product) =>
+  Boolean(p && !p.unchecked && p.cells && p.cells.filter((c) => c !== 'Not shown').length * 2 >= p.cells.length);
+
+/** Published only with the tool itself checked and at least 3 checked alternatives (no thin pages). */
 export const MIN_CHECKED = 3;
 export const publishable = (page: AltPage, d: Data) =>
-  !d.products[page.host]?.unchecked && page.alternatives.filter((k) => d.products[k] && !d.products[k].unchecked).length >= MIN_CHECKED;
+  isChecked(d.products[page.host]) && page.alternatives.filter((k) => isChecked(d.products[k])).length >= MIN_CHECKED;
 
 /** Hosts of every published alternatives page. */
 export const publishedPages = (d: Data = data()) => d.pages.filter((p) => publishable(p, d));

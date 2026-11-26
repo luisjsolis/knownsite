@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { pageMeta, SALES_EMAIL, SITE } from '../../meta';
 import { findSite, aiSearchSummary, textSummary, fmtDate } from '../../sites/data';
-import { data, hostOf, publishable } from '../data';
+import { data, hostOf, publishable, isChecked } from '../data';
 
 // "Alternatives to X" pages: tools that do the same job, compared on facts from each company's own
 // pages (data/alternatives.json, checked on the dates shown).
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ host: str
   const page = d.pages.find((p) => p.host === host);
   if (!page) return {};
   const p = d.products[host];
-  const names = page.alternatives.map((h) => d.products[h].name);
+  const names = page.alternatives.filter((k) => isChecked(d.products[k])).map((k) => d.products[k].name);
   return pageMeta(`/alternatives/${host}`, `${p.name} alternatives`,
     `${names.slice(0, 3).join(', ')} and more compared with ${p.name}: prices and plans from each company's own pages, and which ones AI assistants name together.`);
 }
@@ -33,8 +33,10 @@ export default async function Page({ params }: { params: Promise<{ host: string 
   if (!page || !publishable(page, d)) notFound();
   const subject = d.products[host];
   const cat = d.categories[subject.category];
-  const rows = [host, ...page.alternatives];
-  const checked = rows.map((h) => d.products[h]).filter((p) => !p.unchecked);
+  // Only tools with enough checked facts get a row; the rest are named below the table.
+  const rows = [host, ...page.alternatives.filter((k) => isChecked(d.products[k]))];
+  const notCompared = page.alternatives.filter((k) => !isChecked(d.products[k])).map((k) => d.products[k]?.name || hostOf(k, d));
+  const checked = rows.map((h) => d.products[h]);
   const ours = rows.filter((h) => d.products[h].ours).map((h) => d.products[h].name);
   const co = page.coMentions;
   const crawl = rows.map((k) => ({ h: hostOf(k, d), f: findSite(hostOf(k, d)) })).filter((x) => x.f);
@@ -47,7 +49,7 @@ export default async function Page({ params }: { params: Promise<{ host: string 
       <p className="eyebrow"><Link href="/sites">Directory</Link> · {cat.name}</p>
       <h1>{subject.name} alternatives</h1>
       <p className="lede">
-        {subject.does?.startsWith(subject.name) ? subject.does : `${subject.name}: ${subject.does}`} Below are {page.alternatives.length} tools that do the same job, compared on facts from each
+        {subject.does?.startsWith(subject.name) ? subject.does : `${subject.name}: ${subject.does}`} Below are {rows.length - 1} tools that do the same job, compared on facts from each
         company&rsquo;s own pricing and home pages{date ? `, checked ${fmtDate(`${date}T20:00:00Z`)}` : ''}.
       </p>
 
@@ -74,6 +76,7 @@ export default async function Page({ params }: { params: Promise<{ host: string 
           </tbody>
         </table>
       </div>
+      {notCompared.length > 0 && <p className="muted small">Also an alternative, not compared yet (its pages didn&rsquo;t give enough to check): {notCompared.join(', ')}.</p>}
       <p className="muted small">Published prices before coupons or sales. They change; check the source before buying.</p>
 
       {co && (
@@ -123,7 +126,7 @@ export default async function Page({ params }: { params: Promise<{ host: string 
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'ItemList', name: `${subject.name} alternatives`, url: `${SITE}/alternatives/${host}`,
-        itemListElement: page.alternatives.map((h, i) => ({ '@type': 'ListItem', position: i + 1, name: d.products[h].name, url: `https://${hostOf(h, d)}` })),
+        itemListElement: rows.slice(1).map((h, i) => ({ '@type': 'ListItem', position: i + 1, name: d.products[h].name, url: `https://${hostOf(h, d)}` })),
       }) }} />
     </>
   );

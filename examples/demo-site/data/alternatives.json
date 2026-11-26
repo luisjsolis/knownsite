@@ -73,6 +73,96 @@
         "Tradition",
         "Languages"
       ]
+    },
+    "accounting-software": {
+      "name": "Accounting software",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Free trial",
+        "Built for"
+      ]
+    },
+    "notes-and-workspaces": {
+      "name": "Notes and workspace apps",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Works offline",
+        "Platforms"
+      ]
+    },
+    "photo-editors": {
+      "name": "Photo editors",
+      "columns": [
+        "Free use",
+        "Paid from",
+        "Runs in",
+        "Notes"
+      ]
+    },
+    "writing-assistants": {
+      "name": "Writing assistants",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Languages",
+        "Works in"
+      ]
+    },
+    "word-processors": {
+      "name": "Word processors",
+      "columns": [
+        "Free use",
+        "Paid from",
+        "Runs in",
+        "Works with Word files"
+      ]
+    },
+    "classroom-quizzes": {
+      "name": "Classroom quiz and polling tools",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Free plan limits",
+        "What it's for"
+      ]
+    },
+    "video-meetings": {
+      "name": "Video meeting apps",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Free meeting length",
+        "Participants"
+      ]
+    },
+    "link-in-bio": {
+      "name": "Link-in-bio tools",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Custom domain",
+        "Sells products"
+      ]
+    },
+    "project-management": {
+      "name": "Project management",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Free plan users",
+        "Built for"
+      ]
+    },
+    "ai-chat-assistants": {
+      "name": "AI chat assistants",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "Made by",
+        "Notable for"
+      ]
     }
   },
   "products": {
@@ -872,6 +962,842 @@
       "sources": [
         "https://www.youversion.com/"
       ]
+    },
+    "quickbooks": {
+      "host": "quickbooks.intuit.com",
+      "name": "QuickBooks",
+      "category": "accounting-software",
+      "checked": "2026-11-25",
+      "does": "QuickBooks is cloud accounting software for tracking income and expenses, invoicing, and running financial reports.",
+      "cells": [
+        "Yes, Free plan at $0 / mo, 1 user, no credit card required",
+        "$38 / mo (Simple Start)",
+        "30 days",
+        "Small and mid-size businesses"
+      ],
+      "sources": [
+        "https://quickbooks.intuit.com/pricing/"
+      ]
+    },
+    "xero.com": {
+      "host": "xero.com",
+      "name": "Xero",
+      "category": "accounting-software",
+      "checked": "2026-11-25",
+      "does": "Xero is accounting software for managing invoicing, payments, bills, bank reconciliation and reporting in one place.",
+      "cells": [
+        "Not shown",
+        "$27 USD per month (Early plan, regular price)",
+        "One month free (shown alongside the current offer)",
+        "US businesses: small, growing and scaling businesses"
+      ],
+      "sources": [
+        "https://www.xero.com/us/pricing-plans/"
+      ]
+    },
+    "freshbooks.com": {
+      "host": "freshbooks.com",
+      "name": "FreshBooks",
+      "category": "accounting-software",
+      "checked": "2026-11-25",
+      "does": "FreshBooks is web-based accounting software for sending invoices, tracking expenses, creating estimates and getting paid",
+      "cells": [
+        "Not shown",
+        "$23.00 USD/mo (Lite plan)",
+        "30 days, no credit card required",
+        "Very small businesses up to established tech companies with big teams"
+      ],
+      "sources": [
+        "https://www.freshbooks.com/pricing"
+      ]
+    },
+    "waveapps.com": {
+      "host": "waveapps.com",
+      "name": "Wave",
+      "category": "accounting-software",
+      "checked": "2026-11-25",
+      "does": "Wave provides accounting, invoicing, payments, receipts and payroll tools for small businesses.",
+      "cells": [
+        "Yes – Starter Plan, $0",
+        "Pro Plan $19 USD/month billed monthly ($190 USD/year billed annually)",
+        "Not shown",
+        "Small business owners at every stage"
+      ],
+      "sources": [
+        "https://www.waveapps.com/pricing"
+      ]
+    },
+    "zoho-books": {
+      "host": "zoho.com",
+      "name": "Zoho Books",
+      "category": "accounting-software",
+      "checked": "2026-11-25",
+      "does": "AI-powered accounting software for managing invoicing, expenses, and inventory in one place.",
+      "cells": [
+        "Yes, $0/org/month; free indefinitely while annual revenue stays under the $50K threshold",
+        "$20/org/month (Standard), or $15/org/month billed annually; prices exclude local taxes",
+        "Yes, 14 days",
+        "Growing businesses"
+      ],
+      "sources": [
+        "https://www.zoho.com/us/books/pricing/",
+        "https://www.zoho.com/us/books/"
+      ]
+    },
+    "notion.com": {
+      "host": "notion.com",
+      "name": "Notion",
+      "category": "notes-and-workspaces",
+      "checked": "2026-11-25",
+      "does": "Notion is a shared workspace that turns a team's knowledge into context for their AI agents.",
+      "cells": [
+        "Yes, $0 per seat / month",
+        "$10 per seat / month (Plus, USD)",
+        "Yes, on the desktop and mobile app",
+        "Desktop, web, and mobile (Apple App Store, Google Play)"
+      ],
+      "sources": [
+        "https://www.notion.com/pricing",
+        "https://www.notion.com/"
+      ]
+    },
+    "obsidian.md": {
+      "host": "obsidian.md",
+      "name": "Obsidian",
+      "category": "notes-and-workspaces",
+      "checked": "2026-11-25",
+      "does": "Obsidian is a free, flexible app for writing and linking private notes stored on your device.",
+      "cells": [
+        "Yes, free without limits; no sign-up required",
+        "$4 USD per user, per month, billed annually (Sync add-on)",
+        "Yes, notes are stored on your device and accessible offline",
+        "Windows named; other platforms referenced but not listed"
+      ],
+      "sources": [
+        "https://obsidian.md/pricing",
+        "https://obsidian.md/"
+      ]
+    },
+    "evernote.com": {
+      "host": "evernote.com",
+      "name": "Evernote",
+      "category": "notes-and-workspaces",
+      "checked": "2026-11-25",
+      "does": "Evernote is a note-taking app that lets you search, organize, and enrich your notes, including with AI.",
+      "cells": [
+        "Yes",
+        "Not shown",
+        "Offline notes listed as a feature (which plans include it is not shown)",
+        "iOS, Android, Web, Windows, and Mac"
+      ],
+      "sources": [
+        "https://evernote.com/compare-plans"
+      ]
+    },
+    "clickup.com": {
+      "host": "clickup.com",
+      "name": "ClickUp",
+      "category": "notes-and-workspaces",
+      "checked": "2026-11-25",
+      "does": "ClickUp presents itself as a work solution, with plans covering tasks, docs, chat and AI.",
+      "cells": [
+        "Yes, Free Forever plan at $0, no credit card required",
+        "$9 user/mo, billed yearly (Core); regular price $12",
+        "Not shown",
+        "iOS, Android, Mac, Windows"
+      ],
+      "sources": [
+        "https://clickup.com/pricing"
+      ]
+    },
+    "adobe-photoshop": {
+      "host": "adobe.com",
+      "name": "Adobe Photoshop",
+      "category": "photo-editors",
+      "checked": "2026-11-25",
+      "does": "Photoshop is an image editing and design app for image transformations, graphic design, and visual art.",
+      "cells": [
+        "Free mobile version; premium features require a subscription",
+        "Not shown",
+        "Desktop, web, and mobile",
+        "Free trial available for the full desktop app"
+      ],
+      "sources": [
+        "https://www.adobe.com/products/photoshop.html"
+      ]
+    },
+    "gimp.org": {
+      "host": "gimp.org",
+      "name": "GIMP",
+      "category": "photo-editors",
+      "checked": "2026-11-25",
+      "does": "GIMP is a free and open source cross-platform image editor for photo manipulation, artwork creation and graphic design.",
+      "cells": [
+        "Yes, free and open source software; you can change and distribute its source code",
+        "Not shown",
+        "GNU/Linux, macOS, Windows and more operating systems",
+        "Latest version 3.2.8 (released 2026-11-02); supports 3rd party plugins and scripting in C, C++, Python, Scheme"
+      ],
+      "sources": [
+        "https://www.gimp.org/"
+      ]
+    },
+    "photopea.com": {
+      "host": "photopea.com",
+      "name": "Photopea",
+      "category": "photo-editors",
+      "checked": "2026-11-25",
+      "does": "Photopea is a free online photo editor with professional-grade tools that works in your browser.",
+      "cells": [
+        "Yes, free; all premium features without paying",
+        "Not shown",
+        "Web browser, on any device; no install",
+        "Fully local: no uploads, runs on your CPU/GPU; full PSD open/save support"
+      ],
+      "sources": [
+        "https://www.photopea.com/"
+      ]
+    },
+    "pixlr.com": {
+      "host": "pixlr.com",
+      "name": "Pixlr",
+      "category": "photo-editors",
+      "checked": "2026-11-25",
+      "does": "Pixlr offers online photo editing plus AI image, video and audio generation tools.",
+      "cells": [
+        "Not shown",
+        "$2.49 per month (Plus, billed monthly)",
+        "Web, desktop and mobile devices",
+        "No refunds once payment is processed; cancel anytime"
+      ],
+      "sources": [
+        "https://pixlr.com/pricing/"
+      ]
+    },
+    "grammarly.com": {
+      "host": "grammarly.com",
+      "name": "Grammarly",
+      "category": "writing-assistants",
+      "checked": "2026-11-25",
+      "does": "Grammarly helps you write without spelling and grammar mistakes.",
+      "cells": [
+        "Yes, Free plan for individuals",
+        "Not shown",
+        "English (Pro lists \"Write fluently in English\"); no full language list shown",
+        "Windows, Mac, browser extension (Chrome, Safari, Firefox, Edge), MS Office"
+      ],
+      "sources": [
+        "https://www.grammarly.com/plans"
+      ]
+    },
+    "languagetool.org": {
+      "host": "languagetool.org",
+      "name": "LanguageTool",
+      "category": "writing-assistants",
+      "checked": "2026-11-25",
+      "does": "LanguageTool is an AI-based grammar checker.",
+      "cells": [
+        "Yes; free version corrects spelling, simple punctuation and some style mistakes",
+        "Not shown",
+        "More than 30 languages and dialects",
+        "Common browsers and word processors (Chrome, Firefox, Edge, Word, LibreOffice)"
+      ],
+      "sources": [
+        "https://languagetool.org/premium",
+        "https://languagetool.org/"
+      ]
+    },
+    "prowritingaid.com": {
+      "host": "prowritingaid.com",
+      "name": "ProWritingAid",
+      "category": "writing-assistants",
+      "checked": "2026-11-25",
+      "does": "ProWritingAid checks grammar and line-edits your writing for readability, style and structure, and offers story critique",
+      "cells": [
+        "Yes, $0 per month; line editing reports limited to 2 runs/day on 500 words",
+        "Premium $10 per month, billed yearly ($30 per month, billed monthly)",
+        "English only (General, British, US, Australian, Canadian)",
+        "Web editor, desktop, browser & app integrations, Google Docs, Microsoft Office"
+      ],
+      "sources": [
+        "https://prowritingaid.com/pricing"
+      ]
+    },
+    "hemingwayapp.com": {
+      "host": "hemingwayapp.com",
+      "name": "Hemingway Editor",
+      "category": "writing-assistants",
+      "checked": "2026-11-25",
+      "does": "Helps you edit writing by fixing highlighted issues, checking grammar, and adjusting tone.",
+      "cells": [
+        "Free online tools: grammar checker, paraphrasing tool, AI proofreader, readability checker",
+        "Not shown",
+        "Not shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://hemingwayapp.com/"
+      ]
+    },
+    "wordtune.com": {
+      "host": "wordtune.com",
+      "name": "Wordtune",
+      "category": "writing-assistants",
+      "checked": "2026-11-25",
+      "does": "Wordtune is an AI writing assistant that paraphrases, rewrites, summarizes, generates and grammar-checks text.",
+      "cells": [
+        "Yes, Basic $0.00: 10 rewrites/day, 3 AI summaries/month, unlimited spelling and grammar checks",
+        "$4.89 per month, billed annually (Advanced; list price $6.99)",
+        "English (the page only mentions improving your English)",
+        "Chrome extension, Microsoft Edge extension, iOS"
+      ],
+      "sources": [
+        "https://www.wordtune.com/plans"
+      ]
+    },
+    "google-docs": {
+      "host": "docs.google.com",
+      "name": "Google Docs",
+      "category": "word-processors",
+      "checked": "2026-11-25",
+      "does": "Google Docs offers online, AI-powered documents that let you and your team create and collaborate on content.",
+      "cells": [
+        "Yes, anyone with a Google Account can create in Docs; some features need Google Workspace plans",
+        "Not shown",
+        "Web browser, phone and tablet (App Store and Play Store); also works offline",
+        "Yes, convert Word documents to Docs format or edit Word documents directly without making a copy"
+      ],
+      "sources": [
+        "https://workspace.google.com/products/docs/"
+      ]
+    },
+    "libreoffice.org": {
+      "host": "libreoffice.org",
+      "name": "LibreOffice Writer",
+      "category": "word-processors",
+      "checked": "2026-11-25",
+      "does": "LibreOffice Writer is a word processor for everything from quick notes to full-length books.",
+      "cells": [
+        "Yes, free at no cost (free and open source software)",
+        "Not shown",
+        "Not shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.libreoffice.org/"
+      ]
+    },
+    "onlyoffice.com": {
+      "host": "onlyoffice.com",
+      "name": "ONLYOFFICE",
+      "category": "word-processors",
+      "checked": "2026-11-25",
+      "does": "ONLYOFFICE provides tools for creating, editing, and collaborating on documents, spreadsheets, presentations, and PDFs.",
+      "cells": [
+        "Yes, free ONLYOFFICE Desktop Editors for Windows, Linux, and macOS",
+        "Not shown",
+        "Web, desktop, and mobile",
+        "Not shown"
+      ],
+      "sources": [
+        "https://www.onlyoffice.com/"
+      ]
+    },
+    "zoho-writer": {
+      "host": "zoho.com",
+      "name": "Zoho Writer",
+      "category": "word-processors",
+      "checked": "2026-11-25",
+      "does": "Zoho Writer is a cloud-based word processor for writing, editing, collaboration, and publishing.",
+      "cells": [
+        "Yes, free word processor with unrestricted access to all features on sign-up",
+        "Not shown",
+        "Web, desktop apps (Windows, Mac, Linux) with offline mode, iOS and Android apps",
+        "Yes, create, import, edit and save DOCX documents"
+      ],
+      "sources": [
+        "https://www.zoho.com/writer/"
+      ]
+    },
+    "kahoot.com": {
+      "host": "kahoot.com",
+      "name": "Kahoot!",
+      "category": "classroom-quizzes",
+      "checked": "2026-11-25",
+      "does": "Kahoot! is a game-based learning platform for creating, sharing and playing learning games or trivia quizzes.",
+      "cells": [
+        "Yes, Kahoot! Go, a free plan for teachers",
+        "$3 per month ($36 billed annually)",
+        "Not shown",
+        "Engaging audiences in classrooms, training, presentations, meetings and social gatherings"
+      ],
+      "sources": [
+        "https://kahoot.com/",
+        "https://kahoot.com/schools/"
+      ]
+    },
+    "mentimeter.com": {
+      "host": "mentimeter.com",
+      "name": "Mentimeter",
+      "category": "classroom-quizzes",
+      "checked": "2026-11-25",
+      "does": "Mentimeter lets presenters interact with their audience through polls, word clouds, quizzes, Q&A and more.",
+      "cells": [
+        "Yes",
+        "Not shown",
+        "50 participants per month (unlimited once per month); 23 slide types",
+        "Interactive meetings: workshops, events, decision meetings, training sessions, all-employee meetings"
+      ],
+      "sources": [
+        "https://www.mentimeter.com/plans"
+      ]
+    },
+    "wayground.com": {
+      "host": "wayground.com",
+      "name": "Wayground (formerly Quizizz)",
+      "category": "classroom-quizzes",
+      "checked": "2026-11-25",
+      "does": "Wayground turns curriculum and teaching materials into interactive student activities and shows educators what each stud",
+      "cells": [
+        "Yes, teachers can sign up free",
+        "Not shown",
+        "Not shown",
+        "Interactive lessons, assessments, and student insights for teachers, schools, and districts"
+      ],
+      "sources": [
+        "https://wayground.com/"
+      ]
+    },
+    "slido.com": {
+      "host": "slido.com",
+      "name": "Slido",
+      "category": "classroom-quizzes",
+      "checked": "2026-11-25",
+      "does": "Slido helps you engage your audience, whether your team or event attendees.",
+      "cells": [
+        "Not shown",
+        "Not shown",
+        "Not shown",
+        "Making meetings and events more interactive with live polls and Q&A"
+      ],
+      "sources": [
+        "https://www.slido.com/pricing"
+      ]
+    },
+    "zoom.us": {
+      "host": "zoom.us",
+      "name": "Zoom",
+      "category": "video-meetings",
+      "checked": "2026-11-25",
+      "does": "Zoom offers simplified video conferencing and messaging across any device.",
+      "cells": [
+        "Yes, the Basic plan (40-minute meetings, 100 participants)",
+        "$14.16 /user per month billed annually; $16.99 /user per month billed monthly (USD, Pro)",
+        "40 minutes per meeting",
+        "Up to 100 per meeting by default (up to 1,000 with Large Meeting add-on)"
+      ],
+      "sources": [
+        "https://zoom.us/pricing"
+      ]
+    },
+    "google-meet": {
+      "host": "meet.google.com",
+      "name": "Google Meet",
+      "category": "video-meetings",
+      "checked": "2026-11-25",
+      "does": "Google Meet provides AI-powered video calls for meetings and collaboration.",
+      "cells": [
+        "Yes, anyone with a Google Account can create meetings at no cost",
+        "Not shown",
+        "Up to 60 minutes per meeting; no time limit for mobile calls and 1:1s",
+        "Up to 100 on the free version (up to 1000 on certain premium plans)"
+      ],
+      "sources": [
+        "https://workspace.google.com/products/meet/"
+      ]
+    },
+    "jitsi.org": {
+      "host": "jitsi.org",
+      "name": "Jitsi Meet",
+      "category": "video-meetings",
+      "checked": "2026-11-25",
+      "does": "Jitsi Meet provides secure, flexible, and free video conferencing.",
+      "cells": [
+        "Yes, completely free video conferencing",
+        "Not shown",
+        "95 minutes on meet.jit.si",
+        "Not shown"
+      ],
+      "sources": [
+        "https://jitsi.org/"
+      ]
+    },
+    "whereby.com": {
+      "host": "whereby.com",
+      "name": "Whereby",
+      "category": "video-meetings",
+      "checked": "2026-11-25",
+      "does": "Whereby offers video meetings with permanent room links for teams, plus an embeddable API/SDK for product builders.",
+      "cells": [
+        "Not shown",
+        "Not shown",
+        "Not shown",
+        "Not shown"
+      ],
+      "sources": [
+        "https://whereby.com/information/pricing"
+      ]
+    },
+    "beacons.ai": {
+      "host": "beacons.ai",
+      "name": "Beacons",
+      "category": "link-in-bio",
+      "checked": "2026-11-25",
+      "does": "Beacons is an all-in-one creator platform for link in bio, a store, email marketing, Smart Reply DMs and media kits.",
+      "cells": [
+        "Yes, $0/mo, free forever",
+        "$10/mo (Creator), or $8.33/mo billed annually",
+        "Yes, free custom domain on Creator plan and above",
+        "Yes, unlimited digital products; 9% seller fee on Free plan sales"
+      ],
+      "sources": [
+        "https://beacons.ai/i/pricing"
+      ]
+    },
+    "carrd.co": {
+      "host": "carrd.co",
+      "name": "Carrd",
+      "category": "link-in-bio",
+      "checked": "2026-11-25",
+      "does": "Carrd lets you build and publish websites, with paid Pro plans that add features like custom domains and forms.",
+      "cells": [
+        "Yes, a free Carrd account is available",
+        "$9 / year (Pro Lite)",
+        "Yes, Pro-only, from Pro Standard at $19 / year, with SSL",
+        "Via payment-enabled forms and Stripe, PayPal or Gumroad embeds (Pro)"
+      ],
+      "sources": [
+        "https://carrd.com/pro"
+      ]
+    },
+    "jira": {
+      "host": "atlassian.com",
+      "name": "Jira",
+      "category": "project-management",
+      "checked": "2026-11-25",
+      "does": "Jira lets teams and AI agents plan, track, and orchestrate work in one shared place.",
+      "cells": [
+        "Yes, free to start, no credit card required",
+        "Not shown",
+        "Not shown",
+        "Teams of all types: design, marketing, HR, operations, and engineering"
+      ],
+      "sources": [
+        "https://www.atlassian.com/software/jira"
+      ]
+    },
+    "linear.app": {
+      "host": "linear.app",
+      "name": "Linear",
+      "category": "project-management",
+      "checked": "2026-11-25",
+      "does": "Linear is a work management tool for issues, projects, cycles and initiatives, with AI agent workflows.",
+      "cells": [
+        "Yes, $0 (2 teams, 250 issues)",
+        "$10 per user/month, billed yearly (Basic)",
+        "Unlimited members",
+        "Not shown"
+      ],
+      "sources": [
+        "https://linear.app/pricing"
+      ]
+    },
+    "asana.com": {
+      "host": "asana.com",
+      "name": "Asana",
+      "category": "project-management",
+      "checked": "2026-11-25",
+      "does": "Asana is an AI-powered work management platform where teams and AI agents work together.",
+      "cells": [
+        "Yes: Personal plan, $0 free forever",
+        "$10.99 per user, per month billed annually ($13.49 billed monthly)",
+        "2 users",
+        "Cross-functional teams"
+      ],
+      "sources": [
+        "https://asana.com/pricing"
+      ]
+    },
+    "monday.com": {
+      "host": "monday.com",
+      "name": "monday.com",
+      "category": "project-management",
+      "checked": "2026-11-25",
+      "does": "monday.com organizes all your work and data, such as projects, clients and processes, on boards.",
+      "cells": [
+        "Yes, $0 free forever",
+        "$9 seat / month (Basic), billed annually",
+        "Up to 2 seats",
+        "Every team, people and agents included"
+      ],
+      "sources": [
+        "https://monday.com/pricing"
+      ]
+    },
+    "trello.com": {
+      "host": "trello.com",
+      "name": "Trello",
+      "category": "project-management",
+      "checked": "2026-11-25",
+      "does": "Trello helps teams organize projects and get work done with boards, cards, and workflows.",
+      "cells": [
+        "Yes, $0 USD",
+        "$5 USD per user/month billed annually ($6 billed monthly) for Standard",
+        "Up to 10 collaborators per Workspace",
+        "Teams of any type, project, or workflow, including teams of one"
+      ],
+      "sources": [
+        "https://trello.com/pricing"
+      ]
+    },
+    "clickup.com#project-management": {
+      "host": "clickup.com",
+      "name": "ClickUp",
+      "category": "project-management",
+      "checked": "2026-11-25",
+      "does": "ClickUp is a work tool with tasks, collaborative docs, Kanban boards, calendar view and sprint management.",
+      "cells": [
+        "Yes, Free Forever plan at $0, no credit card required",
+        "$9 user / mo billed yearly (Core; regular price $12)",
+        "Unlimited members and guests at no charge",
+        "Not shown"
+      ],
+      "sources": [
+        "https://clickup.com/pricing"
+      ]
+    },
+    "chatgpt.com": {
+      "host": "chatgpt.com",
+      "name": "ChatGPT",
+      "category": "ai-chat-assistants",
+      "checked": "2026-11-25",
+      "does": "ChatGPT is an AI chat assistant that understands your request, tracks the conversation, and generates responses.",
+      "cells": [
+        "Yes, a free version is available to everyone",
+        "Not shown",
+        "OpenAI",
+        "Unlimited text chats with GPT-6 on the Free plan"
+      ],
+      "sources": [
+        "https://chatgpt.com/pricing/"
+      ]
+    },
+    "claude.com": {
+      "host": "claude.com",
+      "name": "Claude",
+      "category": "ai-chat-assistants",
+      "checked": "2026-11-25",
+      "does": "Claude is an AI assistant you chat with on web, desktop, and mobile that can search the web, create files, and run code.",
+      "cells": [
+        "Yes, $0 with limited usage every 5 hours and every week",
+        "Pro: $17 per month billed annually ($200 up front); $20 if billed monthly",
+        "Anthropic PBC",
+        "Claude Code included in all paid plans, sharing the plan's usage limits"
+      ],
+      "sources": [
+        "https://claude.com/pricing"
+      ]
+    },
+    "gemini.google": {
+      "host": "gemini.google",
+      "name": "Gemini",
+      "category": "ai-chat-assistants",
+      "checked": "2026-11-25",
+      "does": "Gemini is a personal AI assistant that helps with tasks at work, school or home.",
+      "cells": [
+        "Yes, $0 / month with a Google Account",
+        "$4.99 / month (Google AI Plus)",
+        "Google",
+        "Deep Research that analyzes hundreds of sources to generate comprehensive research reports"
+      ],
+      "sources": [
+        "https://gemini.google/subscriptions/"
+      ]
+    },
+    "mistral.ai": {
+      "host": "mistral.ai",
+      "name": "Le Chat (Mistral)",
+      "category": "ai-chat-assistants",
+      "checked": "2026-11-25",
+      "does": "Le Chat (now offered as Mistral Vibe) is a personal AI agent for everyday tasks, chat, search, creation and coding.",
+      "cells": [
+        "Yes, with limited messages, web searches and coding sessions",
+        "$14.99 /mo (Pro, excluding taxes)",
+        "Mistral AI",
+        "Self-hostable models; private, on-premises deployments that keep data in your environment"
+      ],
+      "sources": [
+        "https://mistral.ai/pricing/"
+      ]
+    },
+    "deepseek.com": {
+      "host": "deepseek.com",
+      "name": "DeepSeek",
+      "category": "ai-chat-assistants",
+      "checked": "2026-11-25",
+      "does": "DeepSeek offers a chat assistant (web, app, desktop) and an API platform for developers.",
+      "cells": [
+        "Not shown",
+        "Not shown",
+        "DeepSeek",
+        "Chat assistant on web, app and desktop, plus an API for developers"
+      ],
+      "sources": [
+        "https://www.deepseek.com/en/"
+      ]
+    },
+    "zoho-meeting": {
+      "host": "zoho.com",
+      "name": "Zoho Meeting",
+      "category": "video-meetings",
+      "checked": "2026-11-25",
+      "does": "Zoho Meeting runs online meetings for connecting and collaborating with teammates and clients in different regions.",
+      "cells": [
+        "Yes, a Free plan",
+        "Not shown",
+        "Up to 60 minutes per meeting",
+        "Up to 100 participants per meeting (Free plan)"
+      ],
+      "sources": [
+        "https://www.zoho.com/meeting/pricing.html"
+      ]
+    },
+    "socrative.com": {
+      "host": "socrative.com",
+      "name": "Socrative",
+      "category": "classroom-quizzes",
+      "checked": "2026-11-25",
+      "does": "Socrative lets teachers run quizzes and activities to see what students understand in real time.",
+      "cells": [
+        "Yes, $0 USD seat/month ($0 billed annually)",
+        "$10 USD seat/month, $120 billed annually (Essentials)",
+        "5 quizzes, 1 room, 50 students per activity, 30-day report history",
+        "Assessment for classrooms, schools, and organizations"
+      ],
+      "sources": [
+        "https://www.socrative.com/pricing/"
+      ]
+    },
+    "classpoint.io": {
+      "host": "classpoint.io",
+      "name": "ClassPoint",
+      "category": "classroom-quizzes",
+      "checked": "2026-11-25",
+      "does": "ClassPoint is a teaching and student engagement tool that adds interactive quizzes and gamification to PowerPoint.",
+      "cells": [
+        "Yes (Basic plan, free)",
+        "USD 8 /month (USD 96 billed annually) for Pro",
+        "25 students per class, up to 3 classes, 5 activity types, 5 activities per presentation",
+        "Engaging students and participants with interactive activities inside PowerPoint, for teachers and trainers"
+      ],
+      "sources": [
+        "https://www.classpoint.io/pricing"
+      ]
+    },
+    "imageoptim.com": {
+      "host": "imageoptim.com",
+      "name": "ImageOptim",
+      "category": "image-compression",
+      "checked": "2026-11-25",
+      "does": "ImageOptim compresses images without losing quality and removes bloated metadata to save disk space and bandwidth.",
+      "cells": [
+        "Free and open source (GPL v2 or later); donations accepted",
+        "Not shown",
+        "Runs several optimization tools on dropped images and keeps the smallest result",
+        "Requires macOS 11+; separate download for Yosemite (10.10)"
+      ],
+      "sources": [
+        "https://imageoptim.com/mac"
+      ]
+    },
+    "shortpixel.com": {
+      "host": "shortpixel.com",
+      "name": "ShortPixel",
+      "category": "image-compression",
+      "checked": "2026-11-25",
+      "does": "ShortPixel optimizes images to keep the same visual quality at the smallest possible file size.",
+      "cells": [
+        "A Free plan is offered (details not shown)",
+        "Not shown",
+        "WebP and AVIF versions are created alongside your original files",
+        "Not shown"
+      ],
+      "sources": [
+        "https://shortpixel.com/pricing"
+      ]
+    },
+    "linktr.ee": {
+      "host": "linktr.ee",
+      "name": "Linktree",
+      "category": "link-in-bio",
+      "unchecked": true,
+      "uncheckedWhy": "robots.txt disallows KnownsiteBot"
+    },
+    "gimkit.com": {
+      "host": "gimkit.com",
+      "name": "Gimkit",
+      "category": "classroom-quizzes",
+      "unchecked": true,
+      "uncheckedWhy": "almost no text without JavaScript"
+    },
+    "anytype.io": {
+      "host": "anytype.io",
+      "name": "Anytype",
+      "category": "notes-and-workspaces",
+      "unchecked": true,
+      "uncheckedWhy": "almost no text without JavaScript"
+    },
+    "stan.store": {
+      "host": "stan.store",
+      "name": "Stan",
+      "category": "link-in-bio",
+      "unchecked": true,
+      "uncheckedWhy": "almost no text without JavaScript"
+    },
+    "perplexity.ai": {
+      "host": "perplexity.ai",
+      "name": "Perplexity",
+      "category": "ai-chat-assistants",
+      "unchecked": true,
+      "uncheckedWhy": "almost no text without JavaScript"
+    },
+    "affinity.studio": {
+      "host": "affinity.studio",
+      "name": "Affinity",
+      "category": "photo-editors",
+      "unchecked": true,
+      "uncheckedWhy": "almost no text without JavaScript"
+    },
+    "microsoft-word": {
+      "host": "microsoft.com",
+      "name": "Microsoft Word",
+      "category": "word-processors",
+      "unchecked": true,
+      "uncheckedWhy": "fetch failed"
+    },
+    "microsoft-copilot": {
+      "host": "microsoft.com",
+      "name": "Microsoft Copilot",
+      "category": "ai-chat-assistants",
+      "unchecked": true,
+      "uncheckedWhy": "fetch failed"
+    },
+    "microsoft-teams": {
+      "host": "microsoft.com",
+      "name": "Microsoft Teams",
+      "category": "video-meetings",
+      "unchecked": true,
+      "uncheckedWhy": "fetch failed"
     }
   },
   "pages": [
@@ -948,7 +1874,9 @@
       "alternatives": [
         "squoosh.app",
         "iloveimg.com",
-        "simple-ai-tools.web.app#image-compression"
+        "simple-ai-tools.web.app#image-compression",
+        "imageoptim.com",
+        "shortpixel.com"
       ]
     },
     {
@@ -1022,6 +1950,101 @@
         "headshotpro.com",
         "betterpic.io",
         "realest-ai-headshot.com"
+      ]
+    },
+    {
+      "host": "quickbooks",
+      "alternatives": [
+        "xero.com",
+        "freshbooks.com",
+        "waveapps.com",
+        "zoho-books"
+      ]
+    },
+    {
+      "host": "notion.com",
+      "alternatives": [
+        "obsidian.md",
+        "evernote.com",
+        "anytype.io",
+        "clickup.com"
+      ]
+    },
+    {
+      "host": "adobe-photoshop",
+      "alternatives": [
+        "gimp.org",
+        "affinity.studio",
+        "photopea.com",
+        "pixlr.com"
+      ]
+    },
+    {
+      "host": "grammarly.com",
+      "alternatives": [
+        "languagetool.org",
+        "prowritingaid.com",
+        "hemingwayapp.com",
+        "wordtune.com"
+      ]
+    },
+    {
+      "host": "microsoft-word",
+      "alternatives": [
+        "google-docs",
+        "libreoffice.org",
+        "onlyoffice.com",
+        "zoho-writer"
+      ]
+    },
+    {
+      "host": "kahoot.com",
+      "alternatives": [
+        "gimkit.com",
+        "wayground.com",
+        "mentimeter.com",
+        "slido.com",
+        "socrative.com",
+        "classpoint.io"
+      ]
+    },
+    {
+      "host": "zoom.us",
+      "alternatives": [
+        "google-meet",
+        "microsoft-teams",
+        "jitsi.org",
+        "whereby.com",
+        "zoho-meeting"
+      ]
+    },
+    {
+      "host": "linktr.ee",
+      "alternatives": [
+        "beacons.ai",
+        "stan.store",
+        "carrd.co"
+      ]
+    },
+    {
+      "host": "jira",
+      "alternatives": [
+        "linear.app",
+        "asana.com",
+        "monday.com",
+        "trello.com",
+        "clickup.com#project-management"
+      ]
+    },
+    {
+      "host": "chatgpt.com",
+      "alternatives": [
+        "claude.com",
+        "gemini.google",
+        "perplexity.ai",
+        "microsoft-copilot",
+        "mistral.ai",
+        "deepseek.com"
       ]
     }
   ]
