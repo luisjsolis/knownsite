@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { pageMeta, SALES_EMAIL } from '../../meta';
 import { data as altData, publishedPages, hostOf, isChecked } from '../../alternatives/data';
+import { toolJsonForHost, apiCategories, categoryJson } from '../../api/v1/data';
 import {
   directory, listed, findSite, allHosts, fmtDate, aiSearchSummary, textSummary, platformLine,
   verdict, plainFacts, assistantsAllowed, homepageReadable,
@@ -21,11 +22,13 @@ const category = (slug: string) => directory().categories.find((c) => c.slug ===
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const c = category(slug);
-  if (c) return pageMeta(`/sites/${slug}`, `${c.name}: which sites can AI assistants read?`, `${c.description} Which of these sites ChatGPT, Claude and Perplexity can read, and so recommend, checked ${fmtDate(c.sites[0]?.checkedAt ?? '')}.`);
+  if (c) return pageMeta(`/sites/${slug}`, `${c.name}: which sites can AI assistants read?`, `${c.description} Which of these sites ChatGPT, Claude and Perplexity can read, and so recommend, checked ${fmtDate(c.sites[0]?.checkedAt ?? '')}.`,
+    { json: apiCategories().includes(slug) ? categoryJson(slug) : undefined });
   const f = findSite(slug);
   if (f) {
     const name = f.site.name ?? slug;
-    return pageMeta(`/sites/${slug}`, `Can AI assistants read ${name}?`, `${verdict(f.site).headline}: what ChatGPT, Claude, Perplexity and search engines can read on ${slug}, checked ${fmtDate(f.site.checkedAt)}.`);
+    return pageMeta(`/sites/${slug}`, `Can AI assistants read ${name}?`, `${verdict(f.site).headline}: what ChatGPT, Claude, Perplexity and search engines can read on ${slug}, checked ${fmtDate(f.site.checkedAt)}.`,
+      { json: toolJsonForHost(slug) });
   }
   return {};
 }
@@ -139,13 +142,21 @@ function SitePage({ site: s, categories }: { site: Site; categories: Category[] 
         </>
       )}
 
-      <div className="card">
-        <p style={{ margin: 0 }}>
-          <strong>Is this your site?</strong> Add <Link href="/how-it-works">Knownsite</Link> to fix what&rsquo;s missing on every deploy
-          and to claim this page. A free <Link href="/check">online check</Link> is coming soon. To correct or remove this page, email{' '}
-          <a href={`mailto:${SALES_EMAIL}`}>{SALES_EMAIL}</a>.
-        </p>
-      </div>
+      {s.ours ? null : (
+        <div className="card">
+          <h2 style={{ margin: '0 0 8px' }}>What do AI assistants say about {s.name ?? s.host}?</h2>
+          <p style={{ margin: '0 0 12px' }}>
+            <strong>Is this your site?</strong> We&rsquo;ll ask ChatGPT, Claude and Gemini three questions your customers ask, and email you
+            what they say about you and your competitors. Free, no signup.
+          </p>
+          <a className="button" href={`mailto:${SALES_EMAIL}?subject=${encodeURIComponent(`What AI says about ${s.host}`)}&body=${encodeURIComponent(
+            `Site: ${s.host}\nWhat do your customers search for? (optional)\n`)}`}>Get my free sample</a>
+          <p className="muted small" style={{ margin: '12px 0 0' }}>
+            You can also add <Link href="/how-it-works">Knownsite</Link> to fix what AI tools can&rsquo;t read on every deploy, and claim this page.
+            To correct or remove this page, email <a href={`mailto:${SALES_EMAIL}`}>{SALES_EMAIL}</a>.
+          </p>
+        </div>
+      )}
 
       <h2 style={{ marginTop: 48 }}>Technical details</h2>
       <p className="muted">For developers and site owners: what the plain answer above is based on.</p>

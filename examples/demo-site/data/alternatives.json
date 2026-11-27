@@ -181,23 +181,52 @@
         "Notable for"
       ],
       "description": "General-purpose AI chat assistants."
+    },
+    "ai-video-generators": {
+      "name": "AI video generators",
+      "columns": [
+        "Free plan",
+        "Paid from",
+        "What it makes",
+        "Languages"
+      ],
+      "description": "Tools that make videos from text or a script, often with AI presenters (avatars), or edit video with AI."
     }
   },
   "products": {
     "aragon.ai": {
       "name": "Aragon",
       "category": "ai-headshot-generators",
-      "checked": "2026-11-22",
-      "does": "Curated outfits and backgrounds, clothing and background changer tools, and team plans. It calls itself \"the #1 AI headshot company\".",
+      "checked": "2026-11-26",
+      "does": "Aragon turns your selfies into studio-quality AI headshots in about 30 minutes.",
       "cells": [
-        "$35 (listed beside $44)",
-        "40 to 100",
-        "No",
-        "Full refund if the photos weren't downloaded; free redo"
+        "Basic: $44 for 40 headshots (no billing period given; $35 shown during 20% off sale)",
+        "Up to 100 headshots (Basic 40, Standard 60, Executive 100)",
+        "A \"Free Headshot Generator\" is listed under free tools; no details given",
+        "Full refund if photos not downloaded; otherwise case-by-case; free redo also offered"
       ],
       "sources": [
         "https://www.aragon.ai/pricing",
         "https://www.aragon.ai/"
+      ],
+      "host": "aragon.ai",
+      "evidence": [
+        {
+          "quote": "Basic $ 35 $ 44 40 headshots",
+          "source": "https://www.aragon.ai/pricing"
+        },
+        {
+          "quote": "You’ll receive up to 100 high-quality headshots to use however you want.",
+          "source": "https://www.aragon.ai/"
+        },
+        {
+          "quote": "Free tools Free Headshot Generator Headshot Cost Calculator",
+          "source": "https://www.aragon.ai/pricing"
+        },
+        {
+          "quote": "we’re more than happy to offer a full refund, given that you haven’t downloaded or aren’t planning on downloading your photos.",
+          "source": "https://www.aragon.ai/pricing"
+        }
       ]
     },
     "headshotpro.com": {
@@ -215,98 +244,212 @@
         "https://www.headshotpro.com/pricing",
         "https://www.headshotpro.com/"
       ],
-      "host": "headshotpro.com"
+      "host": "headshotpro.com",
+      "evidence": [
+        {
+          "quote": "One-time packages from $29 to $59.",
+          "source": "https://www.headshotpro.com/"
+        },
+        {
+          "quote": "Individual packages start at $29 for 30 headshots, up to $59 for 70 headshots with 4K upscale.",
+          "source": "https://www.headshotpro.com/"
+        },
+        {
+          "quote": "Free tools Free Headshot Generator",
+          "source": "https://www.headshotpro.com/pricing"
+        },
+        {
+          "quote": "Every package includes 1 free redo within 60 days, and is covered by the 30-day money-back Realism Guarantee .",
+          "source": "https://www.headshotpro.com/pricing"
+        }
+      ]
     },
     "betterpic.io": {
       "name": "BetterPic",
       "category": "ai-headshot-generators",
-      "checked": "2026-11-22",
-      "does": "AI headshots in 1, 3 or 6 styles depending on the plan, in 4K.",
+      "checked": "2026-11-26",
+      "does": "BetterPic is an AI headshot generator that makes 4K professional headshots for individuals and teams.",
       "cells": [
-        "Free tier; paid from $35",
-        "Up to 10 free; 20 to 120 paid",
-        "Yes, queue-based",
-        "Advertises 100% money back; full refund within 7 days if the order isn't completed"
+        "Starting at $35",
+        "20 Headshots (4K), 1 style on Basic (one-time, 1 person)",
+        "No free plan shown; footer lists free AI tools, including a free AI headshot generator",
+        "7-day refund, provided training has not started"
       ],
       "sources": [
         "https://www.betterpic.io/pricing"
+      ],
+      "host": "betterpic.io",
+      "evidence": [
+        {
+          "quote": "With BetterPic you get 4K studio-quality headshots starting at $35",
+          "source": "https://www.betterpic.io/pricing"
+        },
+        {
+          "quote": "Buy Basic Now 20 Headshots (4K) 1 style",
+          "source": "https://www.betterpic.io/pricing"
+        },
+        {
+          "quote": "Free AI Tools Free AI Linkedin Picture Analyzer Free Profile Picture Editor Free AI Headshot Generator",
+          "source": "https://www.betterpic.io/pricing"
+        },
+        {
+          "quote": "BetterPic refunds purchases made within the last 7 days provided training has not started.",
+          "source": "https://www.betterpic.io/pricing"
+        }
       ]
     },
     "realest-ai-headshot.com": {
       "name": "Realest AI Headshot",
       "category": "ai-headshot-generators",
-      "checked": "2026-11-22",
+      "checked": "2026-11-26",
       "ours": true,
-      "does": "Changes clothes, background and lighting and is instructed to keep your face, hairline, glasses and age. Works in Spanish.",
+      "does": "Generates AI headshots from your selfies in professional styles such as Corporate, Office, Outdoor and Real estate.",
       "cells": [
-        "$5.99 for 1 headshot",
-        "1, 20 or 40",
-        "No",
-        "No satisfaction refund; undelivered orders finished or refunded"
+        "$5.99 for 1 headshot (one-time payment)",
+        "1, 20 or 40 headshots per pack",
+        "Not shown",
+        "No; sales final once delivered. Refund or completion only if your set is never delivered."
       ],
       "sources": [
         "https://realest-ai-headshot.com/pricing"
+      ],
+      "host": "realest-ai-headshot.com",
+      "evidence": [
+        {
+          "quote": "Try one for $5.99 · packs from $19",
+          "source": "https://realest-ai-headshot.com/pricing"
+        },
+        {
+          "quote": "Choose one headshot to test the likeness, 20 for four styles, or 40 for all six styles.",
+          "source": "https://realest-ai-headshot.com/pricing"
+        },
+        null,
+        {
+          "quote": "Sales are final once your headshots are delivered. If your set is never delivered, email us and we will finish it or refund you.",
+          "source": "https://realest-ai-headshot.com/pricing"
+        }
       ]
     },
     "secta.ai": {
       "name": "Secta Labs",
       "category": "ai-headshot-generators",
-      "checked": "2026-11-25",
-      "does": "AI headshots with 90+ styles, and editing of outfits, hair, glasses and backgrounds.",
+      "checked": "2026-11-26",
+      "does": "Secta Labs is an AI headshot generator that turns uploaded photos into hundreds of studio-grade portraits.",
       "cells": [
-        "Not shown on its home page (one-time payment)",
-        "100+ (Professional Package, 7 styles)",
-        "Not mentioned",
-        "\"Refund guaranteed\" badge; terms not shown"
+        "Not shown",
+        "100+ HD photos (Professional Package, 7 styles)",
+        "Not shown",
+        "Refund guaranteed"
       ],
       "sources": [
         "https://secta.ai/"
+      ],
+      "host": "secta.ai",
+      "evidence": [
+        null,
+        {
+          "quote": "Choose 7 styles with a one-time payment. 100+ HD Photos.",
+          "source": "https://secta.ai/"
+        },
+        null,
+        {
+          "quote": "Refund guaranteed",
+          "source": "https://secta.ai/"
+        }
       ]
     },
     "tryitonai.com": {
       "name": "Try It On AI",
       "category": "ai-headshot-generators",
-      "checked": "2026-11-25",
-      "does": "Writes LinkedIn posts with a professional photo of you; also sells headshots.",
+      "checked": "2026-11-26",
+      "does": "It asks you daily questions about your work and turns your short replies into LinkedIn posts with a professional photo o",
       "cells": [
-        "Headshots from $35 one-time; teams from $26/person",
-        "Count not shown",
-        "First LinkedIn post free; no free headshots shown",
+        "Headshots from $35 one-time; teams from $26 per person",
+        "Not shown",
+        "Yes: your first post is free",
         "Not shown"
       ],
       "sources": [
-        "https://www.tryitonai.com/"
+        "https://tryitonai.com/"
+      ],
+      "host": "tryitonai.com",
+      "evidence": [
+        {
+          "quote": "For you From $35, paid once For your team From $26 per person Group photo $29 for a set of 4",
+          "source": "https://tryitonai.com/"
+        },
+        null,
+        {
+          "quote": "Your first post is free.",
+          "source": "https://tryitonai.com/"
+        },
+        null
       ]
     },
     "tryprofound.com": {
       "name": "Profound",
       "category": "ai-visibility-tools",
-      "checked": "2026-11-25",
-      "does": "\"The AI Platform to Power Your Marketing\": tracks AI answers and acts on them for marketing teams.",
+      "checked": "2026-11-26",
+      "does": "Profound is an AI marketing platform that helps brands improve visibility in AI search engines.",
       "cells": [
-        "Custom (Enterprise only; $399 and $499 plans retired)",
-        "AI answer tracking and an AI marketing agent",
-        "Up to 10, incl. ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and AI Mode",
+        "Custom (Enterprise only; Starter and Growth plans retired)",
+        "Profound is an AI marketing platform that helps brands improve visibility in AI search engines.",
+        "ChatGPT, Perplexity, Google AI Mode, Gemini, DeepSeek, Claude, Google AI Overviews, Exa, Muse Spark, Qwen",
         "Not shown"
       ],
       "sources": [
         "https://www.tryprofound.com/pricing",
         "https://www.tryprofound.com/"
+      ],
+      "host": "tryprofound.com",
+      "evidence": [
+        {
+          "quote": "Profound offers Enterprise plans with custom pricing based on your team’s needs.",
+          "source": "https://www.tryprofound.com/pricing"
+        },
+        {
+          "quote": "The AI marketing platform to win in ChatGPT Perplexity Claude Gemini DeepSeek Google AI Overviews Google AI Mode Exa Muse Spark Qwen AI search platforms",
+          "source": "https://www.tryprofound.com/"
+        },
+        {
+          "quote": "Capability for: ChatGPT Perplexity Google AI Mode Gemini DeepSeek Anthropic Claude Google AI Overviews Exa Search Muse Spark Qwen",
+          "source": "https://www.tryprofound.com/pricing"
+        },
+        null
       ]
     },
     "peec.ai": {
       "name": "Peec AI",
       "category": "ai-visibility-tools",
-      "checked": "2026-11-25",
-      "does": "AI search analytics for marketing teams: tracks prompts across AI models and countries.",
+      "checked": "2026-11-26",
+      "does": "Peec AI helps brands understand, measure, and improve how they perform in AI search.",
       "cells": [
-        "$95/mo for 50 prompts",
-        "Prompt tracking across AI models and countries",
-        "Choose 3 of 8 (ChatGPT, Perplexity, Gemini, Google AI Overview and AI Mode, and others)",
-        "Free trial (length not shown)"
+        "$95 /mo Monthly (Starter)",
+        "Peec AI helps brands understand, measure, and improve how they perform in AI search.",
+        "ChatGPT, Perplexity, AI Overview, AI Mode, Gemini, Naver AI Briefing, ERNIE (Baidu), Bing AI Mode; choose 3",
+        "No free plan shown; free trial offered"
       ],
       "sources": [
         "https://peec.ai/pricing"
+      ],
+      "host": "peec.ai",
+      "evidence": [
+        {
+          "quote": "Starter $ 95 /mo Monthly",
+          "source": "https://peec.ai/pricing"
+        },
+        {
+          "quote": "Understand, measure, and improve your brand’s performance in AI search.",
+          "source": "https://peec.ai/pricing"
+        },
+        {
+          "quote": "Available models ChatGPT Perplexity AI Overview AI Mode Gemini Naver AI Briefing ERNIE (Baidu) Bing AI Mode",
+          "source": "https://peec.ai/pricing"
+        },
+        {
+          "quote": "Start free trial",
+          "source": "https://peec.ai/pricing"
+        }
       ]
     },
     "otterly.ai": {
@@ -327,77 +470,172 @@
     "citeworthy.io": {
       "name": "Citeworthy",
       "category": "ai-visibility-tools",
-      "checked": "2026-11-25",
-      "does": "Audits a site the way AI crawlers see it and can serve approved fixes from the edge.",
+      "checked": "2026-11-26",
+      "does": "Audits websites you own for SEO and AI-visibility problems, suggests fixes, and can serve approved fixes from the edge.",
       "cells": [
-        "Free; Pro $29/mo (paid plans not on sale yet)",
-        "Site audits, weekly citation checks, edge fixes",
-        "ChatGPT, Claude, Gemini, Perplexity",
-        "Yes: 1 site, 100 pages, weekly"
+        "$0 (Free); paid from $29 /mo",
+        "Audits sites for SEO and AI-visibility problems, suggests fixes, and can serve approved fixes from the edge.",
+        "Weekly citation checks on ChatGPT, Claude and Gemini",
+        "Yes: $0, 1 site, 100 pages per audit, weekly audits, 30 days of history"
       ],
       "sources": [
         "https://citeworthy.io/"
+      ],
+      "host": "citeworthy.io",
+      "evidence": [
+        {
+          "quote": "Free $0 1 site 100 pages per audit",
+          "source": "https://citeworthy.io/"
+        },
+        {
+          "quote": "It crawls websites you own, finds SEO and AI-visibility problems (broken metadata, crawler blocks, missing AI-agent files), suggests fixes you review and approve",
+          "source": "https://citeworthy.io/"
+        },
+        {
+          "quote": "weekly citation checks: ChatGPT, Claude, Gemini",
+          "source": "https://citeworthy.io/"
+        },
+        {
+          "quote": "Free $0 1 site 100 pages per audit weekly audits full AEO checks 30 days of history",
+          "source": "https://citeworthy.io/"
+        }
       ]
     },
     "knownsite.dev": {
       "name": "Knownsite",
       "category": "ai-visibility-tools",
-      "checked": "2026-11-25",
+      "checked": "2026-11-26",
       "ours": true,
-      "does": "Open-source tool that makes a site readable by crawlers on every deploy, plus weekly tracking of AI answers.",
+      "does": "Tracks what AI assistants say about your business, fixes technical issues on each deploy, and shows cause and effect.",
       "cells": [
-        "Free; Pro $199/mo for 20 questions weekly",
-        "Free check and build tool; paid weekly answer tracking with competitors",
-        "Pro: ChatGPT and Claude; Business: plus Perplexity and Gemini",
-        "Yes: the check and the open-source tool"
+        "$199 per month (Pro)",
+        "Tracks AI mentions and citations, fixes technical side on every deploy, and links page changes to citations and visitors",
+        "ChatGPT, Claude, Perplexity and Gemini (Business); Pro covers ChatGPT and Claude",
+        "Yes, $0 forever: online crawler check, open-source tool, discovery report"
       ],
       "sources": [
         "https://knownsite.dev/pricing"
+      ],
+      "host": "knownsite.dev",
+      "evidence": [
+        {
+          "quote": "Pro $199 per month",
+          "source": "https://knownsite.dev/pricing"
+        },
+        {
+          "quote": "Know what AI says about you, and prove what works.",
+          "source": "https://knownsite.dev/pricing"
+        },
+        {
+          "quote": "ChatGPT, Claude, Perplexity and Gemini",
+          "source": "https://knownsite.dev/pricing"
+        },
+        {
+          "quote": "Free $0 forever",
+          "source": "https://knownsite.dev/pricing"
+        }
       ]
     },
     "otter.ai": {
       "name": "Otter.ai",
       "category": "transcription",
-      "checked": "2026-11-25",
-      "does": "Meeting notes: joins Zoom, Teams and Google Meet, transcribes live and answers questions about the meeting.",
+      "checked": "2026-11-26",
+      "does": "An AI notetaker that joins Zoom, MS Teams, and Google Meet to automatically write and share meeting notes.",
       "cells": [
-        "300 minutes/month, 30 minutes per conversation",
-        "Pro $16.99/mo",
-        "Pro $8.33/mo; Business $19.99/user/mo",
-        "Sale prices shown on the page are left out"
+        "Yes: Basic, free forever, with 300 monthly transcription minutes",
+        "$8.33 user/month (Pro, annual billing)",
+        "Yes: annual option, save 51% vs monthly",
+        "Pro billed monthly is $16.99 /user/month; 20% student/teacher discount for .edu emails"
       ],
       "sources": [
         "https://otter.ai/pricing"
+      ],
+      "host": "otter.ai",
+      "evidence": [
+        {
+          "quote": "Basic Free forever Get started",
+          "source": "https://otter.ai/pricing"
+        },
+        {
+          "quote": "Pro $8.33 user/month Buy now",
+          "source": "https://otter.ai/pricing"
+        },
+        {
+          "quote": "Monthly Annual save 51% Prices in USD",
+          "source": "https://otter.ai/pricing"
+        },
+        {
+          "quote": "Pro For individuals and small teams $16 .99 /user/month",
+          "source": "https://otter.ai/pricing"
+        }
       ]
     },
     "fireflies.ai": {
       "name": "Fireflies.ai",
       "category": "transcription",
-      "checked": "2026-11-25",
-      "does": "AI meeting assistant that records, transcribes and summarises calls.",
+      "checked": "2026-11-26",
+      "does": "Fireflies.ai captures and transcribes meeting audio and video across conferencing apps and gives AI summaries.",
       "cells": [
-        "Free forever (limits not shown in text)",
-        "Pro $18/seat/mo",
-        "Pro $10; Business $19/seat/mo",
-        "Enterprise $39/seat/mo, annual only"
+        "Yes, $0, free forever (for individuals starting out)",
+        "Pro: $10 per seat / month, billed annually",
+        "Yes, monthly or annual billing; annual saves up to 44%",
+        "Free: unlimited transcription*, limited AI summaries, 400 mins storage/team, 20 AI credits; Enterprise annual only"
       ],
       "sources": [
         "https://fireflies.ai/pricing"
+      ],
+      "host": "fireflies.ai",
+      "evidence": [
+        {
+          "quote": "Free For individuals starting out $0 $0 Free forever",
+          "source": "https://fireflies.ai/pricing"
+        },
+        {
+          "quote": "Pro $10 per seat / month, billed annually",
+          "source": "https://fireflies.ai/pricing"
+        },
+        {
+          "quote": "Monthly Annual Save up to 44%",
+          "source": "https://fireflies.ai/pricing"
+        },
+        {
+          "quote": "Unlimited transcription* Limited AI summaries 400 mins of storage/team 20 AI credits",
+          "source": "https://fireflies.ai/pricing"
+        }
       ]
     },
     "rev.com": {
       "name": "Rev",
       "category": "transcription",
-      "checked": "2026-11-25",
-      "does": "AI transcription plans, plus human transcription and captions charged per minute.",
+      "checked": "2026-11-26",
+      "does": "Rev offers an investigative intelligence platform for legal work, plus à la carte transcription services.",
       "cells": [
-        "45 AI minutes/month, English only",
-        "Essentials $29.99/seat/mo",
-        "Essentials $25.49/seat/mo",
-        "Human transcription $1.99/min"
+        "Yes, limited: 45 AI transcription & caption minutes/month, 1 user",
+        "Essentials: $25.49 per seat/month (annual) or $29.99 per seat/month (monthly)",
+        "Yes, 2 months free: Essentials $305.90 billed annually; Pro $575.88 billed annually",
+        "Human transcription from $1.99/min; subscribers save up to 15%"
       ],
       "sources": [
         "https://www.rev.com/pricing"
+      ],
+      "host": "rev.com",
+      "evidence": [
+        {
+          "quote": "45 AI transcription & caption minutes/month · 1 user",
+          "source": "https://www.rev.com/pricing"
+        },
+        {
+          "quote": "$25.49 per seat/month $29.99 per seat/month Get 2 months free with annual pricing",
+          "source": "https://www.rev.com/pricing"
+        },
+        {
+          "quote": "2 months free · $305.90 billed annually",
+          "source": "https://www.rev.com/pricing"
+        },
+        {
+          "quote": "Human transcription starts at $1.99/min. Subscribe to Rev and save up to 15% on human transcription, captions & subtitles.",
+          "source": "https://www.rev.com/pricing"
+        }
       ]
     },
     "turboscribe.ai": {
@@ -409,16 +647,35 @@
     "fathom.ai": {
       "name": "Fathom",
       "category": "transcription",
-      "checked": "2026-11-25",
-      "does": "AI meeting assistant that records, transcribes and summarises calls.",
+      "checked": "2026-11-26",
+      "does": "Fathom is an AI meeting assistant that records and transcribes meetings and generates instant AI call summaries.",
       "cells": [
-        "Unlimited recordings and transcriptions",
-        "Premium $20/user/mo",
-        "Premium $16/user/mo (the page doesn't label which price is annual)",
-        "Team plans need 2+ users"
+        "Yes, Free plan for individuals: $0, free forever, with unlimited recordings and transcriptions",
+        "Team: $19/month per user, or $15 billed annually (2 user min); Premium (individual): $20, or $16 annually",
+        "Yes, annual billing is offered and saves 25%+; Enterprise is annual only",
+        "Business $34 ($25 annually) per user; Enterprise $35/month per user, annual only; 90 day guarantee"
       ],
       "sources": [
-        "https://fathom.ai/pricing"
+        "https://www.fathom.ai/pricing"
+      ],
+      "host": "fathom.ai",
+      "evidence": [
+        {
+          "quote": "FOR INDIVIDUALS Free $ 0 Free forever. GET STARTED 90 day guarantee Unlimited recordings + transcriptions",
+          "source": "https://www.fathom.ai/pricing"
+        },
+        {
+          "quote": "Team $ 19 $15 $19 /month / per user (2 user min)",
+          "source": "https://www.fathom.ai/pricing"
+        },
+        {
+          "quote": "Monthly Annually (save 25%+)",
+          "source": "https://www.fathom.ai/pricing"
+        },
+        {
+          "quote": "Enterprise $34 $35 $35* /month / per user *Annual only BOOK A MEETING 90 day guarantee",
+          "source": "https://www.fathom.ai/pricing"
+        }
       ]
     },
     "simple-ai-tools.web.app": {
@@ -437,6 +694,21 @@
       "sources": [
         "https://simple-ai-tools.web.app/",
         "https://simple-ai-tools.web.app/merge-pdf"
+      ],
+      "evidence": [
+        {
+          "quote": "14 free tools that run in your browser",
+          "source": "https://simple-ai-tools.web.app/"
+        },
+        null,
+        {
+          "quote": "Our tools run in your browser; we never see your files.",
+          "source": "https://simple-ai-tools.web.app/"
+        },
+        {
+          "quote": "Free · Nothing uploaded · No sign-up",
+          "source": "https://simple-ai-tools.web.app/"
+        }
       ]
     },
     "simple-ai-tools.web.app#image-compression": {
@@ -455,6 +727,21 @@
       "sources": [
         "https://simple-ai-tools.web.app/",
         "https://simple-ai-tools.web.app/compress-image"
+      ],
+      "evidence": [
+        {
+          "quote": "Yes. No account, no watermark, no daily limit and no ads.",
+          "source": "https://simple-ai-tools.web.app/compress-image"
+        },
+        null,
+        {
+          "quote": "No. The tool runs in your browser, so your files never leave your device.",
+          "source": "https://simple-ai-tools.web.app/compress-image"
+        },
+        {
+          "quote": "No account, no watermark, no daily limit and no ads.",
+          "source": "https://simple-ai-tools.web.app/compress-image"
+        }
       ]
     },
     "fia.rent": {
@@ -473,6 +760,22 @@
       ],
       "sources": [
         "https://fia.rent/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free for landlords · the tenant pays for screening",
+          "source": "https://fia.rent/"
+        },
+        null,
+        {
+          "quote": "Set your standard (credit, income, no evictions) and the good applicants show first.",
+          "source": "https://fia.rent/"
+        },
+        null,
+        {
+          "quote": "Fía works fully in English and Spanish — landlords and tenants each in their own language, with nothing lost in between.",
+          "source": "https://fia.rent/"
+        }
       ]
     },
     "reina.web.app": {
@@ -490,6 +793,24 @@
       ],
       "sources": [
         "https://reina.web.app/"
+      ],
+      "evidence": [
+        {
+          "quote": "La oración es gratis para todos. Si quieres ayudarnos a seguir, puedes hacer una aportación voluntaria.",
+          "source": "https://reina.web.app/"
+        },
+        {
+          "quote": "Hoy Rosario Noche Círculos Hoy Sábado, 21 de noviembre Sábado de la 33.ª semana del Tiempo Ordinario Escuchar Plus Voz generada por IA",
+          "source": "https://reina.web.app/"
+        },
+        {
+          "quote": "Sábado de la 33.ª semana del Tiempo Ordinario",
+          "source": "https://reina.web.app/"
+        },
+        {
+          "quote": "Reina de la Paz English Hoy",
+          "source": "https://reina.web.app/"
+        }
       ]
     },
     "abide.com": {
@@ -506,6 +827,21 @@
       ],
       "sources": [
         "https://abide.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Yearly $69.99/yr. $39.99/yr. Monthly $9.99/mo.",
+          "source": "https://abide.com/"
+        },
+        {
+          "quote": "Daily meditation, devotional, and sleep story",
+          "source": "https://abide.com/"
+        },
+        {
+          "quote": "Christian Meditation to Transform Your Life",
+          "source": "https://abide.com/"
+        },
+        null
       ]
     },
     "appfolio.com": {
@@ -524,6 +860,16 @@
       "sources": [
         "https://www.appfolio.com/pricing",
         "https://www.appfolio.com/"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "Starting at $1.49* Per Unit/Per Month Get a Quote *Minimum spend and 50 unit minimum apply.",
+          "source": "https://www.appfolio.com/pricing"
+        },
+        null,
+        null,
+        null
       ]
     },
     "athenahq.ai": {
@@ -541,6 +887,24 @@
       "sources": [
         "https://athenahq.ai/plans",
         "https://athenahq.ai/"
+      ],
+      "evidence": [
+        {
+          "quote": "Starter $ 295 /month",
+          "source": "https://athenahq.ai/plans"
+        },
+        {
+          "quote": "Athena tracks how your brand appears across every major AI platform, shows you exactly where you are winning or losing visibility, and tells you what to fix.",
+          "source": "https://athenahq.ai/"
+        },
+        {
+          "quote": "All plans include ChatGPT, Perplexity, Gemini, Google AI Overviews, and Copilot. Paid plans add Google AI Mode, Claude, Grok, DeepSeek, and Meta AI.",
+          "source": "https://athenahq.ai/"
+        },
+        {
+          "quote": "Essential Free $25 free credit Includes 300 credits",
+          "source": "https://athenahq.ai/plans"
+        }
       ]
     },
     "avail.com": {
@@ -559,6 +923,25 @@
       "sources": [
         "https://www.avail.com/pricing",
         "https://www.avail.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Unlimited $0/unit Unlimited Units Access basic rental property management tools.",
+          "source": "https://www.avail.com/pricing"
+        },
+        {
+          "quote": "Unlimited Plus $9/unit Per Month Upgrade for speed, customization, and exclusive tools.",
+          "source": "https://www.avail.com/pricing"
+        },
+        {
+          "quote": "Tenant-initiated TransUnion credit reports and background checks Nationwide criminal history report Nationwide prior eviction reports",
+          "source": "https://www.avail.com/pricing"
+        },
+        {
+          "quote": "With Unlimited (free), tenants pay $2.50 per bank transfer. If a credit or debit card is used, a 3.5% processing fee is added to tenant payments regardless of subscription.",
+          "source": "https://www.avail.com/pricing"
+        },
+        null
       ]
     },
     "baselane.com": {
@@ -577,6 +960,25 @@
       "sources": [
         "https://www.baselane.com/pricing",
         "https://www.baselane.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Core $0/mo. Banking and bookkeeping essentials",
+          "source": "https://www.baselane.com/pricing"
+        },
+        {
+          "quote": "Smart $20/mo. on an annual plan",
+          "source": "https://www.baselane.com/pricing"
+        },
+        {
+          "quote": "Tenant screening $24.99+",
+          "source": "https://www.baselane.com/pricing"
+        },
+        {
+          "quote": "Send automatic invoices and reminders for collecting rent, deposits, and late fees online via ACH or card.",
+          "source": "https://www.baselane.com/pricing"
+        },
+        null
       ]
     },
     "biblegateway.com": {
@@ -593,6 +995,24 @@
       ],
       "sources": [
         "https://www.biblegateway.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Get 20% off Bible Gateway Plus for life—as low as $4.67/mo.",
+          "source": "https://www.biblegateway.com/"
+        },
+        {
+          "quote": "Explore trusted Study Bibles, commentaries, and insights alongside the Scripture you're reading. Start My Free Trial",
+          "source": "https://www.biblegateway.com/"
+        },
+        {
+          "quote": "operated by HarperCollins Christian Publishing",
+          "source": "https://www.biblegateway.com/"
+        },
+        {
+          "quote": "---العربية (AR)--- Arabic Bible: Easy-to-Read Version (ERV-AR)",
+          "source": "https://www.biblegateway.com/"
+        }
       ]
     },
     "buildium.com": {
@@ -610,6 +1030,25 @@
       ],
       "sources": [
         "https://www.buildium.com/pricing/"
+      ],
+      "evidence": [
+        {
+          "quote": "What do I get with the free 14-day trial?",
+          "source": "https://www.buildium.com/pricing/"
+        },
+        {
+          "quote": "Essential starting at $65/month",
+          "source": "https://www.buildium.com/pricing/"
+        },
+        {
+          "quote": "Tenant Screening: $17 per screening",
+          "source": "https://www.buildium.com/pricing/"
+        },
+        {
+          "quote": "Collect Rent Online Get paid faster with our online payment platform",
+          "source": "https://www.buildium.com/pricing/"
+        },
+        null
       ]
     },
     "doorloop.com": {
@@ -627,6 +1066,22 @@
       ],
       "sources": [
         "https://www.doorloop.com/pricing"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "Starting at $2.50 per unit, per month *",
+          "source": "https://www.doorloop.com/pricing"
+        },
+        {
+          "quote": "Tenant screening Run detailed criminal, credit, and eviction reports on applicants. $35",
+          "source": "https://www.doorloop.com/pricing"
+        },
+        {
+          "quote": "Collect rent online by card or ACH and apply late fees automatically, so you get paid on time.",
+          "source": "https://www.doorloop.com/pricing"
+        },
+        null
       ]
     },
     "glorify.global": {
@@ -643,6 +1098,21 @@
       ],
       "sources": [
         "https://www.glorify.global/app"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "Engage in 5 to 10-day audio journeys that guide you in different areas of life, led by credible authors and theologians.",
+          "source": "https://www.glorify.global/app"
+        },
+        {
+          "quote": "Build your Bible-reading habit with a daily passage.",
+          "source": "https://www.glorify.global/app"
+        },
+        {
+          "quote": "Language 🇬🇧 EN 🇪🇸 ES 🇧🇷 PT",
+          "source": "https://www.glorify.global/app"
+        }
       ]
     },
     "hallow.com": {
@@ -659,6 +1129,18 @@
       ],
       "sources": [
         "https://hallow.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Try Hallow for Free",
+          "source": "https://hallow.com/"
+        },
+        null,
+        {
+          "quote": "Morning Prayer: Catholic Prayers to Start Your Day",
+          "source": "https://hallow.com/"
+        },
+        null
       ]
     },
     "iloveimg.com": {
@@ -676,6 +1158,24 @@
       "sources": [
         "https://www.iloveimg.com/compress-image",
         "https://www.iloveimg.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Basic 1 Free Start for free Free features include: Access to essential iLoveIMG tools Limited document processing",
+          "source": "https://www.iloveimg.com/pricing"
+        },
+        {
+          "quote": "5 US $ / month 60 US $ Billed annually 9 US $ Billed monthly",
+          "source": "https://www.iloveimg.com/pricing"
+        },
+        {
+          "quote": "Rest assured, your documents are fully encrypted and processed securely, adhering to international data protection regulations, including GDPR.",
+          "source": "https://www.iloveimg.com/pricing"
+        },
+        {
+          "quote": "Compress IMAGE 30 120 120",
+          "source": "https://www.iloveimg.com/pricing"
+        }
       ]
     },
     "ilovepdf.com": {
@@ -693,6 +1193,21 @@
       "sources": [
         "https://www.ilovepdf.com/pricing",
         "https://www.ilovepdf.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Basic 1 Free Start for free Free features include: Access to essential iLovePDF tools Limited document processing",
+          "source": "https://www.ilovepdf.com/pricing"
+        },
+        {
+          "quote": "5 US $ / month 60 US $ Billed annually 9 US $ Billed monthly",
+          "source": "https://www.ilovepdf.com/pricing"
+        },
+        {
+          "quote": "Rest assured, your documents are fully encrypted and processed securely, adhering to international data protection regulations, including GDPR.",
+          "source": "https://www.ilovepdf.com/pricing"
+        },
+        null
       ]
     },
     "innago.com": {
@@ -711,6 +1226,16 @@
       "sources": [
         "https://innago.com/pricing/",
         "https://innago.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "No monthly fee. No setup fee. No contract.",
+          "source": "https://innago.com/pricing/"
+        },
+        null,
+        null,
+        null,
+        null
       ]
     },
     "magicstudio.com": {
@@ -727,6 +1252,24 @@
       ],
       "sources": [
         "https://magicstudio.com/headshots/"
+      ],
+      "evidence": [
+        {
+          "quote": "Starting at $ 59 USD 50 headshots 5 looks",
+          "source": "https://magicstudio.com/headshots/"
+        },
+        {
+          "quote": "Starting at $ 59 USD 50 headshots 5 looks",
+          "source": "https://magicstudio.com/headshots/"
+        },
+        {
+          "quote": "Create your Headshots Now For FREE Pay only after you love your headshots",
+          "source": "https://magicstudio.com/headshots/"
+        },
+        {
+          "quote": "If you feel you don't have at least 4 decent headshots and haven't downloaded any, we'll refund your payment.",
+          "source": "https://magicstudio.com/headshots/"
+        }
       ]
     },
     "olivetree.com": {
@@ -743,6 +1286,24 @@
       ],
       "sources": [
         "https://www.olivetree.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Olive Tree is free to download on iOS, Android, Mac, and Windows, and it comes with free Bibles and study tools so you can start reading right away.",
+          "source": "https://www.olivetree.com/"
+        },
+        {
+          "quote": "35,000+ Books Available 100+ Bible Translations",
+          "source": "https://www.olivetree.com/"
+        },
+        {
+          "quote": "Trusted by the global church",
+          "source": "https://www.olivetree.com/"
+        },
+        {
+          "quote": "Whether you study in English, Spanish, Portuguese, German, Chinese, or Korean, the same powerful features are available as you study God's Word in your own language.",
+          "source": "https://www.olivetree.com/"
+        }
       ]
     },
     "pdf24.org": {
@@ -759,6 +1320,18 @@
       ],
       "sources": [
         "https://tools.pdf24.org/en/"
+      ],
+      "evidence": [
+        {
+          "quote": "You can use all PDF24 tools free of charge and without any restrictions. This is achieved via some advertising on the web pages.",
+          "source": "https://tools.pdf24.org/en/"
+        },
+        null,
+        {
+          "quote": "All files are completely removed from our servers no later than one hour after their last use.",
+          "source": "https://tools.pdf24.org/en/"
+        },
+        null
       ]
     },
     "photoroom.com": {
@@ -776,6 +1349,21 @@
       "sources": [
         "https://www.photoroom.com/pricing",
         "https://www.photoroom.com/tools/background-remover"
+      ],
+      "evidence": [
+        {
+          "quote": "Get started for free",
+          "source": "https://www.photoroom.com/tools/background-remover"
+        },
+        {
+          "quote": "Pro Sell more with professional visuals $7.50 Per month, billed yearly",
+          "source": "https://www.photoroom.com/pricing"
+        },
+        null,
+        {
+          "quote": "Create video ads for Meta, TikTok and YouTube from your product photos.",
+          "source": "https://www.photoroom.com/tools/background-remover"
+        }
       ]
     },
     "pixelcut.ai": {
@@ -793,6 +1381,24 @@
       "sources": [
         "https://www.pixelcut.ai/pricing",
         "https://www.pixelcut.ai/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $0 per month, billed yearly Continue Limited Background Removal Limited Upscale",
+          "source": "https://www.pixelcut.ai/pricing"
+        },
+        {
+          "quote": "Pro $10 $8 per month, billed yearly",
+          "source": "https://www.pixelcut.ai/pricing"
+        },
+        {
+          "quote": "Free export without watermark",
+          "source": "https://www.pixelcut.ai/pricing"
+        },
+        {
+          "quote": "AI UGC Ads Create talking videos to promote your brand in seconds",
+          "source": "https://www.pixelcut.ai/"
+        }
       ]
     },
     "pray.com": {
@@ -809,6 +1415,21 @@
       ],
       "sources": [
         "https://www.pray.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Try 3 days free, cancel anytime then $49.99/year, that's only $4.17/month Try 7 days free, cancel anytime then $14.99/month Try 7 days free, cancel anytime then $5.99/week",
+          "source": "https://www.pray.com/"
+        },
+        {
+          "quote": "No ads while you listen, watch and pray Chat with Pray AI beyond the 5 free messages a day",
+          "source": "https://www.pray.com/"
+        },
+        {
+          "quote": "Hear bestselling Christian authors teach from the books they wrote, one series at a time.",
+          "source": "https://www.pray.com/"
+        },
+        null
       ]
     },
     "remove.bg": {
@@ -826,6 +1447,18 @@
       "sources": [
         "https://www.remove.bg/pricing",
         "https://www.remove.bg/"
+      ],
+      "evidence": [
+        {
+          "quote": "Remove Image Background 100% Automatically and Free",
+          "source": "https://www.remove.bg/"
+        },
+        null,
+        null,
+        {
+          "quote": "Video Background Removal",
+          "source": "https://www.remove.bg/pricing"
+        }
       ]
     },
     "rentredi.com": {
@@ -844,6 +1477,28 @@
       "sources": [
         "https://rentredi.com/pricing",
         "https://rentredi.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "You're charged when you subscribe (it's not a free trial), but you're fully covered by the 30-day money-back guarantee",
+          "source": "https://rentredi.com/pricing"
+        },
+        {
+          "quote": "Landlord software for $12 a month, billed annually, not 10% of rent",
+          "source": "https://rentredi.com/"
+        },
+        {
+          "quote": "Screening is tenant-paid: $39.99 for credit, criminal, and eviction reports, or $49.99 with Plaid-certified income verification.",
+          "source": "https://rentredi.com/pricing"
+        },
+        {
+          "quote": "Online rent payments (ACH, card, cash)",
+          "source": "https://rentredi.com/pricing"
+        },
+        {
+          "quote": "Spanish Tenant App Full tenant app in Spanish",
+          "source": "https://rentredi.com/pricing"
+        }
       ]
     },
     "scrunch.com": {
@@ -861,6 +1516,24 @@
       "sources": [
         "https://scrunch.com/pricing/",
         "https://scrunch.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Core $ 250 /mo",
+          "source": "https://scrunch.com/pricing/"
+        },
+        {
+          "quote": "Scrunch gets your site AI-ready so you show up in answers, get cited, and grow revenue.",
+          "source": "https://scrunch.com/"
+        },
+        {
+          "quote": "8 LLMs supported ChatGPT Perplexity Gemini Google AIO Google AI Mode Microsoft Copilot Grok Meta AI",
+          "source": "https://scrunch.com/pricing/"
+        },
+        {
+          "quote": "Start 7-day free trial",
+          "source": "https://scrunch.com/pricing/"
+        }
       ]
     },
     "sejda.com": {
@@ -878,6 +1551,24 @@
       "sources": [
         "https://www.sejda.com/upgrade",
         "https://www.sejda.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Desktop+Web Free $ 0 per user Free Get started Page and hourly limits Limited file uploads Tool specific limits",
+          "source": "https://www.sejda.com/upgrade"
+        },
+        {
+          "quote": "Web Week Pass $ 5 per user for 7 days",
+          "source": "https://www.sejda.com/upgrade"
+        },
+        {
+          "quote": "Our servers process the files for you. Files stay secure. After processing, they are permanently deleted.",
+          "source": "https://www.sejda.com/"
+        },
+        {
+          "quote": "Forever free to use No signup required. Limited usage and features",
+          "source": "https://www.sejda.com/upgrade"
+        }
       ]
     },
     "smallpdf.com": {
@@ -895,6 +1586,21 @@
       "sources": [
         "https://smallpdf.com/pricing",
         "https://smallpdf.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free 1 ... /month Get started You get: 30+ document management tools Limited document downloads",
+          "source": "https://smallpdf.com/pricing"
+        },
+        null,
+        {
+          "quote": "Thanks to our TLS encryption technology, your documents are always processed with an added layer of security.",
+          "source": "https://smallpdf.com/pricing"
+        },
+        {
+          "quote": "Share Share Free with an account",
+          "source": "https://smallpdf.com/pricing"
+        }
       ]
     },
     "squoosh.app": {
@@ -911,6 +1617,15 @@
       ],
       "sources": [
         "https://squoosh.app/"
+      ],
+      "evidence": [
+        null,
+        null,
+        {
+          "quote": "Images never leave your device since Squoosh does all the work locally.",
+          "source": "https://squoosh.app/"
+        },
+        null
       ]
     },
     "tenantcloud.com": {
@@ -928,6 +1643,25 @@
       ],
       "sources": [
         "https://www.tenantcloud.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free ($0/month): List rentals, screen applicants, and collect rent online.",
+          "source": "https://www.tenantcloud.com/pricing"
+        },
+        {
+          "quote": "Essentials (from $12.42/month)",
+          "source": "https://www.tenantcloud.com/pricing"
+        },
+        {
+          "quote": "Pro (from $16.58/month): Adds income verification, fraud detection, automated accounting, and tax-ready reports.",
+          "source": "https://www.tenantcloud.com/pricing"
+        },
+        {
+          "quote": "For Rent Collection, we offer several secure and convenient online payment options, including: ACH bank transfers (the most reliable and lowest-fee method) Debit and credit cards",
+          "source": "https://www.tenantcloud.com/pricing"
+        },
+        null
       ]
     },
     "tinypng.com": {
@@ -945,6 +1679,24 @@
       "sources": [
         "https://tinypng.com/pricing/web",
         "https://tinypng.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free users have the flexibility to upload up to 20 images at once, each with a maximum size of 5MB.",
+          "source": "https://tinypng.com/"
+        },
+        {
+          "quote": "Web Pro $3.25 Per month | Billed annually",
+          "source": "https://tinypng.com/pricing/web"
+        },
+        {
+          "quote": "We retain them for a maximum of 48 hours, after which they are permanently deleted.",
+          "source": "https://tinypng.com/"
+        },
+        {
+          "quote": "Max 20 compressions 5 MB per image Max 3 conversions 150 background removals a month, up to HD",
+          "source": "https://tinypng.com/pricing/web"
+        }
       ]
     },
     "turbotenant.com": {
@@ -963,6 +1715,25 @@
       "sources": [
         "https://www.turbotenant.com/pricing/",
         "https://www.turbotenant.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Start managing for free No fees or contracts – ever $0/month",
+          "source": "https://www.turbotenant.com/pricing/"
+        },
+        {
+          "quote": "Essentials Scale as your needs grow Starting at $12.42/month",
+          "source": "https://www.turbotenant.com/pricing/"
+        },
+        {
+          "quote": "Tenant Screening Free background, credit, and eviction checks",
+          "source": "https://www.turbotenant.com/pricing/"
+        },
+        {
+          "quote": "Online Rent Payments Bank Transfer (ACH) $2 fee Credit / Debit Card 3.49% fee",
+          "source": "https://www.turbotenant.com/pricing/"
+        },
+        null
       ]
     },
     "youversion.com": {
@@ -979,6 +1750,21 @@
       ],
       "sources": [
         "https://www.youversion.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Everything we make is available for free because of a generous community of people like you.",
+          "source": "https://www.youversion.com/"
+        },
+        {
+          "quote": "Read or listen to the Bible, explore Bible Plans, create Prayers, study with Friends, and much more—all for free Choose from 3,900+ Bible versions in 2,400+ languages",
+          "source": "https://www.youversion.com/"
+        },
+        null,
+        {
+          "quote": "Choose from 3,900+ Bible versions in 2,400+ languages",
+          "source": "https://www.youversion.com/"
+        }
       ]
     },
     "quickbooks": {
@@ -995,6 +1781,24 @@
       ],
       "sources": [
         "https://quickbooks.intuit.com/pricing/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Organize your finances for free $0 / mo No credit card required Start now 1 user",
+          "source": "https://quickbooks.intuit.com/pricing/"
+        },
+        {
+          "quote": "Simple Start See profit & loss in real time $38 $11.40 / mo",
+          "source": "https://quickbooks.intuit.com/pricing/"
+        },
+        {
+          "quote": "Free trial for 30 days",
+          "source": "https://quickbooks.intuit.com/pricing/"
+        },
+        {
+          "quote": "Cleaner books from day one Small business Mid-size business",
+          "source": "https://quickbooks.intuit.com/pricing/"
+        }
       ]
     },
     "xero.com": {
@@ -1011,6 +1815,21 @@
       ],
       "sources": [
         "https://www.xero.com/us/pricing-plans/"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "Early Usually $ 27 Now $ 2 . 70 USD per month",
+          "source": "https://www.xero.com/us/pricing-plans/"
+        },
+        {
+          "quote": "Get one month free",
+          "source": "https://www.xero.com/us/pricing-plans/"
+        },
+        {
+          "quote": "Built for the way US businesses work.",
+          "source": "https://www.xero.com/us/pricing-plans/"
+        }
       ]
     },
     "freshbooks.com": {
@@ -1027,6 +1846,21 @@
       ],
       "sources": [
         "https://www.freshbooks.com/pricing"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "Was $23.00 | Save $82.80 $ 23 .00 USD/mo",
+          "source": "https://www.freshbooks.com/pricing"
+        },
+        {
+          "quote": "you can use FreshBooks at no charge for 30 days (no credit card required)",
+          "source": "https://www.freshbooks.com/pricing"
+        },
+        {
+          "quote": "FreshBooks is the perfect solution for everyone, from very small businesses all the way up to established tech companies with big teams.",
+          "source": "https://www.freshbooks.com/pricing"
+        }
       ]
     },
     "waveapps.com": {
@@ -1043,6 +1877,21 @@
       ],
       "sources": [
         "https://www.waveapps.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "STARTER Plan Just starting your business or looking for the basics? This is the place. $0",
+          "source": "https://www.waveapps.com/pricing"
+        },
+        {
+          "quote": "$19 USD/month Billed monthly",
+          "source": "https://www.waveapps.com/pricing"
+        },
+        null,
+        {
+          "quote": "Our plans are built for small business owners at every stage!",
+          "source": "https://www.waveapps.com/pricing"
+        }
       ]
     },
     "zoho-books": {
@@ -1060,6 +1909,24 @@
       "sources": [
         "https://www.zoho.com/us/books/pricing/",
         "https://www.zoho.com/us/books/"
+      ],
+      "evidence": [
+        {
+          "quote": "As long as your revenue for the financial year does not exceed the threshold of $50K, Zoho Books's Free Plan is available indefinitely.",
+          "source": "https://www.zoho.com/us/books/pricing/"
+        },
+        {
+          "quote": "STANDARD Efficiently organize your transactions, accounts, reports, and books $ 20 $ 15 Price/Org/Month Price/Org/Month Billed Annually",
+          "source": "https://www.zoho.com/us/books/pricing/"
+        },
+        {
+          "quote": "Start with a 14-day free trial to experience effortless accounting.",
+          "source": "https://www.zoho.com/us/books/"
+        },
+        {
+          "quote": "AI-ready accounting software for growing businesses",
+          "source": "https://www.zoho.com/us/books/"
+        }
       ]
     },
     "notion.com": {
@@ -1077,6 +1944,24 @@
       "sources": [
         "https://www.notion.com/pricing",
         "https://www.notion.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $0 per seat / month For individuals to organize personal projects and life.",
+          "source": "https://www.notion.com/pricing"
+        },
+        {
+          "quote": "Plus* $10 per seat / month For small teams and professionals to work together.",
+          "source": "https://www.notion.com/pricing"
+        },
+        {
+          "quote": "Use Notion offline on the desktop and mobile app.",
+          "source": "https://www.notion.com/pricing"
+        },
+        {
+          "quote": "If you subscribed through Notion on desktop or web, go to Settings → Billing → Change plan to cancel. If you subscribed through the Apple App Store or Google Play, cancel through that store.",
+          "source": "https://www.notion.com/pricing"
+        }
       ]
     },
     "obsidian.md": {
@@ -1094,6 +1979,24 @@
       "sources": [
         "https://obsidian.md/pricing",
         "https://obsidian.md/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free without limits. No sign-up required. No strings attached.",
+          "source": "https://obsidian.md/pricing"
+        },
+        {
+          "quote": "Sync $4 USD Per user, per month, billed annually",
+          "source": "https://obsidian.md/pricing"
+        },
+        {
+          "quote": "Obsidian stores notes privately on your device, so you can access them quickly, even offline.",
+          "source": "https://obsidian.md/"
+        },
+        {
+          "quote": "Get Obsidian for Windows More platforms",
+          "source": "https://obsidian.md/"
+        }
       ]
     },
     "evernote.com": {
@@ -1110,6 +2013,21 @@
       ],
       "sources": [
         "https://evernote.com/compare-plans"
+      ],
+      "evidence": [
+        {
+          "quote": "Plan Free Start now",
+          "source": "https://evernote.com/compare-plans"
+        },
+        null,
+        {
+          "quote": "Offline notes Access your notes from anywhere",
+          "source": "https://evernote.com/compare-plans"
+        },
+        {
+          "quote": "Apps for iOS, Android, Web, Windows, and Mac",
+          "source": "https://evernote.com/compare-plans"
+        }
       ]
     },
     "clickup.com": {
@@ -1126,6 +2044,21 @@
       ],
       "sources": [
         "https://clickup.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Forever $ 0 No credit card required",
+          "source": "https://clickup.com/pricing"
+        },
+        {
+          "quote": "Core $ 9 Regular price $ 12 user / mo · billed yearly",
+          "source": "https://clickup.com/pricing"
+        },
+        null,
+        {
+          "quote": "Download iOS & Android Mac & Windows",
+          "source": "https://clickup.com/pricing"
+        }
       ]
     },
     "adobe-photoshop": {
@@ -1142,6 +2075,21 @@
       ],
       "sources": [
         "https://www.adobe.com/products/photoshop.html"
+      ],
+      "evidence": [
+        {
+          "quote": "Yes, Adobe Photoshop on mobile is a free mobile version of Adobe Photoshop with premium features that are available when you purchase a subscription.",
+          "source": "https://www.adobe.com/products/photoshop.html"
+        },
+        null,
+        {
+          "quote": "Work across desktop, web, and mobile",
+          "source": "https://www.adobe.com/products/photoshop.html"
+        },
+        {
+          "quote": "You can start a free trial of Adobe Photoshop to try the full desktop app.",
+          "source": "https://www.adobe.com/products/photoshop.html"
+        }
       ]
     },
     "gimp.org": {
@@ -1158,6 +2106,21 @@
       ],
       "sources": [
         "https://www.gimp.org/"
+      ],
+      "evidence": [
+        {
+          "quote": "It is free software , you can change its source code and distribute your changes.",
+          "source": "https://www.gimp.org/"
+        },
+        null,
+        {
+          "quote": "GIMP is a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems.",
+          "source": "https://www.gimp.org/"
+        },
+        {
+          "quote": "GIMP 3.2.8 Released 2026-11-02",
+          "source": "https://www.gimp.org/"
+        }
       ]
     },
     "photopea.com": {
@@ -1174,6 +2137,21 @@
       ],
       "sources": [
         "https://www.photopea.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Enjoy all the premium features without spending a dime.",
+          "source": "https://www.photopea.com/"
+        },
+        null,
+        {
+          "quote": "No need to install heavy software on your device. Just open your browser and start editing.",
+          "source": "https://www.photopea.com/"
+        },
+        {
+          "quote": "There are no uploads. Photopea runs on your device, using your CPU and your GPU.",
+          "source": "https://www.photopea.com/"
+        }
       ]
     },
     "pixlr.com": {
@@ -1190,6 +2168,21 @@
       ],
       "sources": [
         "https://pixlr.com/pricing/"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "Plus I just need the basics! $2.49 per month",
+          "source": "https://pixlr.com/pricing/"
+        },
+        {
+          "quote": "you will be able to enjoy Plus or Premium access on web, desktop and Mobile devices via your Pixlr Account",
+          "source": "https://pixlr.com/pricing/"
+        },
+        {
+          "quote": "Pixlr is unable to process any refunds for your subscription once your payment has been processed.",
+          "source": "https://pixlr.com/pricing/"
+        }
       ]
     },
     "grammarly.com": {
@@ -1206,6 +2199,21 @@
       ],
       "sources": [
         "https://www.grammarly.com/plans"
+      ],
+      "evidence": [
+        {
+          "quote": "For individuals Free Write without spelling and grammar mistakes.",
+          "source": "https://www.grammarly.com/plans"
+        },
+        null,
+        {
+          "quote": "Write fluently in English",
+          "source": "https://www.grammarly.com/plans"
+        },
+        {
+          "quote": "Grammarly for Windows Grammarly for Mac Grammarly browser extension Grammarly for Chrome Grammarly for Safari Grammarly for Firefox Grammarly for Edge Grammarly for MS Office",
+          "source": "https://www.grammarly.com/plans"
+        }
       ]
     },
     "languagetool.org": {
@@ -1223,6 +2231,21 @@
       "sources": [
         "https://languagetool.org/premium",
         "https://languagetool.org/"
+      ],
+      "evidence": [
+        {
+          "quote": "The free version corrects spelling as well as simple punctuation and some style mistakes.",
+          "source": "https://languagetool.org/"
+        },
+        null,
+        {
+          "quote": "LanguageTool grammar checker masters more than 30 languages and dialects.",
+          "source": "https://languagetool.org/"
+        },
+        {
+          "quote": "You can use LanguageTool without a user account in all common browsers and word processors (Chrome, Firefox, Edge, Word, LibreOffice).",
+          "source": "https://languagetool.org/premium"
+        }
       ]
     },
     "prowritingaid.com": {
@@ -1239,6 +2262,24 @@
       ],
       "sources": [
         "https://prowritingaid.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $0 per month Try for free",
+          "source": "https://prowritingaid.com/pricing"
+        },
+        {
+          "quote": "Premium $10 $5 per month, billed yearly $60",
+          "source": "https://prowritingaid.com/pricing"
+        },
+        {
+          "quote": "Currently, ProWritingAid is only available in English. This includes General English, British English, US English, Australian English, and Canadian English.",
+          "source": "https://prowritingaid.com/pricing"
+        },
+        {
+          "quote": "Integrations Desktop Everywhere Google Docs Microsoft Office Desktop Editor",
+          "source": "https://prowritingaid.com/pricing"
+        }
       ]
     },
     "hemingwayapp.com": {
@@ -1255,6 +2296,15 @@
       ],
       "sources": [
         "https://hemingwayapp.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free online grammar checker Free online paraphrasing tool Free online AI proofreader Free online readability checker",
+          "source": "https://hemingwayapp.com/"
+        },
+        null,
+        null,
+        null
       ]
     },
     "wordtune.com": {
@@ -1271,6 +2321,24 @@
       ],
       "sources": [
         "https://www.wordtune.com/plans"
+      ],
+      "evidence": [
+        {
+          "quote": "Basic For those looking to fix spelling and grammatical errors — for limited use only. $0.00",
+          "source": "https://www.wordtune.com/plans"
+        },
+        {
+          "quote": "$6.99 $4.89 per month / billed annually",
+          "source": "https://www.wordtune.com/plans"
+        },
+        {
+          "quote": "Go beyond the boundaries of your English",
+          "source": "https://www.wordtune.com/plans"
+        },
+        {
+          "quote": "Get Wordtune Chrome extension Microsoft Edge extension Wordtune for iOS",
+          "source": "https://www.wordtune.com/plans"
+        }
       ]
     },
     "google-docs": {
@@ -1287,6 +2355,21 @@
       ],
       "sources": [
         "https://workspace.google.com/products/docs/"
+      ],
+      "evidence": [
+        {
+          "quote": "Anyone with a Google Account can create in Docs. However, some features such as joining a Meet call from your documents are only available on Google Workspace plans.",
+          "source": "https://workspace.google.com/products/docs/"
+        },
+        null,
+        {
+          "quote": "Stay in sync with edits and comments from internal and external teams on your phone, tablet, or web browser.",
+          "source": "https://workspace.google.com/products/docs/"
+        },
+        {
+          "quote": "You can convert Microsoft Word documents into Google Docs format, or you can directly edit Word documents, without having to make a copy.",
+          "source": "https://workspace.google.com/products/docs/"
+        }
       ]
     },
     "libreoffice.org": {
@@ -1303,6 +2386,15 @@
       ],
       "sources": [
         "https://www.libreoffice.org/"
+      ],
+      "evidence": [
+        {
+          "quote": "LibreOffice provides unfettered access to our office productivity tools, at no cost to you.",
+          "source": "https://www.libreoffice.org/"
+        },
+        null,
+        null,
+        null
       ]
     },
     "onlyoffice.com": {
@@ -1319,6 +2411,18 @@
       ],
       "sources": [
         "https://www.onlyoffice.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "download the free ONLYOFFICE Desktop Editors which is available for Windows, Linux, and macOS.",
+          "source": "https://www.onlyoffice.com/"
+        },
+        null,
+        {
+          "quote": "ONLYOFFICE provides a complete set of tools for creating, editing, and collaborating on text documents, spreadsheets, presentations, PDF forms, and PDF files across web, desktop, and mobile.",
+          "source": "https://www.onlyoffice.com/"
+        },
+        null
       ]
     },
     "zoho-writer": {
@@ -1335,6 +2439,21 @@
       ],
       "sources": [
         "https://www.zoho.com/writer/"
+      ],
+      "evidence": [
+        {
+          "quote": "Yes, Zoho Writer is a free word processor. You can sign up for Zoho Writer and start creating documents right away. You get unrestricted access to all its features as soon as you sign up.",
+          "source": "https://www.zoho.com/writer/"
+        },
+        null,
+        {
+          "quote": "With web-app, exclusive desktop apps for Windows, Mac, and Linux platforms with full offline mode, and iOS and Android mobile apps",
+          "source": "https://www.zoho.com/writer/"
+        },
+        {
+          "quote": "Yes, Zoho Writer is fully compatible with MS Word and Google Docs , enabling you to seamlessly create, import, edit and save documents in DOCX and Google Docs formats",
+          "source": "https://www.zoho.com/writer/"
+        }
       ]
     },
     "kahoot.com": {
@@ -1352,6 +2471,21 @@
       "sources": [
         "https://kahoot.com/",
         "https://kahoot.com/schools/"
+      ],
+      "evidence": [
+        {
+          "quote": "Yes, we offer Kahoot! Go, a free plan for teachers.",
+          "source": "https://kahoot.com/schools/"
+        },
+        {
+          "quote": "$ 3 per month $ 36 billed annually",
+          "source": "https://kahoot.com/schools/"
+        },
+        null,
+        {
+          "quote": "Join millions of educators, trainers, and team leaders who use Kahoot! to engage their audiences.",
+          "source": "https://kahoot.com/"
+        }
       ]
     },
     "mentimeter.com": {
@@ -1368,6 +2502,21 @@
       ],
       "sources": [
         "https://www.mentimeter.com/plans"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Easiest way to try Mentimeter.",
+          "source": "https://www.mentimeter.com/plans"
+        },
+        null,
+        {
+          "quote": "50 participants per month Unlimited participants once per month",
+          "source": "https://www.mentimeter.com/plans"
+        },
+        {
+          "quote": "We want our presenters and meeting leaders to use Mentimeter for many occasions: workshops, events, decision meetings, training sessions, all employee meetings and much more.",
+          "source": "https://www.mentimeter.com/plans"
+        }
       ]
     },
     "wayground.com": {
@@ -1384,6 +2533,18 @@
       ],
       "sources": [
         "https://wayground.com/"
+      ],
+      "evidence": [
+        {
+          "quote": "teachers Sign up free",
+          "source": "https://wayground.com/"
+        },
+        null,
+        null,
+        {
+          "quote": "From everyday instruction to district-wide insights",
+          "source": "https://wayground.com/"
+        }
       ]
     },
     "slido.com": {
@@ -1400,6 +2561,15 @@
       ],
       "sources": [
         "https://www.slido.com/pricing"
+      ],
+      "evidence": [
+        null,
+        null,
+        null,
+        {
+          "quote": "Make your meetings and events more interactive by polling your audience in real time.",
+          "source": "https://www.slido.com/pricing"
+        }
       ]
     },
     "zoom.us": {
@@ -1416,6 +2586,24 @@
       ],
       "sources": [
         "https://zoom.us/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Basic Meetings 40 minutes per meeting 100 participants per meeting",
+          "source": "https://zoom.us/pricing"
+        },
+        {
+          "quote": "$16.99 /user per month · billed monthly $14.16 /user per month · billed annually USD",
+          "source": "https://zoom.us/pricing"
+        },
+        {
+          "quote": "Meeting duration basic: 40 mins",
+          "source": "https://zoom.us/pricing"
+        },
+        {
+          "quote": "All plans allow up to 100 participants by default in each meeting (up to 1,000 with Large Meeting add-on).",
+          "source": "https://zoom.us/pricing"
+        }
       ]
     },
     "google-meet": {
@@ -1432,6 +2620,21 @@
       ],
       "sources": [
         "https://workspace.google.com/products/meet/"
+      ],
+      "evidence": [
+        {
+          "quote": "Anyone with a Google Account can create a video meeting, invite up to 100 participants, and meet for up to 60 minutes per meeting at no cost.",
+          "source": "https://workspace.google.com/products/meet/"
+        },
+        null,
+        {
+          "quote": "meet for up to 60 minutes per meeting at no cost. For mobile calls and 1:1s, there’s no time limit.",
+          "source": "https://workspace.google.com/products/meet/"
+        },
+        {
+          "quote": "invite up to 100 participants",
+          "source": "https://workspace.google.com/products/meet/"
+        }
       ]
     },
     "jitsi.org": {
@@ -1448,6 +2651,18 @@
       ],
       "sources": [
         "https://jitsi.org/"
+      ],
+      "evidence": [
+        {
+          "quote": "More secure, more flexible, and completely free video conferencing",
+          "source": "https://jitsi.org/"
+        },
+        null,
+        {
+          "quote": "Starting today, meetings on meet.jit.si are limited to 95 minutes.",
+          "source": "https://jitsi.org/"
+        },
+        null
       ]
     },
     "whereby.com": {
@@ -1464,6 +2679,12 @@
       ],
       "sources": [
         "https://whereby.com/information/pricing"
+      ],
+      "evidence": [
+        null,
+        null,
+        null,
+        null
       ]
     },
     "beacons.ai": {
@@ -1480,6 +2701,24 @@
       ],
       "sources": [
         "https://beacons.ai/i/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Build and customize $0 /mo Free forever",
+          "source": "https://beacons.ai/i/pricing"
+        },
+        {
+          "quote": "Creator Claim your brand $10 /mo or $8.33/mo billed annually",
+          "source": "https://beacons.ai/i/pricing"
+        },
+        {
+          "quote": "Creator adds a free custom domain, advanced SEO tools, 300 daily AI credits and 500 emails a month.",
+          "source": "https://beacons.ai/i/pricing"
+        },
+        {
+          "quote": "Sell unlimited digital products Smart Reply Instagram auto-DMs Real-time analytics 50 email sends a month 9% seller fee on sales",
+          "source": "https://beacons.ai/i/pricing"
+        }
       ]
     },
     "carrd.co": {
@@ -1496,6 +2735,24 @@
       ],
       "sources": [
         "https://carrd.com/pro"
+      ],
+      "evidence": [
+        {
+          "quote": "Create a free Carrd account",
+          "source": "https://carrd.com/pro"
+        },
+        {
+          "quote": "Pro Lite $ 9 / year",
+          "source": "https://carrd.com/pro"
+        },
+        {
+          "quote": "Pro Standard $ 19 / year 10 Sites Custom Domain URLs",
+          "source": "https://carrd.com/pro"
+        },
+        {
+          "quote": "Embed your own custom code and widgets from third-party services like Stripe , PayPal , Gumroad",
+          "source": "https://carrd.com/pro"
+        }
       ]
     },
     "jira": {
@@ -1512,6 +2769,18 @@
       ],
       "sources": [
         "https://www.atlassian.com/software/jira"
+      ],
+      "evidence": [
+        {
+          "quote": "Get started for free – no credit card required.",
+          "source": "https://www.atlassian.com/software/jira"
+        },
+        null,
+        null,
+        {
+          "quote": "Bring design, marketing, HR, operations, and engineering into one shared place to plan work, track progress, and move faster together.",
+          "source": "https://www.atlassian.com/software/jira"
+        }
       ]
     },
     "linear.app": {
@@ -1528,6 +2797,21 @@
       ],
       "sources": [
         "https://linear.app/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $0 Free for everyone Unlimited members 2 teams 250 issues",
+          "source": "https://linear.app/pricing"
+        },
+        {
+          "quote": "$10 per user/month Billed yearly",
+          "source": "https://linear.app/pricing"
+        },
+        {
+          "quote": "Free for everyone Unlimited members",
+          "source": "https://linear.app/pricing"
+        },
+        null
       ]
     },
     "asana.com": {
@@ -1544,6 +2828,24 @@
       ],
       "sources": [
         "https://asana.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Personal For one or two people managing personal projects. $0 Free forever",
+          "source": "https://asana.com/pricing"
+        },
+        {
+          "quote": "$10.99 Per user, per month billed annually. $13.49 billed monthly",
+          "source": "https://asana.com/pricing"
+        },
+        {
+          "quote": "Manage tasks and personal to-dos: 2 users",
+          "source": "https://asana.com/pricing"
+        },
+        {
+          "quote": "Agentic Work Management For cross-functional teams",
+          "source": "https://asana.com/pricing"
+        }
       ]
     },
     "monday.com": {
@@ -1560,6 +2862,24 @@
       ],
       "sources": [
         "https://monday.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $ 0 free forever",
+          "source": "https://monday.com/pricing"
+        },
+        {
+          "quote": "Basic $ 9 seat / month Total of $90 $9 x 10 seats = $90 1,000 credits = $10 Special monthly discount = -$10 Total = $90 / month , billed annually",
+          "source": "https://monday.com/pricing"
+        },
+        {
+          "quote": "Free $ 0 free forever Up to 2 seats",
+          "source": "https://monday.com/pricing"
+        },
+        {
+          "quote": "Plans for every team, people and agents included.",
+          "source": "https://monday.com/pricing"
+        }
       ]
     },
     "trello.com": {
@@ -1576,6 +2896,24 @@
       ],
       "sources": [
         "https://trello.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $ 0 USD Free for up to 10 collaborators per Workspace",
+          "source": "https://trello.com/pricing"
+        },
+        {
+          "quote": "Standard $ 5 USD Per user/month if billed annually ($6 billed monthly)",
+          "source": "https://trello.com/pricing"
+        },
+        {
+          "quote": "Free for up to 10 collaborators per Workspace",
+          "source": "https://trello.com/pricing"
+        },
+        {
+          "quote": "Trello Standard and Premium are designed for all teams—even teams of one!",
+          "source": "https://trello.com/pricing"
+        }
       ]
     },
     "clickup.com#project-management": {
@@ -1592,6 +2930,21 @@
       ],
       "sources": [
         "https://clickup.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Forever $ 0 No credit card required",
+          "source": "https://clickup.com/pricing"
+        },
+        {
+          "quote": "Core $ 9 Regular price $ 12 user / mo · billed yearly",
+          "source": "https://clickup.com/pricing"
+        },
+        {
+          "quote": "Free Forever Workspaces can have an unlimited number of members and guests at no charge.",
+          "source": "https://clickup.com/pricing"
+        },
+        null
       ]
     },
     "chatgpt.com": {
@@ -1608,6 +2961,21 @@
       ],
       "sources": [
         "https://chatgpt.com/pricing/"
+      ],
+      "evidence": [
+        {
+          "quote": "The free version of ChatGPT is available to everyone.",
+          "source": "https://chatgpt.com/pricing/"
+        },
+        null,
+        {
+          "quote": "Does OpenAI offer a ChatGPT plan for educational institutions?",
+          "source": "https://chatgpt.com/pricing/"
+        },
+        {
+          "quote": "Unlimited text chats with GPT-6",
+          "source": "https://chatgpt.com/pricing/"
+        }
       ]
     },
     "claude.com": {
@@ -1624,6 +2992,24 @@
       ],
       "sources": [
         "https://claude.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Try Claude $0 Free for everyone Try Claude Limited usage every 5 hours and every week",
+          "source": "https://claude.com/pricing"
+        },
+        {
+          "quote": "$17 Per month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
+          "source": "https://claude.com/pricing"
+        },
+        {
+          "quote": "© 2026 Anthropic PBC",
+          "source": "https://claude.com/pricing"
+        },
+        {
+          "quote": "Claude Code is included in all paid plans. It shares the same usage limits as the rest of your plan",
+          "source": "https://claude.com/pricing"
+        }
       ]
     },
     "gemini.google": {
@@ -1640,6 +3026,24 @@
       ],
       "sources": [
         "https://gemini.google/subscriptions/"
+      ],
+      "evidence": [
+        {
+          "quote": "$0 / month with a Google Account",
+          "source": "https://gemini.google/subscriptions/"
+        },
+        {
+          "quote": "$4.99 / month Get 2x higher usage access than Free",
+          "source": "https://gemini.google/subscriptions/"
+        },
+        {
+          "quote": "Get everyday help from Google AI to tackle tasks at work, school or home.",
+          "source": "https://gemini.google/subscriptions/"
+        },
+        {
+          "quote": "With Deep Research , Gemini can analyze hundreds of sources in real-time to generate comprehensive research reports",
+          "source": "https://gemini.google/subscriptions/"
+        }
       ]
     },
     "mistral.ai": {
@@ -1656,6 +3060,24 @@
       ],
       "sources": [
         "https://mistral.ai/pricing/"
+      ],
+      "evidence": [
+        {
+          "quote": "Yes, Mistral’s Free plan provides limited access to Vibe",
+          "source": "https://mistral.ai/pricing/"
+        },
+        {
+          "quote": "$14.99 /mo Excluding taxes",
+          "source": "https://mistral.ai/pricing/"
+        },
+        {
+          "quote": "Mistral AI © 2026",
+          "source": "https://mistral.ai/pricing/"
+        },
+        {
+          "quote": "Deploy self-hosted, in your private cloud, or on-premises; your data stays in your environment.",
+          "source": "https://mistral.ai/pricing/"
+        }
       ]
     },
     "deepseek.com": {
@@ -1672,6 +3094,15 @@
       ],
       "sources": [
         "https://www.deepseek.com/en/"
+      ],
+      "evidence": [
+        null,
+        null,
+        {
+          "quote": "© 2026 DeepSeek. All rights reserved.",
+          "source": "https://www.deepseek.com/en/"
+        },
+        null
       ]
     },
     "zoho-meeting": {
@@ -1688,6 +3119,21 @@
       ],
       "sources": [
         "https://www.zoho.com/meeting/pricing.html"
+      ],
+      "evidence": [
+        {
+          "quote": "Free Free 100 meeting participants",
+          "source": "https://www.zoho.com/meeting/pricing.html"
+        },
+        null,
+        {
+          "quote": "Up to 60 minutes per meeting",
+          "source": "https://www.zoho.com/meeting/pricing.html"
+        },
+        {
+          "quote": "Up to 100 participants per meeting",
+          "source": "https://www.zoho.com/meeting/pricing.html"
+        }
       ]
     },
     "socrative.com": {
@@ -1704,6 +3150,24 @@
       ],
       "sources": [
         "https://www.socrative.com/pricing/"
+      ],
+      "evidence": [
+        {
+          "quote": "Free For individuals just getting started. $ 0 USD seat / month $ 0 billed annually",
+          "source": "https://www.socrative.com/pricing/"
+        },
+        {
+          "quote": "$ 10 USD seat / month $ 120 billed annually",
+          "source": "https://www.socrative.com/pricing/"
+        },
+        {
+          "quote": "5 Quizzes 1 Room 50 student per activity 30-day report history",
+          "source": "https://www.socrative.com/pricing/"
+        },
+        {
+          "quote": "Find the perfect fit for your classroom, school, or organization.",
+          "source": "https://www.socrative.com/pricing/"
+        }
       ]
     },
     "classpoint.io": {
@@ -1720,6 +3184,24 @@
       ],
       "sources": [
         "https://www.classpoint.io/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "Basic Basic interaction features to get you started. Free Limited class size and features. Sign up for free",
+          "source": "https://www.classpoint.io/pricing"
+        },
+        {
+          "quote": "Pro Unlimited engagement for your sessions. USD 8 /month USD 96 billed annually",
+          "source": "https://www.classpoint.io/pricing"
+        },
+        {
+          "quote": "25 students per class Create up to 3 classes 5 activity types 5 activities per presentation",
+          "source": "https://www.classpoint.io/pricing"
+        },
+        {
+          "quote": "Engage every participants without leaving PowerPoint.",
+          "source": "https://www.classpoint.io/pricing"
+        }
       ]
     },
     "imageoptim.com": {
@@ -1736,6 +3218,21 @@
       ],
       "sources": [
         "https://imageoptim.com/mac"
+      ],
+      "evidence": [
+        {
+          "quote": "It's Free and Open Source . Donate .",
+          "source": "https://imageoptim.com/mac"
+        },
+        null,
+        {
+          "quote": "it will run several image optimization tools automatically and combine their results, ensuring that you always get the smallest file.",
+          "source": "https://imageoptim.com/mac"
+        },
+        {
+          "quote": "Requires macOS 11+. Works with Sonoma.",
+          "source": "https://imageoptim.com/mac"
+        }
       ]
     },
     "shortpixel.com": {
@@ -1752,6 +3249,18 @@
       ],
       "sources": [
         "https://shortpixel.com/pricing"
+      ],
+      "evidence": [
+        {
+          "quote": "or choose the Free plan",
+          "source": "https://shortpixel.com/pricing"
+        },
+        null,
+        {
+          "quote": "Automatic conversion to WebP and AVIF Create lighter next-gen versions alongside your original files.",
+          "source": "https://shortpixel.com/pricing"
+        },
+        null
       ]
     },
     "linktr.ee": {
@@ -1816,6 +3325,271 @@
       "category": "video-meetings",
       "unchecked": true,
       "uncheckedWhy": "fetch failed"
+    },
+    "synthesia.io": {
+      "host": "synthesia.io",
+      "name": "Synthesia",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "Synthesia is an AI video platform for creating, translating, managing and publishing business videos with AI avatars.",
+      "cells": [
+        "Yes: Basic plan, $0/month, 500 credits/month; videos carry a Synthesia watermark",
+        "Starter: $19/mo billed monthly, or $14/mo ($168/yr) billed yearly",
+        "On-brand videos with AI avatars, voiceovers and motion graphics; also dubbing and avatar roleplays/surveys",
+        "140+ languages and voices; AI dubbing in 70+ languages on Basic to Pro, 140+ on Team and Enterprise"
+      ],
+      "evidence": [
+        {
+          "quote": "Basic $0 /month 500 credits / month",
+          "source": "https://www.synthesia.io/pricing"
+        },
+        {
+          "quote": "Starter $9 /mo first month then $19 /mo billed monthly $14 /mo $168 /yr, billed yearly",
+          "source": "https://www.synthesia.io/pricing"
+        },
+        {
+          "quote": "Create on-brand videos with AI avatars, voiceovers and motion graphics.",
+          "source": "https://www.synthesia.io/"
+        },
+        {
+          "quote": "Get access to over 140 languages and voices, including various narration styles and local accents.",
+          "source": "https://www.synthesia.io/pricing"
+        }
+      ],
+      "sources": [
+        "https://www.synthesia.io/pricing",
+        "https://www.synthesia.io/"
+      ]
+    },
+    "heygen.com": {
+      "host": "heygen.com",
+      "name": "HeyGen",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "HeyGen is an AI video generator that creates avatar videos from scripts, images or audio and translates videos.",
+      "cells": [
+        "Yes, $0/mo: 3 watermarked videos a month, up to 1 minute each",
+        "$29/month (Creator), or $24/month if paid annually",
+        "AI avatar videos: explainers, promos, product demos, training, outreach and social clips",
+        "30+ languages on Free; 175 languages and dialects on paid plans"
+      ],
+      "evidence": [
+        {
+          "quote": "3 videos a month, watermarked Videos up to 1 minute each",
+          "source": "https://www.heygen.com/pricing"
+        },
+        {
+          "quote": "the Creator plan costs $29/month (or $24/month if you pay annually)",
+          "source": "https://www.heygen.com/pricing"
+        },
+        {
+          "quote": "HeyGen’s AI Video Generator lets you create explainer videos, marketing and sales promos, product demos, training and onboarding content, personalized outreach videos, and social media clips",
+          "source": "https://www.heygen.com/"
+        },
+        {
+          "quote": "Global Language Suite Free : 30+ languages Creator : 175 languages and dialects",
+          "source": "https://www.heygen.com/pricing"
+        }
+      ],
+      "sources": [
+        "https://www.heygen.com/pricing",
+        "https://www.heygen.com/"
+      ]
+    },
+    "invideo.io": {
+      "host": "invideo.io",
+      "name": "InVideo",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "An agentic AI video editor: you describe edits in plain words and its AI agent performs them on a multitrack timeline.",
+      "cells": [
+        "Not shown",
+        "Starter: $10 per seat/month billed annually (shown beside $20)",
+        "AI videos: text/image to video, avatars, UGC ads, animations, ads",
+        "Not shown"
+      ],
+      "evidence": [
+        null,
+        {
+          "quote": "$20 $10 per seat/mo, billed annually",
+          "source": "https://invideo.io/pricing/"
+        },
+        {
+          "quote": "AI Video Generator AI Avatar Generator Text to Video Image to Video UGC Ads AI Animation Generator AI Ad Generator",
+          "source": "https://invideo.io/pricing/"
+        },
+        null
+      ],
+      "sources": [
+        "https://invideo.io/pricing/",
+        "https://invideo.io/"
+      ]
+    },
+    "descript.com": {
+      "host": "descript.com",
+      "name": "Descript",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "Descript is an AI video and audio editor that lets you edit recordings by editing their text transcript.",
+      "cells": [
+        "Yes, Free plan at $0",
+        "Hobbyist: $16 or $24 per person / month (annual vs monthly toggle)",
+        "Recorded and edited videos and podcasts, plus clips, published from one place",
+        "Transcription in 25 languages"
+      ],
+      "evidence": [
+        {
+          "quote": "Free $0 Get started on your creative journey with text-based editing and give our AI tools a spin.",
+          "source": "https://www.descript.com/pricing"
+        },
+        {
+          "quote": "Hobbyist $ 16 $ 24 per person / month",
+          "source": "https://www.descript.com/pricing"
+        },
+        {
+          "quote": "Record, transcribe, edit, make clips, and publish, all in the same place.",
+          "source": "https://www.descript.com/"
+        },
+        {
+          "quote": "Automatically transcribe your recordings into text in 25 languages",
+          "source": "https://www.descript.com/pricing"
+        }
+      ],
+      "sources": [
+        "https://www.descript.com/pricing",
+        "https://www.descript.com/"
+      ]
+    },
+    "colossyan.com": {
+      "host": "colossyan.com",
+      "name": "Colossyan",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "Colossyan is an AI platform that turns existing knowledge into training and enablement content.",
+      "cells": [
+        "Yes, the Starter plan is free for individuals",
+        "$59/month (Professional, annual plan)",
+        "Presenter-led training videos and full courses, interactive and translated",
+        "120+ languages"
+      ],
+      "evidence": [
+        {
+          "quote": "Starter is free for individuals exploring AI video.",
+          "source": "https://www.colossyan.com/pricing/"
+        },
+        {
+          "quote": "Professional is $59/month on an annual plan",
+          "source": "https://www.colossyan.com/pricing/"
+        },
+        {
+          "quote": "Colossyan turns it into presenter-led training videos and full courses: scripted, voiced, interactive and translated into 120+ languages.",
+          "source": "https://www.colossyan.com/"
+        },
+        {
+          "quote": "Colossyan supports 120+ languages.",
+          "source": "https://www.colossyan.com/pricing/"
+        }
+      ],
+      "sources": [
+        "https://www.colossyan.com/pricing/",
+        "https://www.colossyan.com/"
+      ]
+    },
+    "d-id.com": {
+      "host": "d-id.com",
+      "name": "D-ID",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "D-ID is a digital human platform for making AI avatar videos and interactive avatars for organizations.",
+      "cells": [
+        "Free trial available; trial videos get a full-screen watermark",
+        "Not shown",
+        "AI avatar videos and real-time interactive avatars (agents)",
+        "120+ languages"
+      ],
+      "evidence": [
+        {
+          "quote": "Note, a full-screen watermark appears for trial users.",
+          "source": "https://www.d-id.com/pricing/studio/"
+        },
+        null,
+        {
+          "quote": "AI videos and interactive avatars for humanlike communication",
+          "source": "https://www.d-id.com/"
+        },
+        {
+          "quote": "D-ID supports video creation and real-time interactions in 120+ languages",
+          "source": "https://www.d-id.com/"
+        }
+      ],
+      "sources": [
+        "https://www.d-id.com/pricing/studio/",
+        "https://www.d-id.com/"
+      ]
+    },
+    "veed.io": {
+      "host": "veed.io",
+      "name": "VEED",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "VEED is a browser-based tool to edit, convert, subtitle and transcribe video, plus AI video generation.",
+      "cells": [
+        "Yes, start for free; upgrade for more features",
+        "Not shown",
+        "Videos, voices, avatars and images from a prompt",
+        "Not shown"
+      ],
+      "evidence": [
+        {
+          "quote": "Start for free , upgrade to get powerful features.",
+          "source": "https://www.veed.io/pricing"
+        },
+        null,
+        {
+          "quote": "Generate videos, voices, avatars and images from a simple prompt.",
+          "source": "https://www.veed.io/pricing"
+        },
+        null
+      ],
+      "sources": [
+        "https://www.veed.io/pricing",
+        "https://www.veed.io/"
+      ]
+    },
+    "pictory.ai": {
+      "host": "pictory.ai",
+      "name": "Pictory",
+      "category": "ai-video-generators",
+      "checked": "2026-11-27",
+      "does": "Pictory is an AI video generator and video agent that turns a description or existing content into videos.",
+      "cells": [
+        "No free plan shown; 14-day free trial with 300 credits, no credit card required",
+        "$29 per month (Starter, regular price; $12.50/month billed annually on sale)",
+        "Videos from text, scripts, URLs, PowerPoint, images, audio or screen recordings; AI images and clips",
+        "29 languages on Professional and Teams; 7 on Starter"
+      ],
+      "evidence": [
+        {
+          "quote": "300 credits with your free trial. No credit card required.",
+          "source": "https://pictory.ai/"
+        },
+        {
+          "quote": "Starter Black Friday Offer $12 .50 Was $29",
+          "source": "https://pictory.ai/pricing/"
+        },
+        {
+          "quote": "Describe the video, or start from text, a script, a URL, PowerPoint, images, audio or a screen recording.",
+          "source": "https://pictory.ai/"
+        },
+        {
+          "quote": "Professional and Teams plans support 29 languages, and Starter plans support seven.",
+          "source": "https://pictory.ai/pricing/"
+        }
+      ],
+      "sources": [
+        "https://pictory.ai/pricing/",
+        "https://pictory.ai/"
+      ]
     }
   },
   "pages": [
@@ -2063,6 +3837,46 @@
         "microsoft-copilot",
         "mistral.ai",
         "deepseek.com"
+      ]
+    },
+    {
+      "host": "synthesia.io",
+      "alternatives": [
+        "heygen.com",
+        "colossyan.com",
+        "d-id.com",
+        "invideo.io",
+        "pictory.ai",
+        "veed.io"
+      ]
+    },
+    {
+      "host": "heygen.com",
+      "alternatives": [
+        "synthesia.io",
+        "colossyan.com",
+        "d-id.com",
+        "invideo.io",
+        "pictory.ai"
+      ]
+    },
+    {
+      "host": "invideo.io",
+      "alternatives": [
+        "pictory.ai",
+        "veed.io",
+        "synthesia.io",
+        "heygen.com",
+        "descript.com"
+      ]
+    },
+    {
+      "host": "descript.com",
+      "alternatives": [
+        "veed.io",
+        "invideo.io",
+        "pictory.ai",
+        "synthesia.io"
       ]
     }
   ]

@@ -15,11 +15,12 @@ const OG_IMAGE = { url: '/opengraph-image', width: 1200, height: 630, type: 'ima
 export const SALES_EMAIL = 'sales@knownsite.dev';
 
 /** Title, description, canonical link and Open Graph tags for one page. */
-export function pageMeta(path: string, title: string, description: string, opts: { absoluteTitle?: boolean } = {}): Metadata {
+export function pageMeta(path: string, title: string, description: string, opts: { absoluteTitle?: boolean; json?: string } = {}): Metadata {
   return {
     title: opts.absoluteTitle ? { absolute: title } : title,
     description,
-    alternates: { canonical: path },
+    // json: the same facts for machines (/api/v1/...), as <link rel="alternate" type="application/json">.
+    alternates: { canonical: path, ...(opts.json && { types: { 'application/json': opts.json } }) },
     openGraph: { type: 'website', siteName: 'Knownsite', url: path, title, description, images: [OG_IMAGE] },
     twitter: { card: 'summary_large_image', title, description, images: [OG_IMAGE.url] },
   };

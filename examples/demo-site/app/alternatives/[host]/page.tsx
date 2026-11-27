@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { pageMeta, SALES_EMAIL, SITE } from '../../meta';
 import { findSite, aiSearchSummary, textSummary, fmtDate } from '../../sites/data';
 import { data, hostOf, publishable, isChecked } from '../data';
+import { toolJson } from '../../api/v1/data';
 
 // "Alternatives to X" pages: tools that do the same job, compared on facts from each company's own
 // pages (data/alternatives.json, checked on the dates shown).
@@ -21,7 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ host: str
   const p = d.products[host];
   const names = page.alternatives.filter((k) => isChecked(d.products[k])).map((k) => d.products[k].name);
   return pageMeta(`/alternatives/${host}`, `${p.name} alternatives`,
-    `${names.slice(0, 3).join(', ')} and more compared with ${p.name}: prices and plans from each company's own pages, and which ones AI assistants name together.`);
+    `${names.slice(0, 3).join(', ')} and more compared with ${p.name}: prices and plans from each company's own pages, and which ones AI assistants name together.`,
+    { json: toolJson(host) });
 }
 
 const latest = (dates: (string | undefined)[]) => dates.filter(Boolean).sort().at(-1) ?? '';

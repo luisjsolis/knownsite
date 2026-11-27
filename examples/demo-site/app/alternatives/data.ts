@@ -4,11 +4,13 @@ import path from 'node:path';
 
 export type Product = {
   host?: string; name: string; category: string; checked?: string; does?: string; cells?: string[]; sources?: string[];
+  /** Per cell: the verified quote and the page it's on; null for "Not shown" or no recorded quote. */
+  evidence?: ({ quote: string; source: string } | null)[];
   ours?: boolean; unchecked?: boolean; uncheckedWhy?: string;
 };
 export type CoMentions = { asked: number; named: number; engines: string; date: string; counts: Record<string, number> };
 export type AltPage = { host: string; alternatives: string[]; coMentions?: CoMentions };
-export type Data = { categories: Record<string, { name: string; columns: string[] }>; products: Record<string, Product>; pages: AltPage[] };
+export type Data = { categories: Record<string, { name: string; columns: string[]; description?: string }>; products: Record<string, Product>; pages: AltPage[] };
 
 export const data = (): Data => JSON.parse(readFileSync(path.join(process.cwd(), 'data', 'alternatives.json'), 'utf8'));
 
