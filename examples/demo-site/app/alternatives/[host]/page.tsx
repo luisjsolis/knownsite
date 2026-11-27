@@ -129,7 +129,7 @@ export default async function Page({ params }: { params: Promise<{ host: string 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'ItemList', name: `${subject.name} alternatives`, url: `${SITE}/alternatives/${host}`,
         itemListElement: rows.slice(1).map((h, i) => ({ '@type': 'ListItem', position: i + 1, name: d.products[h].name, url: `https://${hostOf(h, d)}` })),
-      }) }} />
+      }).replace(/</g, '\\u003c') }} />
     </>
   );
 }

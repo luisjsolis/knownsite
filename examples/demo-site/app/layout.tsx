@@ -45,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/discovery">Live report</Link>
               <Link href="/sites">Directory</Link>
               <Link href="/study/ai-crawler-access">AI crawler study</Link>
+              <Link href="/api">API</Link>
               <a href="https://github.com/luisjsolis/knownsite">GitHub</a>
               <a href={`mailto:${SALES_EMAIL}`}>{SALES_EMAIL}</a>
             </span>
