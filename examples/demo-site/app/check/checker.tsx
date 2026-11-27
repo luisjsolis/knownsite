@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { SALES_EMAIL } from '../meta';
 
 type Check = { id: string; group: string; status: 'pass' | 'fail' | 'warn' | 'unknown'; points: number; max: number; message: string };
 type Crawler = { token: string; who: string; status: Check['status']; message: string };
@@ -48,18 +49,11 @@ export default function Checker({ api }: { api: string }) {
   if (!api) {
     return (
       <div className="card run-local">
-        <h3>Run the check from your computer</h3>
-        <p className="muted">The same check, free, with the open-source Knownsite tool. It takes about 20 seconds and nothing
-          to install permanently.</p>
-        <ol>
-          <li>Make sure you have <strong>Node.js 20 or newer</strong> (<a href="https://nodejs.org">nodejs.org</a>). Check with{' '}
-            <code>node -v</code>.</li>
-          <li>Open a terminal (Terminal on Mac, PowerShell on Windows) and run:
-            <pre>{`npx knownsite check your-site.com`}</pre></li>
-          <li>You get the same report as here: a score from 0 to 100, what Google, Bing, ChatGPT, Claude and Perplexity
-            each get from your homepage, and the fixes, biggest first.</li>
-        </ol>
-        <p className="muted small">Want the raw data? Add <code>--json</code>. To fix everything automatically on every deploy:{' '}
+        <h3>The online check is coming soon</h3>
+        <p className="muted">Soon you&rsquo;ll be able to enter any address here and see a score from 0 to 100: what Google, Bing,
+          ChatGPT, Claude and Perplexity each get from the homepage, and the fixes, biggest first.</p>
+        <p>Want it when it opens? Email <a href={`mailto:${SALES_EMAIL}?subject=Tell%20me%20when%20the%20check%20opens`}>{SALES_EMAIL}</a>.</p>
+        <p className="muted small">Developers can already fix most of what it looks for on every deploy:{' '}
           <code>npx knownsite init</code>, then add <code>knownsite build</code> after your build (<a href="/how-it-works">how it works</a>).</p>
       </div>
     );

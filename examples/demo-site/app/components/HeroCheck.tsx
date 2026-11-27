@@ -2,12 +2,12 @@
 
 import { useState } from 'react';
 
-/** URL box in the hero; until the online check is live, the same check as a terminal command. */
+/** URL box in the hero; until the online check is live, the install command (the check is coming soon). */
 export default function HeroCheck({ api }: { api: string }) {
   const [url, setUrl] = useState('');
   const [copied, setCopied] = useState(false);
   if (!api) {
-    const cmd = 'npx knownsite check your-site.com';
+    const cmd = 'npx knownsite init';
     return (
       <div className="hero-cmd">
         <code>{cmd}</code>

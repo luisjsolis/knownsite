@@ -87,12 +87,12 @@ specific deploy is live, `--dry-run` to send nothing, and `--strict` to exit non
 against keys from the well-known file and the `_knownsite.{host}` DNS TXT record, and reports the
 conformance level (0, 1 or 2).
 
-**`knownsite check <url>`** scores any live site 0–100 on how well search engines and AI assistants can
-find it, from the outside, the way a crawler sees it: robots.txt and real requests for Googlebot,
-Bingbot, OAI-SearchBot, Claude-SearchBot and PerplexityBot; text readable without JavaScript;
-sitemap; title, description, canonical, language, Open Graph, HTTPS; JSON-LD; llms.txt; and Knownsite.
-It prints a ranked fix list; `--json` gives the full report. Being allowed in is not the same as being
-indexed or cited, and the report never claims otherwise. Design: [CHECKER.md](https://github.com/luisjsolis/knownsite/blob/main/CHECKER.md).
+**`knownsite check <url>`** (online, coming soon) scores any live site 0–100 on how well search engines and
+AI assistants can find it, from the outside, the way a crawler sees it, and prints a ranked fix list
+(`--json` gives the full report). The check is moving to Knownsite's servers, the same one as
+[knownsite.dev/check](https://knownsite.dev/check); until it's live the command says so. It will send only the
+address you give it. Being allowed in is not the same as being indexed or
+cited, and the report never claims otherwise.
 
 ## Configuration: `knownsite.config.json`
 

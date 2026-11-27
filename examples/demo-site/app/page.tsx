@@ -38,14 +38,13 @@ export default function Home() {
         <h2>Three steps, then it runs on every deploy</h2>
         <div className="grid">
           <div className="feature"><span className="step-n">1</span><h3>See where you stand</h3>
-            <p>What Google, Bing, ChatGPT, Claude and Perplexity actually get from your site, scored 0 to 100, with the fix for each problem.</p></div>
+            <p>What Google, Bing, ChatGPT, Claude and Perplexity actually get from your site, scored 0 to 100, with the fix for each problem. The online check is coming soon.</p></div>
           <div className="feature"><span className="step-n">2</span><h3>Add it to your build</h3>
             <p>One line after your framework&apos;s build. Every deploy gets a sitemap, structured data, an AI summary and signed records.</p></div>
           <div className="feature"><span className="step-n">3</span><h3>See what happened</h3>
             <p>Which AI and search crawlers re-read your pages after a change, and how many people arrived from AI answers.</p></div>
         </div>
-        <pre>{`npx knownsite check your-site.com                 # where you stand
-npx knownsite init --site https://your-site.com   # once: config + signing key
+        <pre>{`npx knownsite init --site https://your-site.com   # once: config + signing key
 "build": "next build && knownsite build"          # every build
 npx knownsite notify                              # after each deploy`}</pre>
         <p className="muted small">Works today with static HTML builds (Next.js, Astro, Hugo, Eleventy), Next.js server mode, and

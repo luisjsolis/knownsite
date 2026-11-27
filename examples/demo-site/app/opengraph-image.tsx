@@ -30,7 +30,7 @@ export default function Image() {
             Free and open source. Runs on every deploy.
           </div>
         </div>
-        <div style={{ fontSize: 30, color: '#94a3b8', fontFamily: 'monospace' }}>npx knownsite check your-site.com</div>
+        <div style={{ fontSize: 30, color: '#94a3b8', fontFamily: 'monospace' }}>npx knownsite init</div>
       </div>
     ),
     size,

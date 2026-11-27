@@ -7,7 +7,6 @@ import { loadConfig, normalizeSite, CONFIG_FILE, DEFAULTS } from './config.js';
 import { build } from './build.js';
 import { notify } from './notify.js';
 import { verifySite } from './verify.js';
-import { checkSite, rankFixes } from './check.js';
 import { generateKeys, loadPrivateKey } from './sign.js';
 import { fetchPreviousRecords } from './build.js';
 import { buildReport, renderReport, loadVisits, loadNotifications, HISTORY_FILE } from './report.js';
@@ -27,7 +26,7 @@ Usage:
                                                        Run after the deploy is live
   knownsite verify [url] [--json]                            Check a live site like a receiver would
   knownsite check  <url> [--json]                            Score how findable any live site is by
-                                                       search engines and AI assistants
+                                                       search engines and AI assistants (online, coming soon)
   knownsite connect --collector URL                          Register this site with a collector (signed with
                                                        your key); notify and visit logging then send there
   knownsite report [url] [--from-collector] [--visits FILE|URL] [--visits-header "Name: value"] [--logs FILE] [--days N] [--json]
@@ -153,9 +152,30 @@ async function cmdVerify(cwd, v, args) {
 const BANDS = { discoverable: 'Discoverable', 'partly-visible': 'Partly visible', 'mostly-invisible': 'Mostly invisible', unreachable: 'Unreachable' };
 const ICON = { pass: '✓', fail: '✗', warn: '!', unknown: '?' };
 
+// The check runs on Knownsite's servers (knownsite.dev/check uses the same API); this prints the result.
+const CHECK_API = 'https://knownsite.dev';
+
+const CHECK_SOON = 'The Knownsite site check is moving online and is coming soon at https://knownsite.dev/check.\n' +
+  'Meanwhile, `knownsite init` and `knownsite build` fix most of what it looks for on every deploy.';
+
+/** The report from the hosted check, or null while the check API isn't live yet. */
+async function fetchCheck(url, { api = process.env.KNOWNSITE_CHECK_API ?? CHECK_API, fetchImpl = fetch } = {}) {
+  let res;
+  try {
+    res = await fetchImpl(`${api.replace(/\/$/, '')}/api/check?url=${encodeURIComponent(url)}`, { signal: AbortSignal.timeout(60_000) });
+  } catch {
+    return null;
+  }
+  if (res.status === 404 || !/json/i.test(res.headers.get('content-type') ?? '')) return null;
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(body.error ?? `the Knownsite check answered HTTP ${res.status}. Try again later.`);
+  return body;
+}
+
 async function cmdCheck(cwd, v, args) {
   if (!args[0]) throw new Error('usage: knownsite check <url>');
-  const r = await checkSite(args[0]);
+  const r = await fetchCheck(args[0]);
+  if (!r) return console.log(CHECK_SOON);
   if (v.json) return console.log(JSON.stringify(r, null, 2));
   console.log(`knownsite check: ${r.url}\n\n  ${r.score}/100  ${BANDS[r.band]}`);
   for (const c of r.critical) console.log(`  ✗ ${c}`);
@@ -169,10 +189,9 @@ async function cmdCheck(cwd, v, args) {
   for (const c of r.checks.filter((c) => c.group !== 'crawlers')) {
     console.log(`    ${ICON[c.status]} ${String(c.points).padStart(2)}/${String(c.max).padEnd(2)} ${c.message}`);
   }
-  const fixes = rankFixes(r);
-  if (fixes.length) {
+  if (r.fixes?.length) {
     console.log('\n  Fixes (most points first)');
-    fixes.forEach((f, i) => console.log(`    ${i + 1}. ${f.gain ? `+${f.gain} ` : ''}${f.fix}`));
+    r.fixes.forEach((f, i) => console.log(`    ${i + 1}. ${f.gain ? `+${f.gain} ` : ''}${f.fix}`));
   }
   console.log('\n  Fix all of this on every deploy: npx knownsite init');
   console.log('  Learn more: https://knownsite.dev');

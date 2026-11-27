@@ -4,7 +4,7 @@ export { notify, fetchLastDeploy, INDEXNOW_ENGINES } from './notify.js';
 export { verifySite } from './verify.js';
 export { canonicalize, generateKeys, signObject, verifyObject, publicKeyFor, loadPrivateKey } from './sign.js';
 export { parseHtml, pageText, fileToPath } from './scan.js';
-export { checkSite, rankFixes, parseRobots, robotsAllows } from './check.js';
+export { parseRobots, robotsAllows } from './robots.js';
 export { classifyVisit, visitEvent, recordVisit, consoleSink, httpSink, fileSink, parseVisits, BOTS, AI_REFERRERS } from './visits.js';
 export { buildReport, renderReport, loadVisits } from './report.js';
 export { parseLogLine, visitsFromLogs } from './logs.js';

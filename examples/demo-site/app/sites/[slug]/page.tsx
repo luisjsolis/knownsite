@@ -141,8 +141,9 @@ function SitePage({ site: s, categories }: { site: Site; categories: Category[] 
 
       <div className="card">
         <p style={{ margin: 0 }}>
-          <strong>Is this your site?</strong> <Link href={`/check?url=${encodeURIComponent(s.url ?? `https://${s.host}`)}`}>Run the free check</Link> to
-          see what to fix, or install Knownsite to claim this page. To correct or remove it, email <a href={`mailto:${SALES_EMAIL}`}>{SALES_EMAIL}</a>.
+          <strong>Is this your site?</strong> Add <Link href="/how-it-works">Knownsite</Link> to fix what&rsquo;s missing on every deploy
+          and to claim this page. A free <Link href="/check">online check</Link> is coming soon. To correct or remove this page, email{' '}
+          <a href={`mailto:${SALES_EMAIL}`}>{SALES_EMAIL}</a>.
         </p>
       </div>
 

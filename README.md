@@ -15,13 +15,12 @@ terms the owner declares. No party owns it; any platform, tool or indexer may im
 |---|---|
 | [SPEC.md](SPEC.md) | The protocol, draft 0.1. Open for comment. |
 | [packages/knownsite](packages/knownsite) | Reference implementation: the `knownsite` npm package and `knownsite` CLI. Zero dependencies. |
-| [CHECKER.md](CHECKER.md) | How `knownsite check` scores whether search engines and AI assistants can find a site. |
 | [examples/demo-site](examples/demo-site) | A Next.js site that runs Knownsite on every build. |
 
 ## Try it
 
 ```sh
-npx knownsite check https://your-site.com     # how findable is your site? (0-100)
+npx knownsite check https://your-site.com     # how findable is your site? (0-100; online check coming soon)
 npx knownsite init --site https://your-site.com
 ```
 
